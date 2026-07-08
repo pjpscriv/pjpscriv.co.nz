@@ -1,4 +1,7 @@
 projects:
+  nationbuilder_liquid:
+    description: "A VS Code extension that makes working with NationBuilder Liquid codebases a little easier by adding go-to-definition navigation in the codebase."
+
   quebecle:
     title: "Quebecle"
   

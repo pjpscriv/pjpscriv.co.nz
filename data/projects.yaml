@@ -1,4 +1,14 @@
 projects:
+  - id: "nationbuilder_liquid"
+    title: "NationBuilder Liquid"
+    period: "2026"
+    links:
+      - url: "https://marketplace.visualstudio.com/items?itemName=pjpscriv.vscode-nationbuilder-liquid"
+        label: "vscode"
+      - url: "https://github.com/pjpscriv/vscode-nationbuilder-liquid"
+        label: "github"
+    skills: [ "vscode_ext", "typescript" ]
+
   - id: "quebecle"
     period: "2025"
     links:
@@ -150,9 +160,11 @@ links:
   chrome: "Chrome Webstore"
   firefox: "Firefox Add-on"
   github: "GitHub"
+  vscode: "VS Code Marketplace"
 
 skills:
   copilot: "Co-Pilot"
+  vscode_ext: "VS Code Extension"
   typescript: "TypeScript"
   javascript: "JavaScript"
   html: "HTML"
