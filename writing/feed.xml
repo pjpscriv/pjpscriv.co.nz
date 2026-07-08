@@ -19,12 +19,12 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>No posts found.&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{ end }}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Test One</title><link>https://pjpscriv.co.nz/post/test-one/</link><pubDate>Tue, 09 Sep 2025 19:00:00 -0400</pubDate><guid>https://pjpscriv.co.nz/post/test-one/</guid><description>&lt;p>This is the first test page!&lt;/p>
-&lt;p>Well how about that :P&lt;/p></description></item><item><title>New Zealand Fertility Rates</title><link>https://pjpscriv.co.nz/data-viz/nz-fertility/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/nz-fertility/</guid><description>&lt;div id="observable-1782827029" class="observable-embed">&lt;/div>
+&lt;p>Well how about that :P&lt;/p></description></item><item><title>New Zealand Fertility Rates</title><link>https://pjpscriv.co.nz/data-viz/nz-fertility/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/nz-fertility/</guid><description>&lt;div id="observable-1783543948" class="observable-embed">&lt;/div>
 &lt;p class="observable-link"> See original notebook on &lt;a href="https://observablehq.com/@pjpscriv/nz-fertility-rate" target="_blank" rel="noopener">Observable →&lt;/a>&lt;/p>
 &lt;script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
 import notebook from "https://api.observablehq.com/@pjpscriv\/nz-fertility-rate.js?v=4";
-const target = document.querySelector("#observable-1782827029");
+const target = document.querySelector("#observable-1783543948");
 const cellNames = "\n inputs,\n chart,\n inputs_2,\n chart_2\n".split(",").map(d => d.trim());
 const renders = {};
 for (let cellName of cellNames) {
@@ -47,12 +47,12 @@ target.appendChild(renders[i]);
 new Runtime().module(notebook, (name) => {
 if (renders[name]) return new Inspector(renders[name]);
 });
-&lt;/script></description></item><item><title>Org Chart</title><link>https://pjpscriv.co.nz/data-viz/org-chart/</link><pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/org-chart/</guid><description>&lt;div id="observable-1782827029" class="observable-embed">&lt;/div>
+&lt;/script></description></item><item><title>Org Chart</title><link>https://pjpscriv.co.nz/data-viz/org-chart/</link><pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/org-chart/</guid><description>&lt;div id="observable-1783543948" class="observable-embed">&lt;/div>
 &lt;p class="observable-link"> See original notebook on &lt;a href="https://observablehq.com/@pjpscriv/org-chart" target="_blank" rel="noopener">Observable →&lt;/a>&lt;/p>
 &lt;script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
 import notebook from "https://api.observablehq.com/@pjpscriv\/org-chart.js?v=4";
-const target = document.querySelector("#observable-1782827029");
+const target = document.querySelector("#observable-1783543948");
 const cellNames = "\n viewof linkDist,\n viewof linkStrength,\n viewof repelStrength,\n viewof refresh_button,\n FULLWIDTH org_tree\n".split(",").map(d => d.trim());
 const renders = {};
 for (let cellName of cellNames) {
@@ -75,12 +75,12 @@ target.appendChild(renders[i]);
 new Runtime().module(notebook, (name) => {
 if (renders[name]) return new Inspector(renders[name]);
 });
-&lt;/script></description></item><item><title>Wellington Bus Stop #7213</title><link>https://pjpscriv.co.nz/data-viz/welly-bus-7213/</link><pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/welly-bus-7213/</guid><description>&lt;div id="observable-1782827029" class="observable-embed">&lt;/div>
+&lt;/script></description></item><item><title>Wellington Bus Stop #7213</title><link>https://pjpscriv.co.nz/data-viz/welly-bus-7213/</link><pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/welly-bus-7213/</guid><description>&lt;div id="observable-1783543948" class="observable-embed">&lt;/div>
 &lt;p class="observable-link"> See original notebook on &lt;a href="https://observablehq.com/@pjpscriv/welly-bus-stop-7213" target="_blank" rel="noopener">Observable →&lt;/a>&lt;/p>
 &lt;script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
 import notebook from "https://api.observablehq.com/@pjpscriv\/welly-bus-stop-7213.js?v=4";
-const target = document.querySelector("#observable-1782827029");
+const target = document.querySelector("#observable-1783543948");
 const cellNames = "\n FULLWIDTH canvas\n".split(",").map(d => d.trim());
 const renders = {};
 for (let cellName of cellNames) {
@@ -103,12 +103,12 @@ target.appendChild(renders[i]);
 new Runtime().module(notebook, (name) => {
 if (renders[name]) return new Inspector(renders[name]);
 });
-&lt;/script></description></item><item><title>2023 Aotearoa/New Zealand Electorate Hexamap</title><link>https://pjpscriv.co.nz/data-viz/nz-2023-election/</link><pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/nz-2023-election/</guid><description>&lt;div id="observable-1782827029" class="observable-embed">&lt;/div>
+&lt;/script></description></item><item><title>2023 Aotearoa/New Zealand Electorate Hexamap</title><link>https://pjpscriv.co.nz/data-viz/nz-2023-election/</link><pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/nz-2023-election/</guid><description>&lt;div id="observable-1783543948" class="observable-embed">&lt;/div>
 &lt;p class="observable-link"> See original notebook on &lt;a href="https://observablehq.com/@pjpscriv/nz-electorate-hexmap" target="_blank" rel="noopener">Observable →&lt;/a>&lt;/p>
 &lt;script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
 import notebook from "https://api.observablehq.com/@pjpscriv\/nz-electorate-hexmap.js?v=4";
-const target = document.querySelector("#observable-1782827029");
+const target = document.querySelector("#observable-1783543948");
 const cellNames = "\n md_1,\n viewof chart_style,\n area_types_swatches,\n chart,\n md_2,\n viewof candidate_chart_style,\n candidate_votes_legend,\n candidate_hexmap,\n md_3,\n md_4,\n viewof party_chart_style,\n party_vote_legend,\n party_chart,\n md_5,\n md_6,\n viewof rel_party_chart_style,\n rel_party_vote_legend,\n rel_party_chart\n".split(",").map(d => d.trim());
 const renders = {};
 for (let cellName of cellNames) {
@@ -131,12 +131,12 @@ target.appendChild(renders[i]);
 new Runtime().module(notebook, (name) => {
 if (renders[name]) return new Inspector(renders[name]);
 });
-&lt;/script></description></item><item><title>COLORSxSTUDIOS Colors</title><link>https://pjpscriv.co.nz/data-viz/colors-colors/</link><pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/colors-colors/</guid><description>&lt;div id="observable-1782827029" class="observable-embed">&lt;/div>
+&lt;/script></description></item><item><title>COLORSxSTUDIOS Colors</title><link>https://pjpscriv.co.nz/data-viz/colors-colors/</link><pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/colors-colors/</guid><description>&lt;div id="observable-1783543948" class="observable-embed">&lt;/div>
 &lt;p class="observable-link"> See original notebook on &lt;a href="https://observablehq.com/@pjpscriv/colorsxstudios-colors" target="_blank" rel="noopener">Observable →&lt;/a>&lt;/p>
 &lt;script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
 import notebook from "https://api.observablehq.com/@pjpscriv\/colorsxstudios-colors.js?v=4";
-const target = document.querySelector("#observable-1782827029");
+const target = document.querySelector("#observable-1783543948");
 const cellNames = "\n viewof refresh,\n video,\n viewof inputs,\n viewof cutoff,\n chart,\n wall\n".split(",").map(d => d.trim());
 const renders = {};
 for (let cellName of cellNames) {
@@ -159,12 +159,12 @@ target.appendChild(renders[i]);
 new Runtime().module(notebook, (name) => {
 if (renders[name]) return new Inspector(renders[name]);
 });
-&lt;/script></description></item><item><title>Google Calendar Colors</title><link>https://pjpscriv.co.nz/data-viz/google-calendar-colors/</link><pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/google-calendar-colors/</guid><description>&lt;div id="observable-1782827029" class="observable-embed">&lt;/div>
+&lt;/script></description></item><item><title>Google Calendar Colors</title><link>https://pjpscriv.co.nz/data-viz/google-calendar-colors/</link><pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/google-calendar-colors/</guid><description>&lt;div id="observable-1783543948" class="observable-embed">&lt;/div>
 &lt;p class="observable-link"> See original notebook on &lt;a href="https://observablehq.com/@pjpscriv/google-calendar-colors" target="_blank" rel="noopener">Observable →&lt;/a>&lt;/p>
 &lt;script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
 import notebook from "https://api.observablehq.com/@pjpscriv\/google-calendar-colors.js?v=4";
-const target = document.querySelector("#observable-1782827029");
+const target = document.querySelector("#observable-1783543948");
 const cellNames = "\n viewof satBrightSplit,\n chart\n".split(",").map(d => d.trim());
 const renders = {};
 for (let cellName of cellNames) {
@@ -187,12 +187,12 @@ target.appendChild(renders[i]);
 new Runtime().module(notebook, (name) => {
 if (renders[name]) return new Inspector(renders[name]);
 });
-&lt;/script></description></item><item><title>NZ Average Temperatures</title><link>https://pjpscriv.co.nz/data-viz/nz-average-temps/</link><pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/nz-average-temps/</guid><description>&lt;div id="observable-1782827029" class="observable-embed">&lt;/div>
+&lt;/script></description></item><item><title>NZ Average Temperatures</title><link>https://pjpscriv.co.nz/data-viz/nz-average-temps/</link><pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/nz-average-temps/</guid><description>&lt;div id="observable-1783543948" class="observable-embed">&lt;/div>
 &lt;p class="observable-link"> See original notebook on &lt;a href="https://observablehq.com/@pjpscriv/nz-average-temperatures" target="_blank" rel="noopener">Observable →&lt;/a>&lt;/p>
 &lt;script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
 import notebook from "https://api.observablehq.com/@pjpscriv\/nz-average-temperatures.js?v=4";
-const target = document.querySelector("#observable-1782827029");
+const target = document.querySelector("#observable-1783543948");
 const cellNames = "\n viewof overlap,\n viewof bucketSize,\n viewof tempRange,\n chart,\n viewof firstYear\n".split(",").map(d => d.trim());
 const renders = {};
 for (let cellName of cellNames) {
@@ -215,12 +215,12 @@ target.appendChild(renders[i]);
 new Runtime().module(notebook, (name) => {
 if (renders[name]) return new Inspector(renders[name]);
 });
-&lt;/script></description></item><item><title>Curve text around circle</title><link>https://pjpscriv.co.nz/data-viz/circular-text/</link><pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/circular-text/</guid><description>&lt;div id="observable-1782827029" class="observable-embed">&lt;/div>
+&lt;/script></description></item><item><title>Curve text around circle</title><link>https://pjpscriv.co.nz/data-viz/circular-text/</link><pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/circular-text/</guid><description>&lt;div id="observable-1783543948" class="observable-embed">&lt;/div>
 &lt;p class="observable-link"> See original notebook on &lt;a href="https://observablehq.com/@pjpscriv/curved-text" target="_blank" rel="noopener">Observable →&lt;/a>&lt;/p>
 &lt;script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
 import notebook from "https://api.observablehq.com/@pjpscriv\/curved-text.js?v=4";
-const target = document.querySelector("#observable-1782827029");
+const target = document.querySelector("#observable-1783543948");
 const cellNames = "\n viewof options,\n FULLWIDTH svg,\n svgCode\n".split(",").map(d => d.trim());
 const renders = {};
 for (let cellName of cellNames) {
@@ -243,12 +243,12 @@ target.appendChild(renders[i]);
 new Runtime().module(notebook, (name) => {
 if (renders[name]) return new Inspector(renders[name]);
 });
-&lt;/script></description></item><item><title>The Categories of Trade Me</title><link>https://pjpscriv.co.nz/data-viz/trade-me-categories/</link><pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/trade-me-categories/</guid><description>&lt;div id="observable-1782827029" class="observable-embed">&lt;/div>
+&lt;/script></description></item><item><title>The Categories of Trade Me</title><link>https://pjpscriv.co.nz/data-viz/trade-me-categories/</link><pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/trade-me-categories/</guid><description>&lt;div id="observable-1783543948" class="observable-embed">&lt;/div>
 &lt;p class="observable-link"> See original notebook on &lt;a href="https://observablehq.com/@pjpscriv/trade-me-categories" target="_blank" rel="noopener">Observable →&lt;/a>&lt;/p>
 &lt;script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
 import notebook from "https://api.observablehq.com/@pjpscriv\/trade-me-categories.js?v=4";
-const target = document.querySelector("#observable-1782827029");
+const target = document.querySelector("#observable-1783543948");
 const cellNames = "chart".split(",").map(d => d.trim());
 const renders = {};
 for (let cellName of cellNames) {
@@ -271,12 +271,12 @@ target.appendChild(renders[i]);
 new Runtime().module(notebook, (name) => {
 if (renders[name]) return new Inspector(renders[name]);
 });
-&lt;/script></description></item><item><title>Āniwaniwawaotearoa</title><link>https://pjpscriv.co.nz/data-viz/aniwaniwaotearoa/</link><pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/aniwaniwaotearoa/</guid><description>&lt;div id="observable-1782827029" class="observable-embed">&lt;/div>
+&lt;/script></description></item><item><title>Āniwaniwawaotearoa</title><link>https://pjpscriv.co.nz/data-viz/aniwaniwaotearoa/</link><pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/aniwaniwaotearoa/</guid><description>&lt;div id="observable-1783543948" class="observable-embed">&lt;/div>
 &lt;p class="observable-link"> See original notebook on &lt;a href="https://observablehq.com/@pjpscriv/aniwaniwaotearoa" target="_blank" rel="noopener">Observable →&lt;/a>&lt;/p>
 &lt;script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
 import notebook from "https://api.observablehq.com/@pjpscriv\/aniwaniwaotearoa.js?v=4";
-const target = document.querySelector("#observable-1782827029");
+const target = document.querySelector("#observable-1783543948");
 const cellNames = "\n viewof color_start,\n FULLWIDTH chart\n".split(",").map(d => d.trim());
 const renders = {};
 for (let cellName of cellNames) {
