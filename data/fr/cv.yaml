@@ -107,7 +107,7 @@ education:
     school: "Centre Saint-Louis"
     period: "avr. 2025 – juin 2026"
     location: "Montréal, QC, Canada"
-    content: "Inscrit au programme de francisation du Québec pour adultes. Débuté au niveau 3 (A2), actuellement en fin de niveau 8 (B2). Une façon inestimable de s'intégrer à la société québécoise."
+    content: "Programme de francisation du Québec pour adultes complété. Débuté au niveau 3 (A2), terminé au niveau 8 (B2). Une façon inestimable de s'intégrer à la société québécoise."
 
   - title: "B.Sc. Informatique"
     school: "Université Victoria de Wellington"
@@ -129,6 +129,6 @@ interests:
   - label: "Balados"
     detail: "Favoris actuels : Aujourd'hui l'histoire, The Nations of Canada et If Books Could Kill"
   - label: "Livres"
-    detail: "Récemment terminé « Dictatorland » et « More Everything Forever »"
+    detail: "Récemment terminé « The City We Became » et « The Wager »"
   - label: "Techno d'intérêt public"
     detail: "Membre de Montréal CivicTech et du groupe Atproto MTL"

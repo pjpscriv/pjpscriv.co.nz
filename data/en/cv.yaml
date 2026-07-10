@@ -107,7 +107,7 @@ education:
     school: "Centre Saint-Louis"
     period: "Apr 2025 – Jun 2026"
     location: "Montreal, QC, Canada"
-    content: "Enrolled in Quebec's francisation program for adults. Started at level 3 (A2) and currently finishing level 8 (B2). An invaluable way to integrate into Quebecois society."
+    content: "Completed Quebec's francisation program for adults. Started at level 3 (A2) and finished at level 8 (B2). An invaluable way to integrate into Quebecois society."
 
   - title: "BSc Computer Science"
     school: "Victoria University of Wellington"
@@ -129,6 +129,6 @@ interests:
   - label: "Podcasts"
     detail: "Current favourites: Aujourd'hui l'histoire, The Nations of Canada and If Books Could Kill"
   - label: "Books"
-    detail: "Recently finished \"Dictatorland\" and \"More Everything Forever\""
+    detail: "Recently finished \"The City We Became\" and \"The Wager\""
   - label: "Public Interest Tech"
     detail: "Member of both Montreal CivicTech and Atproto MTL groups"
