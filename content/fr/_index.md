@@ -4,7 +4,7 @@ layout: "index"
 ---
 
 {{<intro>}}
-  Développeur logiciel Full-Stack basé à Montréal, Canada 🍁. Je termine ma Francisation et je suis à la recherche d'un nouvel emploi. Je m'intéresse à la visualisation de données, aux données ouvertes et à l'internet ouvert.
+  Développeur logiciel Full-Stack basé à Montréal, Canada 🍁. J'ai terminé ma Francisation et je suis à la recherche d'un nouvel emploi. Je m'intéresse à la visualisation de données, aux données ouvertes et à l'internet ouvert.
 {{</intro>}}
 {{<homepage-split>}}
 

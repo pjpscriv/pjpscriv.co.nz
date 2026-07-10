@@ -5,7 +5,7 @@ title: "À propos de moi"
 
 Je suis un développeur full stack d'Aotearoa Nouvelle-Zélande. Je me suis installé à Montréal 🍁 en novembre 2024 pour vivre à l'étranger et apprendre une nouvelle langue, après avoir passé les 5 dernières années à travailler chez [Trade Me](https://trademe.co.nz) (l'eBay de la Nouvelle-Zélande).
 
-Après avoir commencé la Francisation en avril 2025, je suis maintenant au niveau 8, mon niveau final. Je suis activement à la recherche d'un nouveau poste sur le marché du travail québécois et canadien.
+J'ai terminé la Francisation, le programme de francisation du Québec pour les immigrants, en juin 2026, complétant le niveau 8, le niveau final. Je suis activement à la recherche d'un nouveau poste sur le marché du travail québécois et canadien.
 
 Je suis sociable, travailleur et passionné par le développement de logiciels ayant un impact social positif.
 
