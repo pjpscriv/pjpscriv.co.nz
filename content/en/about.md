@@ -22,7 +22,7 @@ A bit of my work/education history. For more detail [see my CV](/cv).
 
 > _A nobby designer word for 'how this site was made' - [Maggie Appleton](https://maggieappleton.com/colophon)_
 
-This site is built with [Hugo](https://gohugo.io) and hosted on [GitHub Pages](https://pages.github.com). The code is deployed through GitHub Actions using [this build action](https://github.com/marketplace/actions/hugo-setup), and [this deploy action](https://github.com/marketplace/actions/github-pages-action). The source code is hosted on [GitHub](https://github.com/pjpscriv/pjpscriv.github.io).
+This site is built with [Hugo](https://gohugo.io) and hosted on [GitHub Pages](https://pages.github.com). The code is deployed through GitHub Actions using [this build action](https://github.com/marketplace/actions/hugo-setup), and [this deploy action](https://github.com/marketplace/actions/github-pages-action). The source code is hosted on [GitHub](https://github.com/pjpscriv/pjpscriv.co.nz).
 
 I use the typefaces [Open Sans](https://fonts.google.com/specimen/Open+Sans) for text and [Raleway](https://fonts.google.com/specimen/Raleway) for titles.
 

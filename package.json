@@ -1,5 +1,5 @@
 {
-  "name": "pjpscriv.github.io",
+  "name": "pjpscriv.co.nz",
   "description": "Peter's personal website",
   "scripts": {
     "start": "hugo server --noHTTPCache",
