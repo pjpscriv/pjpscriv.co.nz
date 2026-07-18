@@ -29,5 +29,5 @@ J'utilise les polices [Open Sans](https://fonts.google.com/specimen/Open+Sans) p
 
 Le nom de domaine a été acheté et est géré via [Hover](https://www.hover.com).
 
-Mon portrait de pixel a été créé en 2019 par [Sam Caldwell](https://www.artdesignfilm.com).
+Mon portrait de pixel a été créé en 2019 par [Sam Caldwell](https://www.artdesignfilm.com/pixel-aotearoa).
 

@@ -1,6 +1,6 @@
-# Personal Website
+# pjpscriv.co.nz
 
-This repository contains the source code for my personal website, built with [Hugo](https://gohugo.io/), a fast and flexible static site generator.
+My personal website! Built with [Hugo](https://gohugo.io/), using a custom theme.
 
 ## Development
 

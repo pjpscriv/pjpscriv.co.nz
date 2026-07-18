@@ -28,4 +28,4 @@ I use the typefaces [Open Sans](https://fonts.google.com/specimen/Open+Sans) for
 
 The domain name was bought and is managed through [Hover](https://www.hover.com).
 
-The pixel portrait was created in 2019 by [Sam Caldwell](https://www.artdesignfilm.com).
+The pixel portrait was created in 2019 by [Sam Caldwell](https://www.artdesignfilm.com/pixel-aotearoa).

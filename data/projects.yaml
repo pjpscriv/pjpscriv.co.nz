@@ -1,4 +1,14 @@
 projects:
+  - id: "nationbuilder_dropbox_sync"
+    title: "NationBuilder Dropbox Sync"
+    period: "2026"
+    links:
+      - url: "https://www.npmjs.com/package/nb-dropbox-sync"
+        label: "npm"
+      - url: "https://github.com/pjpscriv/nb-dropbox-sync"
+        label: "github"
+    skills: [ "typescript" ]
+
   - id: "nationbuilder_liquid"
     title: "NationBuilder Liquid"
     period: "2026"
@@ -160,6 +170,7 @@ links:
   chrome: "Chrome Webstore"
   firefox: "Firefox Add-on"
   github: "GitHub"
+  npm: "npm"
   vscode: "VS Code Marketplace"
 
 skills:
