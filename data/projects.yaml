@@ -22,7 +22,7 @@ projects:
   - id: "quebecle"
     period: "2025"
     links:
-      - url: "https://pjpscriv.co.nz/quebecle"
+      - url: "https://pjpscriv.github.io/quebecle"
         label: "website"
       - url: "https://github.com/pjpscriv/quebecle"
         label: "github"
@@ -55,7 +55,7 @@ projects:
   - id: "ansi_code_generator"
     period: "2025"
     links:
-      - url: "https://pjpscriv.co.nz/ansicodes"
+      - url: "https://pjpscriv.github.io/ansicodes"
         label: "website"
       - url: "https://github.com/pjpscriv/ansicodes"
         label: "github"
@@ -66,7 +66,7 @@ projects:
     title: "CyberCanada"
     period: "2025"
     links:
-      - url: "https://pjpscriv.co.nz/cyber-canada"
+      - url: "https://pjpscriv.github.io/cyber-canada"
         label: "website"
       - url: "https://github.com/pjpscriv/cyber-canada"
         label: "github"
@@ -86,7 +86,7 @@ projects:
   - id: "wet_bulb_calculator"
     period: "2023"
     links:
-      - url: "https://pjpscriv.co.nz/wet-bulb-calculator"
+      - url: "https://pjpscriv.github.io/wet-bulb-calculator"
         label: "website"
       - url: "https://github.com/pjpscriv/wet-bulb-calculator"
         label: "github"
@@ -107,7 +107,7 @@ projects:
   - id: "day_visualizer"
     period: "2023"
     links:
-      - url: "https://pjpscriv.co.nz/day"
+      - url: "https://pjpscriv.github.io/day"
         label: "website"
       - url: "https://github.com/pjpscriv/day"
         label: "github"
@@ -129,7 +129,7 @@ projects:
   - id: "message_map"
     period: "2021 - 22"
     links:
-      - url: "https://pjpscriv.co.nz/message-map"
+      - url: "https://pjpscriv.github.io/message-map"
         label: "website"
       - url: "https://github.com/pjpscriv/message-map"
         label: "github"
@@ -151,7 +151,7 @@ projects:
     title: "Sudoku"
     period: "2019"
     links:
-      - url: "https://pjpscriv.co.nz/sudoku"
+      - url: "https://pjpscriv.github.io/sudoku"
         label: "website"
       - url: "https://github.com/pjpscriv/sudoku"
         label: "github"
@@ -160,7 +160,7 @@ projects:
   - id: "animal_spin"
     period: "2016"
     links:
-      - url: "https://pjpscriv.co.nz/animal-spin"
+      - url: "https://pjpscriv.github.io/animal-spin"
         label: "website"
       - url: "https://github.com/pjpscriv/animal-spin"
         label: "github"
