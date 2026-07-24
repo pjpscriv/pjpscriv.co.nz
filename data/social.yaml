@@ -1,4 +1,5 @@
-- title: "RSS"
+- id: "rss"
+  title: "RSS"
   url: "/feed.xml"
   svg: |
     <svg role="img" viewBox="0 0 16 16" width="16" height="16" fill="url(#gradient-rss)">
@@ -38,7 +39,8 @@
       </defs>
     </svg>
 
-- title: "LinkedIn"
+- id: "linkedin"
+  title: "LinkedIn"
   url: "https://www.linkedin.com/in/pjpscriv"
   svg: |
     <svg role="img" viewBox="0 0 24 24" width="24" height="24" fill="url(#gradient-linkedin)">

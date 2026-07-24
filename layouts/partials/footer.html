@@ -19,9 +19,16 @@
 <footer>
   <div class="footer__links">
     <ul class="social-links">
+      {{- $lang := .Language.Lang -}}
+      {{- $langSocial := index .Site.Data $lang "social" -}}
       {{- range .Site.Data.social }}
       <li>
-        {{- $Url := cond (and (eq .title "RSS") (ne $.Site.LanguageCode "en")) (printf "/%s%s" $.Site.LanguageCode .url) .url -}}
+        {{- $Url := .url -}}
+        {{- if .id -}}
+          {{- with index $langSocial .id -}}
+            {{- with .url -}}{{- $Url = . -}}{{- end -}}
+          {{- end -}}
+        {{- end -}}
         <a class="icon-link" href="{{- $Url -}}" target="_blank" {{ if eq .title "Mastodon" }}rel="me"{{ end }}>
           {{ .svg | safeHTML -}}
         </a>
