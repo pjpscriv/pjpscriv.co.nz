@@ -44,8 +44,8 @@ projects:
     title: "GitHub Social Icons"
     period: "2025"
     links:
-      - url: "https://chromewebstore.google.com/detail/ledidlccnpfooopagmkgihgibfbnbbnp"
-        label: "chrome"
+      # - url: "https://chromewebstore.google.com/detail/ledidlccnpfooopagmkgihgibfbnbbnp"
+      #   label: "chrome"
       - url: "https://addons.mozilla.org/en-GB/firefox/addon/github-social-icons"
         label: "firefox"
       - url: "https://github.com/pjpscriv/github-social-icons"
