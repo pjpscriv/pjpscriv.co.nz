@@ -307,7 +307,7 @@
       </li>
       {{- end }}
       <li class="download-link">
-        <a href="/{{ if ne $lang "en" }}{{ $lang }}/{{ end }}cv.pdf" download>
+        <a href="/{{ if ne $lang "en" }}{{ $lang }}/{{ end }}cv.pdf" download="{{ printf "pjpscriv-cv.%s.pdf" $lang }}">
           {{- readFile (printf "static/img/icons/download.svg") | safeHTML -}}
           {{ $cv.identity.download_pdf }}
         </a>
