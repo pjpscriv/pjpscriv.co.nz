@@ -159,7 +159,7 @@ h1:has(~ .subtitle) {
 
 .subtitle {
   margin-top: 0.5em;
-  font-size: 14px;
+  font-size: 13.5px;
   color: var(--text-color-secondary);
 }
 
