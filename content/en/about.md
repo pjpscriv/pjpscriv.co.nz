@@ -10,7 +10,7 @@ I'm friendly, hardworking, and interested in building software that has a positi
 
 I'm interested in how technology can empower people, particularly in the realms of open data, data visualisation, and more recently open social protocols.
 
-In my spare time I play guitar and ski. I like [podcasts](https://lists.pocketcasts.com/2d425db2-b2c1-4999-be5a-63840ff200d5), [Studio Ghibli movies](https://en.wikipedia.org/wiki/List_of_Studio_Ghibli_works#Feature_films) and making [silly things in code](http://pjpscriv.co.nz/animal-spin/) for fun. I've helped make [an album](https://ingridandtheministers.bandcamp.com/album/kill-the-sights), [a theatre show](https://tldrify.com/vev), and [an album during a theatre show](https://www.aucklandfringe.co.nz/programme-2019/how-to-write-an-album).
+In my spare time I play guitar and ski. I like [podcasts](https://lists.pocketcasts.com/2d425db2-b2c1-4999-be5a-63840ff200d5), [Studio Ghibli movies](https://en.wikipedia.org/wiki/List_of_Studio_Ghibli_works#Feature_films) and making [silly things in code](http://pjpscriv.github.io/animal-spin/) for fun. I've helped make [an album](https://ingridandtheministers.bandcamp.com/album/kill-the-sights), [a theatre show](https://tldrify.com/vev), and [an album during a theatre show](https://www.aucklandfringe.co.nz/programme-2019/how-to-write-an-album).
 
 ## Experience
 
