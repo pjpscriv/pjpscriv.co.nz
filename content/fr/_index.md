@@ -20,10 +20,12 @@ layout: "index"
 {{<homepage-split>}}
 <!-- -->
 
+<!-- --
 ## [Écriture →](./writing)
 
 {{<list-writing-preview>}}
 {{<homepage-split>}}
+<!-- -->
 
 ## [Jardin →](./garden)
 

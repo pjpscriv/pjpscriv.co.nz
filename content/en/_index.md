@@ -18,10 +18,12 @@ layout: "index"
 {{<list-data-viz-preview>}}
 {{<homepage-split>}}
 
+<!-- 
 ## [Writing →](./writing)
 
 {{<list-writing-preview>}}
 {{<homepage-split>}}
+ -->
 
 ## [Garden →](./garden)
 
