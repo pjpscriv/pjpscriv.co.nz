@@ -224,7 +224,7 @@ h1:has(~ .subtitle) {
   margin-bottom: 1em;
   border-radius: 8px;
 
-  h4 {
+  h3, h4 {
     margin: 0;
     margin-right: 4px;
     font-weight: 500;
