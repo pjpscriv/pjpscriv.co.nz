@@ -17,6 +17,7 @@ intro:
   name: "Peter Scriven"
   tagline: "Développeur Logiciel Full-Stack"
   more: "En savoir plus sur moi"
+  headshot_alt: "Une photo de moi"
 
 proj_list:
   year: "Année"

@@ -1,5 +1,34 @@
 rss:
   url: "/fr/feed.xml"
+  description: "Mon flux RSS"
 
 linkedin:
   url: "https://www.linkedin.com/in/pjpscriv/?locale=fr-FR"
+  description: "Mon compte LinkedIn"
+
+github:
+  description: "Mon compte GitHub"
+
+gitlab:
+  description: "Mon compte GitLab"
+
+stackoverflow:
+  description: "Mon compte Stack Overflow"
+
+stackblitz:
+  description: "Mon compte StackBlitz"
+
+observable:
+  description: "Mon compte Observable"
+
+bluesky:
+  description: "Mon compte Bluesky"
+
+mastodon:
+  description: "Mon compte Mastodon"
+
+atproto:
+  description: "Mes données d'AT Protocol"
+
+goodreads:
+  description: "Mon compte Goodreads"

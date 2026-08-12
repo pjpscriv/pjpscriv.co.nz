@@ -24,12 +24,14 @@
       {{- range .Site.Data.social }}
       <li>
         {{- $Url := .url -}}
+        {{- $Description := .title -}}
         {{- if .id -}}
           {{- with index $langSocial .id -}}
             {{- with .url -}}{{- $Url = . -}}{{- end -}}
+            {{- with .description -}}{{- $Description = . -}}{{- end -}}
           {{- end -}}
         {{- end -}}
-        <a class="icon-link" href="{{- $Url -}}" target="_blank" {{ if eq .title "Mastodon" }}rel="me"{{ end }}>
+        <a class="icon-link" href="{{- $Url -}}" aria-label="{{- $Description -}}" target="_blank" {{ if eq .title "Mastodon" }}rel="me"{{ end }}>
           {{ .svg | safeHTML -}}
         </a>
       </li>

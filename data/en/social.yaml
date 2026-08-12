@@ -1,0 +1,32 @@
+rss:
+  description: "My RSS feed"
+
+github:
+  description: "My GitHub account"
+
+gitlab:
+  description: "My GitLab account"
+
+linkedin:
+  description: "My LinkedIn account"
+
+stackoverflow:
+  description: "My Stack Overflow account"
+
+stackblitz:
+  description: "My StackBlitz account"
+
+observable:
+  description: "My Observable account"
+
+bluesky:
+  description: "My Bluesky account"
+
+mastodon:
+  description: "My Mastodon account"
+
+atproto:
+  description: "My AT Protocol data"
+
+goodreads:
+  description: "My Goodreads account"
