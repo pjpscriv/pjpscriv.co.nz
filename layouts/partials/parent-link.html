@@ -6,7 +6,7 @@
   {{- else if eq $parent.Kind "home" -}}
     {{- $linkText =  i18n "nav.home" -}}
   {{- end -}}
-  <div class="back-to-parent" aria-label="Parent navigation">
+  <div class="back-to-parent" role="navigation" aria-label="Parent navigation">
     <a href="{{ $parent.RelPermalink }}" class="back-link">
       ← {{ $linkText }}
     </a>

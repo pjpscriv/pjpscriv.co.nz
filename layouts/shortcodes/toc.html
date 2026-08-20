@@ -1,8 +1,10 @@
-{{- $css := "  #TableOfContents {\n    margin-bottom: 2em;\n  }\n\n  #TableOfContents ul {\n    padding-left: 1rem;\n  }" -}}
+{{- /* Build CSS needed to hide excludeIDs items */ -}}
+{{- $css := "#TableOfContents {\n      margin-bottom: 2em;\n    }\n\n    #TableOfContents ul {\n      padding-left: 1rem;\n    }" -}}
 {{- with .Get "excludeIDs" -}}
   {{- range (split . ",") -}}
-    {{- $css = printf "%s\n\n  #TableOfContents > ul li:has(> a[href=\"#%s\"]) {\n    display: none;\n  }" $css (strings.TrimSpace .) -}}
+    {{- $css = printf "%s\n\n    #TableOfContents > ul li:has(> a[href=\"#%s\"]) {\n      display: none;\n    }" $css (strings.TrimSpace .) -}}
   {{- end -}}
 {{- end -}}
-{{ printf "<style>\n%s\n</style>" $css | safeHTML }}
+{{- /* Save the CSS to the "Page Store" */ -}}
+{{- .Page.Store.Set "tocCSS" $css -}}
 {{ .Page.TableOfContents }}

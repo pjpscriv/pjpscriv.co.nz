@@ -16,22 +16,16 @@ Other approaches:
 ```html
 <iframe 
     src="https://pjpscriv.co.nz/embed/nz-election-2026/" 
-    width="800" height="4578" 
-    frameborder="0">
+    class="observable-iframe"
+    height="4578">
 </iframe>
 ```
 
 _Note the `height="4578"`. This is a long embed._
 
-<!-- <iframe 
-    src="https://pjpscriv.co.nz/embed/nz-election-2026/" 
-    width="800" height="4578" 
-    frameborder="0">
-</iframe> -->
-
 <!-- TODO: revert this back to original -->
 <iframe 
     src="/embed/nz-election-2026/" 
-    width="800" height="4578" 
-    frameborder="0">
+    class="observable-iframe"
+    height="4578">
 </iframe>

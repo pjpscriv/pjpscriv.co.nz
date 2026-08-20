@@ -4,7 +4,6 @@
   const LOCAL_STORAGE_KEY = 'dark-mode-enabled'
   const DARK_MODE_EXPIRY_TIME = 4 * 60 * 60; // 4 hours
 
-  
   function getLocalStorageDarkModePref() {
     const storedDataRaw = localStorage.getItem(LOCAL_STORAGE_KEY);
     if (!storedDataRaw) {

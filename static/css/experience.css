@@ -45,6 +45,7 @@
 
 .experience__title {
   grid-area: title;
+  font-size: 1em;
 }
 
 .section__item-period {

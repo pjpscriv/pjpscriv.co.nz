@@ -3,13 +3,16 @@
   "description": "Peter's personal website",
   "scripts": {
     "start": "hugo server --noHTTPCache",
+    "build": "hugo",
     "lint:css": "stylelint \"**/*.css\"",
     "lint:css:fix": "stylelint \"**/*.css\" --fix",
     "print:cv": "node scripts/print-cv.js",
+    "validate:html": "node scripts/validate-html.js",
     "screenshot": "node screenshot.js --mode light",
     "screenshot:dark": "node screenshot.js --mode dark"
   },
   "devDependencies": {
+    "html-validator": "^6.0.1",
     "playwright": "^1.47.0",
     "stylelint": "^16.24.0",
     "stylelint-config-standard": "^39.0.0",

@@ -7,15 +7,15 @@
 
 <div class="data-viz-list">
   {{- range $posts -}}
-    {{- if .Params.img -}}
+    {{- if .Params.img }}
       <div class="data-viz-list__img">
         <a href="{{- .RelPermalink -}}">
           <img src="/img/data-viz/{{- .Params.img -}}" alt="{{- .Title -}}" title="{{- .Title -}}" width="170">
         </a>
       </div>
-    {{- end -}}
-  {{- else -}}
+    {{- end }}
+  {{- else }}
     <p>{{ i18n "data-viz.non-found" }}</p>
-  {{- end -}}
+  {{- end }}
 </div>
 <!-- <p class="see-more-link"><a href="./data-viz">{{ i18n "data-viz.more" }} →</a></p> -->

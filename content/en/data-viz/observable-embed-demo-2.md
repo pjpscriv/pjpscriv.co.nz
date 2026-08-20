@@ -18,7 +18,7 @@ Other approaches:
 ```html
 <iframe
     frameborder="0"
-    width="100%"
+    width="100"
     src="https://observablehq.com/embed/145c825f4a902622?cells=md_1,viewof chart_style,area_types_swatches,chart">
 </iframe>
 ```

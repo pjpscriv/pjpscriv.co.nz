@@ -98,6 +98,7 @@ in other conjugations.
 > pretty much just the present/perfect participles with *en* at the front.
 
 
+{{< page-css >}}
 <style>
   .group {
     opacity: 0.5;
@@ -122,3 +123,4 @@ in other conjugations.
     margin-top: 2em;
   }
 </style>
+{{< /page-css >}}

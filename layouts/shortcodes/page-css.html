@@ -1,0 +1,16 @@
+{{- /*
+  Wraps page-authored CSS so it renders in <head> instead of <main>, where
+  the HTML validator rejects a bare <style> element. See toc.html for the
+  matching .Store / head.html mechanism.
+
+  Wrap the CSS in its own <style> tag so editors still syntax-highlight it;
+  head.html injects the whole thing verbatim into <head>.
+
+  Usage:
+    {{< page-css >}}
+    <style>
+    .foo { color: red; }
+    </style>
+    {{< /page-css >}}
+*/ -}}
+{{- .Page.Store.Set "pageCSS" (trim .Inner "\r\n") -}}

@@ -30,9 +30,9 @@
             {{- with .url -}}{{- $Url = . -}}{{- end -}}
             {{- with .description -}}{{- $Description = . -}}{{- end -}}
           {{- end -}}
-        {{- end -}}
+        {{- end }}
         <a class="icon-link" href="{{- $Url -}}" aria-label="{{- $Description -}}" target="_blank" {{ if eq .title "Mastodon" }}rel="me"{{ end }}>
-          {{ .svg | safeHTML -}}
+          {{ .svg | safeHTML }}
         </a>
       </li>
       {{- end -}}

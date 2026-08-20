@@ -94,6 +94,7 @@ De petits trucs bizarres qui ne sont pas vraiment(?) des conjugaisons à part en
 > Le gérondif existe, mais j'ai décidé de le laisser de côté ici car c'est à peu près juste les participes présent/parfait avec *en* devant.
 
 
+{{< page-css >}}
 <style>
   .group {
     opacity: 0.5;
@@ -118,3 +119,4 @@ De petits trucs bizarres qui ne sont pas vraiment(?) des conjugaisons à part en
     margin-top: 2em;
   }
 </style>
+{{< /page-css >}}

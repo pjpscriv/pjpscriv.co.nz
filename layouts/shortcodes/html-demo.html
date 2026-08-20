@@ -1,2 +1,2 @@
-{{ highlight (trim .Inner "\n") "html" "" }}
-{{ .Inner | safeHTML }}
+{{- highlight (trim .Inner "\r\n") "html" "" -}}
+{{- trim .Inner "\r\n" | safeHTML -}}

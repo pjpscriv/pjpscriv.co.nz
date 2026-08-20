@@ -14,7 +14,7 @@ Embedding in multiple frames from `pjpscriv.co.nz`. Other approaches:
 ## Candidate votes
 
 {{< html-demo >}}
-<iframe id="nz-elec-chart-1" width="100%" frameborder="0"
+<iframe id="nz-elec-chart-1" class="observable-iframe"
     src="https://pjpscriv.co.nz/embed/nz-elec-2026-chart-2/">
 </iframe>
 {{< /html-demo >}}
@@ -23,7 +23,7 @@ Embedding in multiple frames from `pjpscriv.co.nz`. Other approaches:
 ## Party Votes
 
 {{< html-demo >}}
-<iframe id="nz-elec-chart-2" width="100%" frameborder="0"
+<iframe id="nz-elec-chart-2" class="observable-iframe"
     src="https://pjpscriv.co.nz/embed/nz-elec-2026-chart-3/">
 </iframe>
 {{< /html-demo >}}
@@ -34,7 +34,7 @@ Embedding in multiple frames from `pjpscriv.co.nz`. Other approaches:
 Embed would look like this, but hasn't been created yet.
 
 {{< html-demo >}}
-<iframe id="nz-elec-chart-3" width="100%" frameborder="0"
+<iframe id="nz-elec-chart-3" class="observable-iframe"
     src="https://pjpscriv.co.nz/embed/nz-elec-2026-chart-3/">
 </iframe>
 {{< /html-demo >}}

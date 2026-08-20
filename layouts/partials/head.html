@@ -1,9 +1,9 @@
 <head>
-  {{- $title := print (cond .IsHome "" (printf "%s • " .Title)) .Site.Title -}}
+  {{- $title := print (cond .IsHome "" (printf "%s • " .Title)) .Site.Title }}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{- $title -}}</title>
-  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="stylesheet" type="text/css" href="/css/style.css">
   <link rel="stylesheet" type="text/css" href="/css/header.css">
   <link rel="stylesheet" type="text/css" href="/css/intro.css">
@@ -16,17 +16,30 @@
   <link rel="stylesheet" type="text/css" href="/css/chroma/syntax-light.css">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,600">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:400,500,700,800&display=swap">
-  
-  <!-- TODO: Add proper social media link tags -->
-  <!--  Essential META Tags -->
-  <meta property="og:title" content="{{- $title -}}" />
-  <meta property="og:type" content="website" />
+  {{- /* 
+    Special logic for hiding ToC items. Calling .Content here runs the 
+    page render so shortcodes (e.g. toc.html) can save data into .Store.
+  */ -}}
+  {{- $content := .Content -}}
+  {{- /* Apply the CSS created in toc.html */ -}}
+  {{- with .Store.Get "tocCSS" -}}
+  <style>
+    {{ . | safeCSS }}
+  </style>
+  {{- end }}
+  {{- /* Apply the CSS created in page-css.html (already wrapped in <style> tags) */ -}}
+  {{- with .Store.Get "pageCSS" -}}
+    {{ . | safeHTML }}
+  {{- end }}
+  {{/* TODO: Add proper social media link tags */ -}}
+  {{/* Essential META Tags */ -}}
+  <meta property="og:title" content="{{- $title -}}">
+  <meta property="og:type" content="website">
   <meta property="og:url" content="{{- .Permalink -}}">
-  {{/*  <meta property="og:image" content="IMAGE_HERE">  */}}
-  {{/*  <meta name="twitter:card" content="summary_large_image">  */}}
-  {{/*  <meta name="twitter:image:alt" content="IMAGE_ALT_DESCRIPTION_HERE">  */}}
-
-  <!--  Non-Essential, But Recommended -->
-  {{/*  <meta property="og:description" content="">  */}}
+  {{/* <meta property="og:image" content="IMAGE_HERE"> */ -}}
+  {{/* <meta name="twitter:card" content="summary_large_image"> */ -}}
+  {{/* <meta name="twitter:image:alt" content="IMAGE_ALT_DESCRIPTION_HERE"> */ -}}
+  {{/* Non-Essential, But Recommended */ -}}
+  {{/* <meta property="og:description" content=""> */ -}}
   <meta property="og:site_name" content="{{- .Site.Title -}}">
 </head>
