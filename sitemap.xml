@@ -1,1 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><sitemap><loc>https://pjpscriv.co.nz/en/sitemap.xml</loc><lastmod>2026-05-04T00:00:00+00:00</lastmod></sitemap><sitemap><loc>https://pjpscriv.co.nz/fr/sitemap.xml</loc><lastmod>2026-05-11T00:00:00+00:00</lastmod></sitemap></sitemapindex>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://pjpscriv.co.nz/en/sitemap.xml</loc>
+    
+      <lastmod>2026-05-04T00:00:00+00:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://pjpscriv.co.nz/fr/sitemap.xml</loc>
+    
+      <lastmod>2026-05-11T00:00:00+00:00</lastmod>
+    
+  </sitemap>
+  
+</sitemapindex>

@@ -112,7 +112,7 @@ h1:not(:first-of-type) {
   padding-top: 1em;
 }
 
-h2:not(h1 + h2, .subtitle + h2) {
+h2:not(h1 + h2, .subtitle + h2, .notes-list h2) {
   padding-top: 1em;
 }
 
@@ -170,6 +170,11 @@ h1:has(~ .subtitle) {
 .observable-link {
   margin-top: 0.5em;
   font-size: 0.8em;
+}
+
+.observable-iframe {
+  width: 100%;
+  border: 0;
 }
 
 /* Full Height */
@@ -436,6 +441,7 @@ input[type="number"] {
 
 
 /* Notes styles - TODO: move somewhere better */
-.notes-list h3 {
+.notes-list h2 {
   padding: 0;
+  font-size: 19px;
 }

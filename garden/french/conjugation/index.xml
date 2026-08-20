@@ -1,302 +1,501 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Peter Scriven</title><language>en</language><description>Recent content on Peter Scriven</description><link>https://pjpscriv.co.nz/garden/french/conjugation/</link><atom:link href="https://pjpscriv.co.nz/garden/french/conjugation/" rel="self" type="application/rss+xml"/><lastBuildDate>Mon, 04 May 2026 00:00:00 +0000</lastBuildDate><item><title>Test Two</title><link>https://pjpscriv.co.nz/post/test-two/</link><pubDate>Tue, 09 Sep 2025 19:01:00 -0400</pubDate><guid>https://pjpscriv.co.nz/post/test-two/</guid><description>&lt;p>This second test page!&lt;/p>
-&lt;p>What does inline formatting look like? Does it look good? Let&amp;rsquo;s check.&lt;/p>
-&lt;p>Here is a &lt;code>filename.txt&lt;/code>. And here is &lt;code>anotherOne.css&lt;/code>. Here&amp;rsquo;s one that&amp;rsquo;s &lt;a href="https://pjpscriv.co.nz/">&lt;code>also-a-link.html&lt;/code>&lt;/a>&lt;/p>
-&lt;p>There we go, that&amp;rsquo;s better.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{{ range .Pages }}
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;section__item&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;section__item-head&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h4&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">a&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ .RelPermalink }}&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>{{ .Title }}&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">a&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">h4&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;section__item-period&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>{{ .Date.Format &amp;#34;Jan 2, 2006&amp;#34; }}&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;section__item-content&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;section__item-description&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>{{ .Summary }}&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">a&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ .RelPermalink }}&amp;#34;&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;section__view-all&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Read More →&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">a&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{ else }}
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>No posts found.&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{ end }}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Test One</title><link>https://pjpscriv.co.nz/post/test-one/</link><pubDate>Tue, 09 Sep 2025 19:00:00 -0400</pubDate><guid>https://pjpscriv.co.nz/post/test-one/</guid><description>&lt;p>This is the first test page!&lt;/p>
-&lt;p>Well how about that :P&lt;/p></description></item><item><title>New Zealand Fertility Rates</title><link>https://pjpscriv.co.nz/data-viz/nz-fertility/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/nz-fertility/</guid><description>&lt;div id="observable-1786916133" class="observable-embed">&lt;/div>
-&lt;p class="observable-link"> See original notebook on &lt;a href="https://observablehq.com/@pjpscriv/nz-fertility-rate" target="_blank" rel="noopener">Observable →&lt;/a>&lt;/p>
-&lt;script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-import notebook from "https://api.observablehq.com/@pjpscriv\/nz-fertility-rate.js?v=4";
-const target = document.querySelector("#observable-1786916133");
-const cellNames = "\n inputs,\n chart,\n inputs_2,\n chart_2\n".split(",").map(d => d.trim());
-const renders = {};
-for (let cellName of cellNames) {
-const id = cellName.toLocaleLowerCase().replace(/\s+/g, '-');
-if (cellName.startsWith("FULLWIDTH ")) {
-cellName = cellName.replace("FULLWIDTH ", "");
-}
-renders[cellName] = id;
-}
-console.log(renders);
-for (let i in renders) {
-const id = renders[i]
-renders[i] = document.createElement('div');
-renders[i].id = id;
-if (id.startsWith("fullwidth-")) {
-renders[i].classList.add("observable-fullwidth");
-}
-target.appendChild(renders[i]);
-}
-new Runtime().module(notebook, (name) => {
-if (renders[name]) return new Inspector(renders[name]);
-});
-&lt;/script></description></item><item><title>Org Chart</title><link>https://pjpscriv.co.nz/data-viz/org-chart/</link><pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/org-chart/</guid><description>&lt;div id="observable-1786916133" class="observable-embed">&lt;/div>
-&lt;p class="observable-link"> See original notebook on &lt;a href="https://observablehq.com/@pjpscriv/org-chart" target="_blank" rel="noopener">Observable →&lt;/a>&lt;/p>
-&lt;script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-import notebook from "https://api.observablehq.com/@pjpscriv\/org-chart.js?v=4";
-const target = document.querySelector("#observable-1786916133");
-const cellNames = "\n viewof linkDist,\n viewof linkStrength,\n viewof repelStrength,\n viewof refresh_button,\n FULLWIDTH org_tree\n".split(",").map(d => d.trim());
-const renders = {};
-for (let cellName of cellNames) {
-const id = cellName.toLocaleLowerCase().replace(/\s+/g, '-');
-if (cellName.startsWith("FULLWIDTH ")) {
-cellName = cellName.replace("FULLWIDTH ", "");
-}
-renders[cellName] = id;
-}
-console.log(renders);
-for (let i in renders) {
-const id = renders[i]
-renders[i] = document.createElement('div');
-renders[i].id = id;
-if (id.startsWith("fullwidth-")) {
-renders[i].classList.add("observable-fullwidth");
-}
-target.appendChild(renders[i]);
-}
-new Runtime().module(notebook, (name) => {
-if (renders[name]) return new Inspector(renders[name]);
-});
-&lt;/script></description></item><item><title>Wellington Bus Stop #7213</title><link>https://pjpscriv.co.nz/data-viz/welly-bus-7213/</link><pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/welly-bus-7213/</guid><description>&lt;div id="observable-1786916133" class="observable-embed">&lt;/div>
-&lt;p class="observable-link"> See original notebook on &lt;a href="https://observablehq.com/@pjpscriv/welly-bus-stop-7213" target="_blank" rel="noopener">Observable →&lt;/a>&lt;/p>
-&lt;script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-import notebook from "https://api.observablehq.com/@pjpscriv\/welly-bus-stop-7213.js?v=4";
-const target = document.querySelector("#observable-1786916133");
-const cellNames = "\n FULLWIDTH canvas\n".split(",").map(d => d.trim());
-const renders = {};
-for (let cellName of cellNames) {
-const id = cellName.toLocaleLowerCase().replace(/\s+/g, '-');
-if (cellName.startsWith("FULLWIDTH ")) {
-cellName = cellName.replace("FULLWIDTH ", "");
-}
-renders[cellName] = id;
-}
-console.log(renders);
-for (let i in renders) {
-const id = renders[i]
-renders[i] = document.createElement('div');
-renders[i].id = id;
-if (id.startsWith("fullwidth-")) {
-renders[i].classList.add("observable-fullwidth");
-}
-target.appendChild(renders[i]);
-}
-new Runtime().module(notebook, (name) => {
-if (renders[name]) return new Inspector(renders[name]);
-});
-&lt;/script></description></item><item><title>2023 Aotearoa/New Zealand Electorate Hexamap</title><link>https://pjpscriv.co.nz/data-viz/nz-2023-election/</link><pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/nz-2023-election/</guid><description>&lt;div id="observable-1786916133" class="observable-embed">&lt;/div>
-&lt;p class="observable-link"> See original notebook on &lt;a href="https://observablehq.com/@pjpscriv/nz-electorate-hexmap" target="_blank" rel="noopener">Observable →&lt;/a>&lt;/p>
-&lt;script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-import notebook from "https://api.observablehq.com/@pjpscriv\/nz-electorate-hexmap.js?v=4";
-const target = document.querySelector("#observable-1786916133");
-const cellNames = "\n md_1,\n viewof chart_style,\n area_types_swatches,\n chart,\n md_2,\n viewof candidate_chart_style,\n candidate_votes_legend,\n candidate_hexmap,\n md_3,\n md_4,\n viewof party_chart_style,\n party_vote_legend,\n party_chart,\n md_5,\n md_6,\n viewof rel_party_chart_style,\n rel_party_vote_legend,\n rel_party_chart\n".split(",").map(d => d.trim());
-const renders = {};
-for (let cellName of cellNames) {
-const id = cellName.toLocaleLowerCase().replace(/\s+/g, '-');
-if (cellName.startsWith("FULLWIDTH ")) {
-cellName = cellName.replace("FULLWIDTH ", "");
-}
-renders[cellName] = id;
-}
-console.log(renders);
-for (let i in renders) {
-const id = renders[i]
-renders[i] = document.createElement('div');
-renders[i].id = id;
-if (id.startsWith("fullwidth-")) {
-renders[i].classList.add("observable-fullwidth");
-}
-target.appendChild(renders[i]);
-}
-new Runtime().module(notebook, (name) => {
-if (renders[name]) return new Inspector(renders[name]);
-});
-&lt;/script></description></item><item><title>COLORSxSTUDIOS Colors</title><link>https://pjpscriv.co.nz/data-viz/colors-colors/</link><pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/colors-colors/</guid><description>&lt;div id="observable-1786916133" class="observable-embed">&lt;/div>
-&lt;p class="observable-link"> See original notebook on &lt;a href="https://observablehq.com/@pjpscriv/colorsxstudios-colors" target="_blank" rel="noopener">Observable →&lt;/a>&lt;/p>
-&lt;script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-import notebook from "https://api.observablehq.com/@pjpscriv\/colorsxstudios-colors.js?v=4";
-const target = document.querySelector("#observable-1786916133");
-const cellNames = "\n viewof refresh,\n video,\n viewof inputs,\n viewof cutoff,\n chart,\n wall\n".split(",").map(d => d.trim());
-const renders = {};
-for (let cellName of cellNames) {
-const id = cellName.toLocaleLowerCase().replace(/\s+/g, '-');
-if (cellName.startsWith("FULLWIDTH ")) {
-cellName = cellName.replace("FULLWIDTH ", "");
-}
-renders[cellName] = id;
-}
-console.log(renders);
-for (let i in renders) {
-const id = renders[i]
-renders[i] = document.createElement('div');
-renders[i].id = id;
-if (id.startsWith("fullwidth-")) {
-renders[i].classList.add("observable-fullwidth");
-}
-target.appendChild(renders[i]);
-}
-new Runtime().module(notebook, (name) => {
-if (renders[name]) return new Inspector(renders[name]);
-});
-&lt;/script></description></item><item><title>Google Calendar Colors</title><link>https://pjpscriv.co.nz/data-viz/google-calendar-colors/</link><pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/google-calendar-colors/</guid><description>&lt;div id="observable-1786916133" class="observable-embed">&lt;/div>
-&lt;p class="observable-link"> See original notebook on &lt;a href="https://observablehq.com/@pjpscriv/google-calendar-colors" target="_blank" rel="noopener">Observable →&lt;/a>&lt;/p>
-&lt;script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-import notebook from "https://api.observablehq.com/@pjpscriv\/google-calendar-colors.js?v=4";
-const target = document.querySelector("#observable-1786916133");
-const cellNames = "\n viewof satBrightSplit,\n chart\n".split(",").map(d => d.trim());
-const renders = {};
-for (let cellName of cellNames) {
-const id = cellName.toLocaleLowerCase().replace(/\s+/g, '-');
-if (cellName.startsWith("FULLWIDTH ")) {
-cellName = cellName.replace("FULLWIDTH ", "");
-}
-renders[cellName] = id;
-}
-console.log(renders);
-for (let i in renders) {
-const id = renders[i]
-renders[i] = document.createElement('div');
-renders[i].id = id;
-if (id.startsWith("fullwidth-")) {
-renders[i].classList.add("observable-fullwidth");
-}
-target.appendChild(renders[i]);
-}
-new Runtime().module(notebook, (name) => {
-if (renders[name]) return new Inspector(renders[name]);
-});
-&lt;/script></description></item><item><title>NZ Average Temperatures</title><link>https://pjpscriv.co.nz/data-viz/nz-average-temps/</link><pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/nz-average-temps/</guid><description>&lt;div id="observable-1786916133" class="observable-embed">&lt;/div>
-&lt;p class="observable-link"> See original notebook on &lt;a href="https://observablehq.com/@pjpscriv/nz-average-temperatures" target="_blank" rel="noopener">Observable →&lt;/a>&lt;/p>
-&lt;script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-import notebook from "https://api.observablehq.com/@pjpscriv\/nz-average-temperatures.js?v=4";
-const target = document.querySelector("#observable-1786916133");
-const cellNames = "\n viewof overlap,\n viewof bucketSize,\n viewof tempRange,\n chart,\n viewof firstYear\n".split(",").map(d => d.trim());
-const renders = {};
-for (let cellName of cellNames) {
-const id = cellName.toLocaleLowerCase().replace(/\s+/g, '-');
-if (cellName.startsWith("FULLWIDTH ")) {
-cellName = cellName.replace("FULLWIDTH ", "");
-}
-renders[cellName] = id;
-}
-console.log(renders);
-for (let i in renders) {
-const id = renders[i]
-renders[i] = document.createElement('div');
-renders[i].id = id;
-if (id.startsWith("fullwidth-")) {
-renders[i].classList.add("observable-fullwidth");
-}
-target.appendChild(renders[i]);
-}
-new Runtime().module(notebook, (name) => {
-if (renders[name]) return new Inspector(renders[name]);
-});
-&lt;/script></description></item><item><title>Curve text around circle</title><link>https://pjpscriv.co.nz/data-viz/circular-text/</link><pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/circular-text/</guid><description>&lt;div id="observable-1786916133" class="observable-embed">&lt;/div>
-&lt;p class="observable-link"> See original notebook on &lt;a href="https://observablehq.com/@pjpscriv/curved-text" target="_blank" rel="noopener">Observable →&lt;/a>&lt;/p>
-&lt;script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-import notebook from "https://api.observablehq.com/@pjpscriv\/curved-text.js?v=4";
-const target = document.querySelector("#observable-1786916133");
-const cellNames = "\n viewof options,\n FULLWIDTH svg,\n svgCode\n".split(",").map(d => d.trim());
-const renders = {};
-for (let cellName of cellNames) {
-const id = cellName.toLocaleLowerCase().replace(/\s+/g, '-');
-if (cellName.startsWith("FULLWIDTH ")) {
-cellName = cellName.replace("FULLWIDTH ", "");
-}
-renders[cellName] = id;
-}
-console.log(renders);
-for (let i in renders) {
-const id = renders[i]
-renders[i] = document.createElement('div');
-renders[i].id = id;
-if (id.startsWith("fullwidth-")) {
-renders[i].classList.add("observable-fullwidth");
-}
-target.appendChild(renders[i]);
-}
-new Runtime().module(notebook, (name) => {
-if (renders[name]) return new Inspector(renders[name]);
-});
-&lt;/script></description></item><item><title>The Categories of Trade Me</title><link>https://pjpscriv.co.nz/data-viz/trade-me-categories/</link><pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/trade-me-categories/</guid><description>&lt;div id="observable-1786916133" class="observable-embed">&lt;/div>
-&lt;p class="observable-link"> See original notebook on &lt;a href="https://observablehq.com/@pjpscriv/trade-me-categories" target="_blank" rel="noopener">Observable →&lt;/a>&lt;/p>
-&lt;script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-import notebook from "https://api.observablehq.com/@pjpscriv\/trade-me-categories.js?v=4";
-const target = document.querySelector("#observable-1786916133");
-const cellNames = "chart".split(",").map(d => d.trim());
-const renders = {};
-for (let cellName of cellNames) {
-const id = cellName.toLocaleLowerCase().replace(/\s+/g, '-');
-if (cellName.startsWith("FULLWIDTH ")) {
-cellName = cellName.replace("FULLWIDTH ", "");
-}
-renders[cellName] = id;
-}
-console.log(renders);
-for (let i in renders) {
-const id = renders[i]
-renders[i] = document.createElement('div');
-renders[i].id = id;
-if (id.startsWith("fullwidth-")) {
-renders[i].classList.add("observable-fullwidth");
-}
-target.appendChild(renders[i]);
-}
-new Runtime().module(notebook, (name) => {
-if (renders[name]) return new Inspector(renders[name]);
-});
-&lt;/script></description></item><item><title>Āniwaniwawaotearoa</title><link>https://pjpscriv.co.nz/data-viz/aniwaniwaotearoa/</link><pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate><guid>https://pjpscriv.co.nz/data-viz/aniwaniwaotearoa/</guid><description>&lt;div id="observable-1786916133" class="observable-embed">&lt;/div>
-&lt;p class="observable-link"> See original notebook on &lt;a href="https://observablehq.com/@pjpscriv/aniwaniwaotearoa" target="_blank" rel="noopener">Observable →&lt;/a>&lt;/p>
-&lt;script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-import notebook from "https://api.observablehq.com/@pjpscriv\/aniwaniwaotearoa.js?v=4";
-const target = document.querySelector("#observable-1786916133");
-const cellNames = "\n viewof color_start,\n FULLWIDTH chart\n".split(",").map(d => d.trim());
-const renders = {};
-for (let cellName of cellNames) {
-const id = cellName.toLocaleLowerCase().replace(/\s+/g, '-');
-if (cellName.startsWith("FULLWIDTH ")) {
-cellName = cellName.replace("FULLWIDTH ", "");
-}
-renders[cellName] = id;
-}
-console.log(renders);
-for (let i in renders) {
-const id = renders[i]
-renders[i] = document.createElement('div');
-renders[i].id = id;
-if (id.startsWith("fullwidth-")) {
-renders[i].classList.add("observable-fullwidth");
-}
-target.appendChild(renders[i]);
-}
-new Runtime().module(notebook, (name) => {
-if (renders[name]) return new Inspector(renders[name]);
-});
-&lt;/script></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>Peter Scriven</title>
+    <language>en</language>
+    <description>Recent content on Peter Scriven</description>
+    <link>https://pjpscriv.co.nz/garden/french/conjugation/</link>
+    <atom:link href="https://pjpscriv.co.nz/garden/french/conjugation/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 May 2026 00:00:00 +0000</lastBuildDate>
+
+    
+    <item>
+      <title>Test Two</title>
+      <link>https://pjpscriv.co.nz/post/test-two/</link>
+      <pubDate>Tue, 09 Sep 2025 19:01:00 -0400</pubDate>
+      <guid>https://pjpscriv.co.nz/post/test-two/</guid>
+      <description>&lt;p&gt;This second test page!&lt;/p&gt;
+&lt;p&gt;What does inline formatting look like? Does it look good? Let&amp;rsquo;s check.&lt;/p&gt;
+&lt;p&gt;Here is a &lt;code&gt;filename.txt&lt;/code&gt;. And here is &lt;code&gt;anotherOne.css&lt;/code&gt;. Here&amp;rsquo;s one that&amp;rsquo;s &lt;a href=&#34;https://pjpscriv.co.nz/&#34;&gt;&lt;code&gt;also-a-link.html&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There we go, that&amp;rsquo;s better.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{ range .Pages }}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;section__item&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;section__item-head&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;h4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;{{ .RelPermalink }}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;{{ .Title }}&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;h4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;section__item-period&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;{{ .Date.Format &amp;#34;Jan 2, 2006&amp;#34; }}&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;section__item-content&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;section__item-description&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;{{ .Summary }}&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;{{ .RelPermalink }}&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;section__view-all&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Read More →&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{ else }}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;No posts found.&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{ end }}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Test One</title>
+      <link>https://pjpscriv.co.nz/post/test-one/</link>
+      <pubDate>Tue, 09 Sep 2025 19:00:00 -0400</pubDate>
+      <guid>https://pjpscriv.co.nz/post/test-one/</guid>
+      <description>&lt;p&gt;This is the first test page!&lt;/p&gt;
+&lt;p&gt;Well how about that :P&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>New Zealand Fertility Rates</title>
+      <link>https://pjpscriv.co.nz/data-viz/nz-fertility/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://pjpscriv.co.nz/data-viz/nz-fertility/</guid>
+      <description>&lt;div id=&#34;observable-1787261538&#34; class=&#34;observable-embed&#34;&gt;&lt;/div&gt;
+&lt;p class=&#34;observable-link&#34;&gt; See original notebook on &lt;a href=&#34;https://observablehq.com/@pjpscriv/nz-fertility-rate&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Observable →&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;script type=&#34;module&#34;&gt;
+  import {Runtime, Inspector} from &#34;https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js&#34;;
+  import notebook from &#34;https://api.observablehq.com/@pjpscriv\/nz-fertility-rate.js?v=4&#34;;
+  
+  const target = document.querySelector(&#34;#observable-1787261538&#34;);
+  const cellNames = &#34;\n        inputs,\n        chart,\n        inputs_2,\n        chart_2\n&#34;.split(&#34;,&#34;).map(d =&gt; d.trim());
+
+  
+  const renders = {};
+  for (let cellName of cellNames) {
+    const id = cellName.toLocaleLowerCase().replace(/\s+/g, &#39;-&#39;);
+    if (cellName.startsWith(&#34;FULLWIDTH &#34;)) {
+      cellName = cellName.replace(&#34;FULLWIDTH &#34;, &#34;&#34;);
+    }
+    renders[cellName] = id;
+  }
+  console.log(renders);
+
+  
+  for (let i in renders) {
+    const id = renders[i]
+    renders[i] = document.createElement(&#39;div&#39;);
+    renders[i].id = id;
+    if (id.startsWith(&#34;fullwidth-&#34;)) {
+      renders[i].classList.add(&#34;observable-fullwidth&#34;);
+    }
+    target.appendChild(renders[i]);
+  }
+
+  
+  new Runtime().module(notebook, (name) =&gt; {
+    if (renders[name]) return new Inspector(renders[name]);
+  });
+&lt;/script&gt;
+</description>
+    </item>
+    <item>
+      <title>Org Chart</title>
+      <link>https://pjpscriv.co.nz/data-viz/org-chart/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://pjpscriv.co.nz/data-viz/org-chart/</guid>
+      <description>&lt;div id=&#34;observable-1787261538&#34; class=&#34;observable-embed&#34;&gt;&lt;/div&gt;
+&lt;p class=&#34;observable-link&#34;&gt; See original notebook on &lt;a href=&#34;https://observablehq.com/@pjpscriv/org-chart&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Observable →&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;script type=&#34;module&#34;&gt;
+  import {Runtime, Inspector} from &#34;https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js&#34;;
+  import notebook from &#34;https://api.observablehq.com/@pjpscriv\/org-chart.js?v=4&#34;;
+  
+  const target = document.querySelector(&#34;#observable-1787261538&#34;);
+  const cellNames = &#34;\n        viewof linkDist,\n        viewof linkStrength,\n        viewof repelStrength,\n        viewof refresh_button,\n        FULLWIDTH org_tree\n&#34;.split(&#34;,&#34;).map(d =&gt; d.trim());
+
+  
+  const renders = {};
+  for (let cellName of cellNames) {
+    const id = cellName.toLocaleLowerCase().replace(/\s+/g, &#39;-&#39;);
+    if (cellName.startsWith(&#34;FULLWIDTH &#34;)) {
+      cellName = cellName.replace(&#34;FULLWIDTH &#34;, &#34;&#34;);
+    }
+    renders[cellName] = id;
+  }
+  console.log(renders);
+
+  
+  for (let i in renders) {
+    const id = renders[i]
+    renders[i] = document.createElement(&#39;div&#39;);
+    renders[i].id = id;
+    if (id.startsWith(&#34;fullwidth-&#34;)) {
+      renders[i].classList.add(&#34;observable-fullwidth&#34;);
+    }
+    target.appendChild(renders[i]);
+  }
+
+  
+  new Runtime().module(notebook, (name) =&gt; {
+    if (renders[name]) return new Inspector(renders[name]);
+  });
+&lt;/script&gt;
+</description>
+    </item>
+    <item>
+      <title>Wellington Bus Stop #7213</title>
+      <link>https://pjpscriv.co.nz/data-viz/welly-bus-7213/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://pjpscriv.co.nz/data-viz/welly-bus-7213/</guid>
+      <description>&lt;div id=&#34;observable-1787261538&#34; class=&#34;observable-embed&#34;&gt;&lt;/div&gt;
+&lt;p class=&#34;observable-link&#34;&gt; See original notebook on &lt;a href=&#34;https://observablehq.com/@pjpscriv/welly-bus-stop-7213&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Observable →&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;script type=&#34;module&#34;&gt;
+  import {Runtime, Inspector} from &#34;https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js&#34;;
+  import notebook from &#34;https://api.observablehq.com/@pjpscriv\/welly-bus-stop-7213.js?v=4&#34;;
+  
+  const target = document.querySelector(&#34;#observable-1787261538&#34;);
+  const cellNames = &#34;\n        FULLWIDTH canvas\n&#34;.split(&#34;,&#34;).map(d =&gt; d.trim());
+
+  
+  const renders = {};
+  for (let cellName of cellNames) {
+    const id = cellName.toLocaleLowerCase().replace(/\s+/g, &#39;-&#39;);
+    if (cellName.startsWith(&#34;FULLWIDTH &#34;)) {
+      cellName = cellName.replace(&#34;FULLWIDTH &#34;, &#34;&#34;);
+    }
+    renders[cellName] = id;
+  }
+  console.log(renders);
+
+  
+  for (let i in renders) {
+    const id = renders[i]
+    renders[i] = document.createElement(&#39;div&#39;);
+    renders[i].id = id;
+    if (id.startsWith(&#34;fullwidth-&#34;)) {
+      renders[i].classList.add(&#34;observable-fullwidth&#34;);
+    }
+    target.appendChild(renders[i]);
+  }
+
+  
+  new Runtime().module(notebook, (name) =&gt; {
+    if (renders[name]) return new Inspector(renders[name]);
+  });
+&lt;/script&gt;
+</description>
+    </item>
+    <item>
+      <title>2023 Aotearoa/New Zealand Electorate Hexamap</title>
+      <link>https://pjpscriv.co.nz/data-viz/nz-2023-election/</link>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://pjpscriv.co.nz/data-viz/nz-2023-election/</guid>
+      <description>&lt;div id=&#34;observable-1787261538&#34; class=&#34;observable-embed&#34;&gt;&lt;/div&gt;
+&lt;p class=&#34;observable-link&#34;&gt; See original notebook on &lt;a href=&#34;https://observablehq.com/@pjpscriv/nz-electorate-hexmap&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Observable →&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;script type=&#34;module&#34;&gt;
+  import {Runtime, Inspector} from &#34;https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js&#34;;
+  import notebook from &#34;https://api.observablehq.com/@pjpscriv\/nz-electorate-hexmap.js?v=4&#34;;
+  
+  const target = document.querySelector(&#34;#observable-1787261538&#34;);
+  const cellNames = &#34;\n        md_1,\n        viewof chart_style,\n        area_types_swatches,\n        chart,\n        md_2,\n        viewof candidate_chart_style,\n        candidate_votes_legend,\n        candidate_hexmap,\n        md_3,\n        md_4,\n        viewof party_chart_style,\n        party_vote_legend,\n        party_chart,\n        md_5,\n        md_6,\n        viewof rel_party_chart_style,\n        rel_party_vote_legend,\n        rel_party_chart\n&#34;.split(&#34;,&#34;).map(d =&gt; d.trim());
+
+  
+  const renders = {};
+  for (let cellName of cellNames) {
+    const id = cellName.toLocaleLowerCase().replace(/\s+/g, &#39;-&#39;);
+    if (cellName.startsWith(&#34;FULLWIDTH &#34;)) {
+      cellName = cellName.replace(&#34;FULLWIDTH &#34;, &#34;&#34;);
+    }
+    renders[cellName] = id;
+  }
+  console.log(renders);
+
+  
+  for (let i in renders) {
+    const id = renders[i]
+    renders[i] = document.createElement(&#39;div&#39;);
+    renders[i].id = id;
+    if (id.startsWith(&#34;fullwidth-&#34;)) {
+      renders[i].classList.add(&#34;observable-fullwidth&#34;);
+    }
+    target.appendChild(renders[i]);
+  }
+
+  
+  new Runtime().module(notebook, (name) =&gt; {
+    if (renders[name]) return new Inspector(renders[name]);
+  });
+&lt;/script&gt;
+</description>
+    </item>
+    <item>
+      <title>COLORSxSTUDIOS Colors</title>
+      <link>https://pjpscriv.co.nz/data-viz/colors-colors/</link>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://pjpscriv.co.nz/data-viz/colors-colors/</guid>
+      <description>&lt;div id=&#34;observable-1787261538&#34; class=&#34;observable-embed&#34;&gt;&lt;/div&gt;
+&lt;p class=&#34;observable-link&#34;&gt; See original notebook on &lt;a href=&#34;https://observablehq.com/@pjpscriv/colorsxstudios-colors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Observable →&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;script type=&#34;module&#34;&gt;
+  import {Runtime, Inspector} from &#34;https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js&#34;;
+  import notebook from &#34;https://api.observablehq.com/@pjpscriv\/colorsxstudios-colors.js?v=4&#34;;
+  
+  const target = document.querySelector(&#34;#observable-1787261538&#34;);
+  const cellNames = &#34;\n        viewof refresh,\n        video,\n        viewof inputs,\n        viewof cutoff,\n        chart,\n        wall\n&#34;.split(&#34;,&#34;).map(d =&gt; d.trim());
+
+  
+  const renders = {};
+  for (let cellName of cellNames) {
+    const id = cellName.toLocaleLowerCase().replace(/\s+/g, &#39;-&#39;);
+    if (cellName.startsWith(&#34;FULLWIDTH &#34;)) {
+      cellName = cellName.replace(&#34;FULLWIDTH &#34;, &#34;&#34;);
+    }
+    renders[cellName] = id;
+  }
+  console.log(renders);
+
+  
+  for (let i in renders) {
+    const id = renders[i]
+    renders[i] = document.createElement(&#39;div&#39;);
+    renders[i].id = id;
+    if (id.startsWith(&#34;fullwidth-&#34;)) {
+      renders[i].classList.add(&#34;observable-fullwidth&#34;);
+    }
+    target.appendChild(renders[i]);
+  }
+
+  
+  new Runtime().module(notebook, (name) =&gt; {
+    if (renders[name]) return new Inspector(renders[name]);
+  });
+&lt;/script&gt;
+</description>
+    </item>
+    <item>
+      <title>Google Calendar Colors</title>
+      <link>https://pjpscriv.co.nz/data-viz/google-calendar-colors/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://pjpscriv.co.nz/data-viz/google-calendar-colors/</guid>
+      <description>&lt;div id=&#34;observable-1787261538&#34; class=&#34;observable-embed&#34;&gt;&lt;/div&gt;
+&lt;p class=&#34;observable-link&#34;&gt; See original notebook on &lt;a href=&#34;https://observablehq.com/@pjpscriv/google-calendar-colors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Observable →&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;script type=&#34;module&#34;&gt;
+  import {Runtime, Inspector} from &#34;https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js&#34;;
+  import notebook from &#34;https://api.observablehq.com/@pjpscriv\/google-calendar-colors.js?v=4&#34;;
+  
+  const target = document.querySelector(&#34;#observable-1787261538&#34;);
+  const cellNames = &#34;\n        viewof satBrightSplit,\n        chart\n&#34;.split(&#34;,&#34;).map(d =&gt; d.trim());
+
+  
+  const renders = {};
+  for (let cellName of cellNames) {
+    const id = cellName.toLocaleLowerCase().replace(/\s+/g, &#39;-&#39;);
+    if (cellName.startsWith(&#34;FULLWIDTH &#34;)) {
+      cellName = cellName.replace(&#34;FULLWIDTH &#34;, &#34;&#34;);
+    }
+    renders[cellName] = id;
+  }
+  console.log(renders);
+
+  
+  for (let i in renders) {
+    const id = renders[i]
+    renders[i] = document.createElement(&#39;div&#39;);
+    renders[i].id = id;
+    if (id.startsWith(&#34;fullwidth-&#34;)) {
+      renders[i].classList.add(&#34;observable-fullwidth&#34;);
+    }
+    target.appendChild(renders[i]);
+  }
+
+  
+  new Runtime().module(notebook, (name) =&gt; {
+    if (renders[name]) return new Inspector(renders[name]);
+  });
+&lt;/script&gt;
+</description>
+    </item>
+    <item>
+      <title>NZ Average Temperatures</title>
+      <link>https://pjpscriv.co.nz/data-viz/nz-average-temps/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://pjpscriv.co.nz/data-viz/nz-average-temps/</guid>
+      <description>&lt;div id=&#34;observable-1787261538&#34; class=&#34;observable-embed&#34;&gt;&lt;/div&gt;
+&lt;p class=&#34;observable-link&#34;&gt; See original notebook on &lt;a href=&#34;https://observablehq.com/@pjpscriv/nz-average-temperatures&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Observable →&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;script type=&#34;module&#34;&gt;
+  import {Runtime, Inspector} from &#34;https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js&#34;;
+  import notebook from &#34;https://api.observablehq.com/@pjpscriv\/nz-average-temperatures.js?v=4&#34;;
+  
+  const target = document.querySelector(&#34;#observable-1787261538&#34;);
+  const cellNames = &#34;\n        viewof overlap,\n        viewof bucketSize,\n        viewof tempRange,\n        chart,\n        viewof firstYear\n&#34;.split(&#34;,&#34;).map(d =&gt; d.trim());
+
+  
+  const renders = {};
+  for (let cellName of cellNames) {
+    const id = cellName.toLocaleLowerCase().replace(/\s+/g, &#39;-&#39;);
+    if (cellName.startsWith(&#34;FULLWIDTH &#34;)) {
+      cellName = cellName.replace(&#34;FULLWIDTH &#34;, &#34;&#34;);
+    }
+    renders[cellName] = id;
+  }
+  console.log(renders);
+
+  
+  for (let i in renders) {
+    const id = renders[i]
+    renders[i] = document.createElement(&#39;div&#39;);
+    renders[i].id = id;
+    if (id.startsWith(&#34;fullwidth-&#34;)) {
+      renders[i].classList.add(&#34;observable-fullwidth&#34;);
+    }
+    target.appendChild(renders[i]);
+  }
+
+  
+  new Runtime().module(notebook, (name) =&gt; {
+    if (renders[name]) return new Inspector(renders[name]);
+  });
+&lt;/script&gt;
+</description>
+    </item>
+    <item>
+      <title>Curve text around circle</title>
+      <link>https://pjpscriv.co.nz/data-viz/circular-text/</link>
+      <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://pjpscriv.co.nz/data-viz/circular-text/</guid>
+      <description>&lt;div id=&#34;observable-1787261538&#34; class=&#34;observable-embed&#34;&gt;&lt;/div&gt;
+&lt;p class=&#34;observable-link&#34;&gt; See original notebook on &lt;a href=&#34;https://observablehq.com/@pjpscriv/curved-text&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Observable →&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;script type=&#34;module&#34;&gt;
+  import {Runtime, Inspector} from &#34;https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js&#34;;
+  import notebook from &#34;https://api.observablehq.com/@pjpscriv\/curved-text.js?v=4&#34;;
+  
+  const target = document.querySelector(&#34;#observable-1787261538&#34;);
+  const cellNames = &#34;\n        viewof options,\n        FULLWIDTH svg,\n        svgCode\n&#34;.split(&#34;,&#34;).map(d =&gt; d.trim());
+
+  
+  const renders = {};
+  for (let cellName of cellNames) {
+    const id = cellName.toLocaleLowerCase().replace(/\s+/g, &#39;-&#39;);
+    if (cellName.startsWith(&#34;FULLWIDTH &#34;)) {
+      cellName = cellName.replace(&#34;FULLWIDTH &#34;, &#34;&#34;);
+    }
+    renders[cellName] = id;
+  }
+  console.log(renders);
+
+  
+  for (let i in renders) {
+    const id = renders[i]
+    renders[i] = document.createElement(&#39;div&#39;);
+    renders[i].id = id;
+    if (id.startsWith(&#34;fullwidth-&#34;)) {
+      renders[i].classList.add(&#34;observable-fullwidth&#34;);
+    }
+    target.appendChild(renders[i]);
+  }
+
+  
+  new Runtime().module(notebook, (name) =&gt; {
+    if (renders[name]) return new Inspector(renders[name]);
+  });
+&lt;/script&gt;
+</description>
+    </item>
+    <item>
+      <title>The Categories of Trade Me</title>
+      <link>https://pjpscriv.co.nz/data-viz/trade-me-categories/</link>
+      <pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://pjpscriv.co.nz/data-viz/trade-me-categories/</guid>
+      <description>&lt;div id=&#34;observable-1787261538&#34; class=&#34;observable-embed&#34;&gt;&lt;/div&gt;
+&lt;p class=&#34;observable-link&#34;&gt; See original notebook on &lt;a href=&#34;https://observablehq.com/@pjpscriv/trade-me-categories&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Observable →&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;script type=&#34;module&#34;&gt;
+  import {Runtime, Inspector} from &#34;https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js&#34;;
+  import notebook from &#34;https://api.observablehq.com/@pjpscriv\/trade-me-categories.js?v=4&#34;;
+  
+  const target = document.querySelector(&#34;#observable-1787261538&#34;);
+  const cellNames = &#34;chart&#34;.split(&#34;,&#34;).map(d =&gt; d.trim());
+
+  
+  const renders = {};
+  for (let cellName of cellNames) {
+    const id = cellName.toLocaleLowerCase().replace(/\s+/g, &#39;-&#39;);
+    if (cellName.startsWith(&#34;FULLWIDTH &#34;)) {
+      cellName = cellName.replace(&#34;FULLWIDTH &#34;, &#34;&#34;);
+    }
+    renders[cellName] = id;
+  }
+  console.log(renders);
+
+  
+  for (let i in renders) {
+    const id = renders[i]
+    renders[i] = document.createElement(&#39;div&#39;);
+    renders[i].id = id;
+    if (id.startsWith(&#34;fullwidth-&#34;)) {
+      renders[i].classList.add(&#34;observable-fullwidth&#34;);
+    }
+    target.appendChild(renders[i]);
+  }
+
+  
+  new Runtime().module(notebook, (name) =&gt; {
+    if (renders[name]) return new Inspector(renders[name]);
+  });
+&lt;/script&gt;
+</description>
+    </item>
+    <item>
+      <title>Āniwaniwawaotearoa</title>
+      <link>https://pjpscriv.co.nz/data-viz/aniwaniwaotearoa/</link>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://pjpscriv.co.nz/data-viz/aniwaniwaotearoa/</guid>
+      <description>&lt;div id=&#34;observable-1787261538&#34; class=&#34;observable-embed&#34;&gt;&lt;/div&gt;
+&lt;p class=&#34;observable-link&#34;&gt; See original notebook on &lt;a href=&#34;https://observablehq.com/@pjpscriv/aniwaniwaotearoa&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Observable →&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;script type=&#34;module&#34;&gt;
+  import {Runtime, Inspector} from &#34;https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js&#34;;
+  import notebook from &#34;https://api.observablehq.com/@pjpscriv\/aniwaniwaotearoa.js?v=4&#34;;
+  
+  const target = document.querySelector(&#34;#observable-1787261538&#34;);
+  const cellNames = &#34;\n        viewof color_start,\n        FULLWIDTH chart\n&#34;.split(&#34;,&#34;).map(d =&gt; d.trim());
+
+  
+  const renders = {};
+  for (let cellName of cellNames) {
+    const id = cellName.toLocaleLowerCase().replace(/\s+/g, &#39;-&#39;);
+    if (cellName.startsWith(&#34;FULLWIDTH &#34;)) {
+      cellName = cellName.replace(&#34;FULLWIDTH &#34;, &#34;&#34;);
+    }
+    renders[cellName] = id;
+  }
+  console.log(renders);
+
+  
+  for (let i in renders) {
+    const id = renders[i]
+    renders[i] = document.createElement(&#39;div&#39;);
+    renders[i].id = id;
+    if (id.startsWith(&#34;fullwidth-&#34;)) {
+      renders[i].classList.add(&#34;observable-fullwidth&#34;);
+    }
+    target.appendChild(renders[i]);
+  }
+
+  
+  new Runtime().module(notebook, (name) =&gt; {
+    if (renders[name]) return new Inspector(renders[name]);
+  });
+&lt;/script&gt;
+</description>
+    </item>
+  </channel>
+</rss>
