@@ -15,5 +15,8 @@
     }
   },
   "stylelint.validate": ["css"],
-  "css.validate": false
+  "css.validate": false,
+  "files.associations": {
+    "**/layouts/**/*.xml": "html"
+  }
 }

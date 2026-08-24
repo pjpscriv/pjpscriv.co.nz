@@ -3,7 +3,8 @@
   "description": "Peter's personal website",
   "scripts": {
     "start": "hugo server --noHTTPCache",
-    "build": "hugo",
+    "build": "hugo && npm run format:public",
+    "format:public": "prettier --ignore-path .prettierignore --write \"public/**/*.html\"",
     "lint:css": "stylelint \"**/*.css\"",
     "lint:css:fix": "stylelint \"**/*.css\" --fix",
     "print:cv": "node scripts/print-cv.js",
@@ -14,6 +15,7 @@
   "devDependencies": {
     "html-validator": "^6.0.1",
     "playwright": "^1.47.0",
+    "prettier": "^3.9.6",
     "stylelint": "^16.24.0",
     "stylelint-config-standard": "^39.0.0",
     "stylelint-order": "^7.0.0"
