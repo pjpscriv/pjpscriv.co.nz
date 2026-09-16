@@ -16,7 +16,7 @@
       import notebook from "https://api.observablehq.com/@pjpscriv\/nz-2026-election.js?v=4";
 
       const target = document.querySelector("body");
-      const cellNames = " voteStats, seatStats, results ".split(",").map((d) => d.trim());
+      const cellNames = " seatStats ".split(",").map((d) => d.trim());
 
       const divs = {};
       for (let cellName of cellNames) {
