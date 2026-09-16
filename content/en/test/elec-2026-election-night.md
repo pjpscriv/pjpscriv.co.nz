@@ -5,6 +5,7 @@ unlisted: true
 ---
 
 There are five snippets to embed for this page:
+
 {{<toc >}}
 
 ## Headline Seats Display

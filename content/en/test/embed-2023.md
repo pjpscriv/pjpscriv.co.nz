@@ -14,7 +14,7 @@ unlisted: true
 </iframe>
 {{< /html-demo >}}
 
-### Resize script
+## Resize script
 
 Add in to the page so the `<iframe>` can resize correctly:
 
