@@ -2,6 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pjpscriv.co.nz/test/elec-2026-election-night/</loc>
+    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pjpscriv.co.nz/test/elec-2026-hexmap-explainer/</loc>
+    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pjpscriv.co.nz/test/elec-2026-post-analysis/</loc>
+    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pjpscriv.co.nz/test/iframe-2023/</loc>
+    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pjpscriv.co.nz/obs-embed/nz-elec-2023/</loc>
+    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pjpscriv.co.nz/obs-embed/</loc>
+    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pjpscriv.co.nz/test/embed-2023/</loc>
+    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pjpscriv.co.nz/</loc>
+    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pjpscriv.co.nz/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pjpscriv.co.nz/"
+                />
+  </url><url>
+    <loc>https://pjpscriv.co.nz/test/</loc>
+    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://pjpscriv.co.nz/garden/french/word-class/adjectives/</loc>
     <lastmod>2026-05-04T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -52,19 +89,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://pjpscriv.co.nz/garden/french/word-class/"
-                />
-  </url><url>
-    <loc>https://pjpscriv.co.nz/</loc>
-    <lastmod>2026-05-04T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://pjpscriv.co.nz/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pjpscriv.co.nz/"
                 />
   </url><url>
     <loc>https://pjpscriv.co.nz/garden/</loc>
@@ -119,8 +143,11 @@
                 href="https://pjpscriv.co.nz/writing/"
                 />
   </url><url>
+    <loc>https://pjpscriv.co.nz/data-viz/nz-2026-election/</loc>
+    <lastmod>2025-11-05T13:22:05-05:00</lastmod>
+  </url><url>
     <loc>https://pjpscriv.co.nz/data-viz/</loc>
-    <lastmod>2026-04-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-05T13:22:05-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -131,21 +158,6 @@
                 hreflang="en"
                 href="https://pjpscriv.co.nz/data-viz/"
                 />
-  </url><url>
-    <loc>https://pjpscriv.co.nz/data-viz/observable-embed-demo-4/</loc>
-    <lastmod>2026-04-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pjpscriv.co.nz/data-viz/observable-embed-demo-3/</loc>
-    <lastmod>2026-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pjpscriv.co.nz/data-viz/observable-embed-demo-1/</loc>
-    <lastmod>2025-12-13T13:22:05-05:00</lastmod>
-  </url><url>
-    <loc>https://pjpscriv.co.nz/data-viz/observable-embed-demo-2/</loc>
-    <lastmod>2025-12-13T13:22:05-05:00</lastmod>
-  </url><url>
-    <loc>https://pjpscriv.co.nz/data-viz/nz-2026-election/</loc>
-    <lastmod>2025-11-05T13:22:05-05:00</lastmod>
   </url><url>
     <loc>https://pjpscriv.co.nz/post/test-two/</loc>
     <lastmod>2025-09-09T19:01:00-04:00</lastmod>
@@ -216,14 +228,6 @@
     <loc>https://pjpscriv.co.nz/data-viz/aniwaniwaotearoa/</loc>
     <lastmod>2020-06-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pjpscriv.co.nz/embed/nz-election-2026/</loc>
-  </url><url>
-    <loc>https://pjpscriv.co.nz/embed/nz-elec-2026-chart-1/</loc>
-  </url><url>
-    <loc>https://pjpscriv.co.nz/embed/nz-elec-2026-chart-2/</loc>
-  </url><url>
-    <loc>https://pjpscriv.co.nz/embed/nz-elec-2026-chart-3/</loc>
-  </url><url>
     <loc>https://pjpscriv.co.nz/about/</loc>
     <xhtml:link
                 rel="alternate"
@@ -284,8 +288,6 @@
                 href="https://pjpscriv.co.nz/cv/"
                 />
   </url><url>
-    <loc>https://pjpscriv.co.nz/embed/</loc>
-  </url><url>
     <loc>https://pjpscriv.co.nz/projects/</loc>
     <xhtml:link
                 rel="alternate"
@@ -321,7 +323,5 @@
                 hreflang="en"
                 href="https://pjpscriv.co.nz/tags/"
                 />
-  </url><url>
-    <loc>https://pjpscriv.co.nz/embed/test/</loc>
   </url>
 </urlset>

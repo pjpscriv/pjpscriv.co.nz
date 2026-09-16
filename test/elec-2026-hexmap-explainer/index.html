@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>2023 Aotearoa/New Zealand Electorate Hexamap • Peter Scriven</title>
+    <title>2. Hexmap Explainer Post • Peter Scriven</title>
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <link rel="stylesheet" type="text/css" href="/css/header.css" />
@@ -17,9 +17,9 @@
     <link rel="stylesheet" type="text/css" href="/css/chroma/syntax-light.css" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,600" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:400,500,700,800&display=swap" />
-    <meta property="og:title" content="2023 Aotearoa/New Zealand Electorate Hexamap • Peter Scriven" />
+    <meta property="og:title" content="2. Hexmap Explainer Post • Peter Scriven" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://pjpscriv.co.nz/data-viz/nz-2023-election/" />
+    <meta property="og:url" content="https://pjpscriv.co.nz/test/elec-2026-hexmap-explainer/" />
     <meta property="og:site_name" content="Peter Scriven" />
   </head>
   <body>
@@ -80,8 +80,8 @@
           </div>
 
           <div class="header__languages">
-            <a class="header__language" href="/data-viz/nz-2023-election/">English</a>
-            <a class="header__language" href="/fr/data-viz/nz-2023-election/">Français</a>
+            <a class="header__language" href="/test/elec-2026-hexmap-explainer/">English</a>
+            <a class="header__language" href="/fr/test/elec-2026-hexmap-explainer/">Français</a>
           </div>
           <a class="icon-link" id="language-toggle">
             <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="url(#gradient-lang)">
@@ -143,50 +143,20 @@
       </header>
       <main>
         <div class="back-to-parent" role="navigation" aria-label="Parent navigation">
-          <a href="/data-viz/" class="back-link">← Back to Data Viz Gallery</a>
+          <a href="/test/" class="back-link">← Back to Tests</a>
         </div>
-        <h1 id="2023-aotearoa/new-zealand-electorate-hexamap">2023 Aotearoa/New Zealand Electorate Hexamap</h1>
-        <p class="subtitle">20 Mar 2025</p>
-        <div id="observable-1789571503" class="observable-embed"></div>
-        <p class="observable-link">
-          See original notebook on
-          <a href="https://observablehq.com/@pjpscriv/nz-electorate-hexmap" target="_blank" rel="noopener">Observable →</a>
-        </p>
-
-        <script type="module">
-          import { Runtime, Inspector } from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-          import notebook from "https://api.observablehq.com/@pjpscriv\/nz-electorate-hexmap.js?v=4";
-
-          const target = document.querySelector("#observable-1789571503");
-          const cellNames =
-            "\n        md_1,\n        viewof chart_style,\n        area_types_swatches,\n        chart,\n        md_2,\n        viewof candidate_chart_style,\n        candidate_votes_legend,\n        candidate_hexmap,\n        md_3,\n        md_4,\n        viewof party_chart_style,\n        party_vote_legend,\n        party_chart,\n        md_5,\n        md_6,\n        viewof rel_party_chart_style,\n        rel_party_vote_legend,\n        rel_party_chart\n"
-              .split(",")
-              .map((d) => d.trim());
-
-          const renders = {};
-          for (let cellName of cellNames) {
-            const id = cellName.toLocaleLowerCase().replace(/\s+/g, "-");
-            if (cellName.startsWith("FULLWIDTH ")) {
-              cellName = cellName.replace("FULLWIDTH ", "");
-            }
-            renders[cellName] = id;
-          }
-          console.log(renders);
-
-          for (let i in renders) {
-            const id = renders[i];
-            renders[i] = document.createElement("div");
-            renders[i].id = id;
-            if (id.startsWith("fullwidth-")) {
-              renders[i].classList.add("observable-fullwidth");
-            }
-            target.appendChild(renders[i]);
-          }
-
-          new Runtime().module(notebook, (name) => {
-            if (renders[name]) return new Inspector(renders[name]);
-          });
-        </script>
+        <h1 id="2.-hexmap-explainer-post">2. Hexmap Explainer Post</h1>
+        <p class="subtitle">16 Sep 2026</p>
+        <p><strong>Hexmap Explainer</strong></p>
+        <ul>
+          <li>Geographic Map vs Hexmap</li>
+        </ul>
+        <h2 id="geographic-map-vs-hexmap">Geographic Map vs Hexmap</h2>
+        <blockquote>
+          <p><em>Land doesn&rsquo;t vote, people do.</em></p>
+        </blockquote>
+        <pre tabindex="0"><code>https://pjpscriv.co.nz/obs-embed/nz-2026-election-geo-vs-hex-map
+</code></pre>
       </main>
       <div class="flex-spacer"></div>
       <footer>
@@ -376,13 +346,13 @@
             <a href="https://gohugo.io" target="_blank">Hugo</a>
             • Code on
             <a
-              href="https://github.com/pjpscriv/pjpscriv.co.nz/blob/main/content/en/data-viz/nz-2023-election.md"
+              href="https://github.com/pjpscriv/pjpscriv.co.nz/blob/main/content/en/test/elec-2026-hexmap-explainer.md"
               target="_blank"
               rel="noopener noreferrer">
               GitHub
             </a>
             • ✏️
-            <a href="https://github.com/pjpscriv/pjpscriv.co.nz/edit/main/content/en/data-viz/nz-2023-election.md?plain=1">
+            <a href="https://github.com/pjpscriv/pjpscriv.co.nz/edit/main/content/en/test/elec-2026-hexmap-explainer.md?plain=1">
               Suggest an edit
             </a>
           </p>

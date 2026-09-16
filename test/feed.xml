@@ -6,8 +6,8 @@
     <title>Peter Scriven</title>
     <language>en</language>
     <description>Recent content on Peter Scriven</description>
-    <link>https://pjpscriv.co.nz/garden/</link>
-    <atom:link href="https://pjpscriv.co.nz/garden/" rel="self" type="application/rss+xml" />
+    <link>https://pjpscriv.co.nz/test/</link>
+    <atom:link href="https://pjpscriv.co.nz/test/" rel="self" type="application/rss+xml" />
     <lastBuildDate>Wed, 16 Sep 2026 00:00:00 +0000</lastBuildDate>
 
     
@@ -18,7 +18,7 @@
       <guid>https://pjpscriv.co.nz/post/test-two/</guid>
       <description>&lt;p&gt;This second test page!&lt;/p&gt;
 &lt;p&gt;What does inline formatting look like? Does it look good? Let&amp;rsquo;s check.&lt;/p&gt;
-&lt;p&gt;Here is a &lt;code&gt;filename.txt&lt;/code&gt;. And here is &lt;code&gt;anotherOne.css&lt;/code&gt;. Here&amp;rsquo;s one that&amp;rsquo;s &lt;a href=&#34;https://pjpscriv.co.nz/&#34;&gt;&lt;code&gt;also-a-link.html&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here is a &lt;code&gt;filename.txt&lt;/code&gt;. And here is &lt;code&gt;anotherOne.css&lt;/code&gt;. Here&amp;rsquo;s one that&amp;rsquo;s &lt;a href=&#34;/&#34;&gt;&lt;code&gt;also-a-link.html&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;There we go, that&amp;rsquo;s better.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{ range .Pages }}
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;section__item&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;

@@ -1,0 +1,7 @@
+The content of these templates is not displayed.
+
+Only the two fields are used:
+- `notebook` - the Observable notebook ID
+- `cells` - a list of cells of that notebook to display in the page
+
+The logic is similar to the {{< observable-embed >}} shortcode.
