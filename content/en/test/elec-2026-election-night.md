@@ -4,15 +4,18 @@ date: 2026-09-16
 unlisted: true
 ---
 
-Notes:
-- This will be populated by live data
+There are five snippets to embed for this page:
+{{<toc >}}
 
+## Headline Seats Display
 
-**Election Night Results Page**
-
-{{<toc excludeIDs="resize-script">}}
-
-Numbers up the top of the page?
+{{< html-demo >}}
+<iframe
+    class="pjpscriv-iframe"
+    src="https://pjpscriv.co.nz/obs-embed/nz-2026-election-seats-only/"
+    style="width: 100%; border: 0;">
+</iframe>
+{{< /html-demo >}}
 
 
 ## Candidate Votes Map
@@ -45,7 +48,7 @@ Numbers up the top of the page?
 </iframe>
 {{< /html-demo >}}
 
-### Resize script
+## Resize script
 
 Add in to the page so the `<iframe>`s can resize correctly:
 

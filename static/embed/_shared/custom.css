@@ -7,3 +7,15 @@ body {
 .observablehq .observablehq--inspect {
   display: none;
 }
+
+table {
+  font-size: 13px;
+
+  tr:not(:last-child) {
+    border-bottom: solid 1px #E0E0E0;
+  }
+
+  th, td {
+    padding: 3px 6.5px 3px 0;
+  }
+}
