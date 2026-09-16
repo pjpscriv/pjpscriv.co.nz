@@ -43,7 +43,7 @@
 
     // Notify parent frame of height changes
     function sendResize() {
-      const height = document.body.scrollHeight + 20;
+      const height = document.body.scrollHeight + 30;
       if (height < 100) return;
       const msg = JSON.stringify({ context: "iframe.resize", height });
       window.parent.postMessage(msg, "*");
