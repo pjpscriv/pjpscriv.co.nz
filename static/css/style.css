@@ -172,11 +172,6 @@ h1:has(~ .subtitle) {
   font-size: 0.8em;
 }
 
-.observable-iframe {
-  width: 100%;
-  border: 0;
-}
-
 /* Full Height */
 .full-height {
   display: flex;

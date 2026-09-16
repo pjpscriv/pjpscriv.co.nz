@@ -10,22 +10,23 @@
 
 
 <iframe
-    class="observable-iframe"
-    src="https://observablehq.com/embed/{{- $notebook -}}?cells={{- $cells | safeURL -}}">
+    src="https://observablehq.com/embed/{{- $notebook -}}?cells={{- $cells | safeURL -}}"
+    style="width: 100%; border: 0;">
 </iframe>
 
 <script>
-(function() {
-  let s = document.querySelectorAll('script');
-  let script = s[s.length - 1];
-  let iframe = script.previousElementSibling;
-  window.addEventListener("message", (e) => {
-    if (e.origin === 'https://observablehq.com' && e.source === iframe.contentWindow) {
-      const msg = JSON.parse(e.data);
-      if (msg.context === 'iframe.resize') {
-        iframe.height = msg.height;
+  (function() {
+    let s = document.querySelectorAll('script');
+    let script = s[s.length - 1];
+    let iframe = script.previousElementSibling;
+    window.addEventListener("message", (e) => {
+      // Orgin change w new Observable version
+      if (e.origin === 'https://old.observablehq.com' && e.source === iframe.contentWindow) {
+        const msg = JSON.parse(e.data);
+        if (msg.context === 'iframe.resize') {
+          iframe.height = msg.height;
+        }
       }
-    }
-  });
-})();
+    });
+  })();
 </script>
