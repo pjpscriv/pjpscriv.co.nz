@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Zealand 2026 Election Geographic Map vs Hexmap</title>
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,600" />
+    <link rel="stylesheet" type="text/css" href="/embed/_shared/custom.css" />
+
+    <link rel="stylesheet" type="text/css" href="/embed/_shared/inspector.css" />
+  </head>
+  <body>
+    <script type="module">
+      import { Runtime, Inspector } from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+      import notebook from "https://api.observablehq.com/@pjpscriv\/nz-2026-election.js?v=4";
+
+      const target = document.querySelector("body");
+      const cellNames = " md_1, viewof chart_style, area_types_swatches, chart ".split(",").map((d) => d.trim());
+
+      const divs = {};
+      for (let cellName of cellNames) {
+        const id = cellName.toLocaleLowerCase().replace(/\s+/g, "-");
+        const div = document.createElement(`div#${id}`);
+        divs[cellName] = div;
+        target.appendChild(div);
+      }
+
+      const runtime = new Runtime();
+      const checkFn = (name) => {
+        if (divs[name]) return new Inspector(divs[name]);
+      };
+      const main = runtime.module(notebook, checkFn);
+
+      function sendResize() {
+        const height = document.documentElement.scrollHeight;
+        if (height < 100) return;
+        const msg = JSON.stringify({ context: "iframe.resize", height });
+        window.parent.postMessage(msg, "*");
+      }
+      new ResizeObserver(sendResize).observe(document.body);
+      sendResize();
+    </script>
+  </body>
+</html>
