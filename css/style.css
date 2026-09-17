@@ -341,6 +341,10 @@ h1:has(~ .subtitle) {
 }
 
 /* Code Highlights */
+.highlight {
+  position: relative;
+}
+
 pre:has(code) {
   padding: 8px;
   border-radius: 8px;
@@ -354,6 +358,40 @@ pre code {
   span {
     line-height: 1.5em;
   }
+}
+
+.copy-code-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: none;
+  border-radius: 4px;
+  color: var(--text-color-secondary);
+  background-color: var(--ornament-color);
+  transition: color 0.15s, opacity 0.15s;
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+.copy-code-button:hover {
+  color: var(--text-color);
+  opacity: 1;
+}
+
+.copy-code-button svg {
+  width: 15px;
+  height: 15px;
+}
+
+.copy-code-button.copy-code-button--copied {
+  color: var(--primary-color);
+  opacity: 1;
 }
 
 p > code,
