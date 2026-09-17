@@ -1,8 +1,8 @@
 /* stylelint-disable */
 /* Generated using: hugo gen chromastyles --style=rainbow_dash */
 
-/* Background */ .bg { color:#4d4d4d;background-color:#fff; }
-/* PreWrapper */ .chroma { color:#4d4d4d;background-color:#fff; }
+/* Background */ .bg { color:#4d4d4d;background-color:#F8F8F8; }
+/* PreWrapper */ .chroma { color:#4d4d4d;background-color:#F8F8F8; }
 /* Other */ .chroma .x {  }
 /* Error */ .chroma .err { color:#fff;background-color:#c00 }
 /* CodeLine */ .chroma .cl {  }
