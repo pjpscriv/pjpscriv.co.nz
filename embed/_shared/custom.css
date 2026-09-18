@@ -20,9 +20,9 @@ body {
   /* overflow-y: hidden; */
 }
 
-.observablehq .observablehq--inspect {
+/* .observablehq .observablehq--inspect {
   display: none;
-}
+} */
 
 table {
   font-size: 13px;
