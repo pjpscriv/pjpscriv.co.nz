@@ -62,6 +62,13 @@
       window.addEventListener("load", () => {
         document.body.style.transition = "color 0.2s ease, background-color 0.2s ease";
       });
+
+      window.addEventListener("storage", (e) => {
+        if (e.key !== LOCAL_STORAGE_KEY) return;
+        const pref = getLocalStorageDarkModePref();
+        const enabled = pref === null ? window.matchMedia("(prefers-color-scheme: dark)").matches : pref;
+        document.body.classList.toggle(DARK_MODE_CLASS, enabled);
+      });
     </script>
     <div class="container">
       <header>
@@ -147,7 +154,7 @@
         </div>
         <h1 id="aotearoa/new-zealand-2026-electorates">Aotearoa/New Zealand 2026 Electorates</h1>
         <p class="subtitle">5 Nov 2025</p>
-        <div id="observable-1789743112" class="observable-embed"></div>
+        <div id="observable-1789743942" class="observable-embed"></div>
         <p class="observable-link">
           See original notebook on
           <a href="https://observablehq.com/d/145c825f4a902622" target="_blank" rel="noopener">Observable →</a>
@@ -157,7 +164,7 @@
           import { Runtime, Inspector } from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
           import notebook from "https://api.observablehq.com/d\/145c825f4a902622.js?v=4";
 
-          const target = document.querySelector("#observable-1789743112");
+          const target = document.querySelector("#observable-1789743942");
           const cellNames =
             "\n        md_1,\n        viewof chart_style,\n        area_types_swatches,\n        chart,\n        md_2,\n        viewof candidate_chart_style,\n        candidate_votes_legend,\n        candidate_hexmap,\n        md_3,\n        md_4,\n        viewof party_chart_style,\n        party_vote_legend,\n        party_chart,\n        md_5,\n        md_6,\n        viewof rel_party_chart_style,\n        rel_party_vote_legend,\n        rel_party_chart\n    "
               .split(",")

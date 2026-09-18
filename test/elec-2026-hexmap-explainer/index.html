@@ -62,6 +62,13 @@
       window.addEventListener("load", () => {
         document.body.style.transition = "color 0.2s ease, background-color 0.2s ease";
       });
+
+      window.addEventListener("storage", (e) => {
+        if (e.key !== LOCAL_STORAGE_KEY) return;
+        const pref = getLocalStorageDarkModePref();
+        const enabled = pref === null ? window.matchMedia("(prefers-color-scheme: dark)").matches : pref;
+        document.body.classList.toggle(DARK_MODE_CLASS, enabled);
+      });
     </script>
     <div class="container">
       <header>
