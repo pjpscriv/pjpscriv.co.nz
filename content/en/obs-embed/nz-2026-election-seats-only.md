@@ -1,5 +1,5 @@
 ---
-title: New Zealand 2026 Election Resulting Seat Diagram
+title: New Zealand 2026 Election Seat Counts
 notebook: "@pjpscriv/nz-2026-election"
 cells: "
     seatStats

@@ -1,5 +1,21 @@
+:root {
+  --text-color: black;
+  --bg-color: #fff;
+  --border-color: #E0E0E0;
+}
+
+.dark-mode {
+  --text-color: #fff;
+  --bg-color: #222;
+  --border-color: #555;
+  /* stylelint-disable-next-line custom-property-pattern -- must match Observable's inspector.css variable name */
+  --syntax_normal: #d5d9e0;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
+  color: var(--text-color);
+  background-color: var(--bg-color);
 
   /* overflow-y: hidden; */
 }
@@ -12,7 +28,7 @@ table {
   font-size: 13px;
 
   tr:not(:last-child) {
-    border-bottom: solid 1px #E0E0E0;
+    border-bottom: solid 1px var(--border-color);
   }
 
   th, td {
