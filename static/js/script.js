@@ -138,7 +138,8 @@ function addCopyCodeButtons() {
     button.setAttribute('aria-label', 'Copy code to clipboard')
     button.innerHTML = COPY_ICON
 
-    button.addEventListener('click', () => {
+    const copyCodeFn = (e) => {
+      e.preventDefault()
       navigator.clipboard.writeText(code.textContent).then(() => {
         button.innerHTML = COPY_ICON_SUCCESS
         button.classList.add('copy-code-button--copied')
@@ -147,7 +148,10 @@ function addCopyCodeButtons() {
           button.classList.remove('copy-code-button--copied')
         }, 1500)
       })
-    })
+    }
+
+    button.addEventListener('click', copyCodeFn)
+    button.addEventListener('touchend', copyCodeFn)
 
     block.prepend(button)
   })
