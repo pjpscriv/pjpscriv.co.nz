@@ -11,6 +11,47 @@
     <link rel="stylesheet" type="text/css" href="/embed/_shared/inspector.css" />
   </head>
   <body>
+    <script>
+      const DARK_MODE_CLASS = "dark-mode";
+      const LOCAL_STORAGE_KEY = "dark-mode-enabled";
+      const DARK_MODE_EXPIRY_TIME = 4 * 60 * 60;
+
+      function getLocalStorageDarkModePref() {
+        const storedDataRaw = localStorage.getItem(LOCAL_STORAGE_KEY);
+        if (!storedDataRaw) {
+          return null;
+        }
+        try {
+          const data = JSON.parse(storedDataRaw);
+          if (typeof data === "object" && data !== null && "darkMode" in data && "savedAt" in data) {
+            const now = Math.floor(Date.now() / 1000);
+            if (now - data.savedAt <= DARK_MODE_EXPIRY_TIME) {
+              return data.darkMode;
+            } else {
+              localStorage.removeItem(LOCAL_STORAGE_KEY);
+              return null;
+            }
+          }
+        } catch (e) {
+          console.error("Error reading dark mode preference from localStorage:", e);
+          localStorage.removeItem(LOCAL_STORAGE_KEY);
+          return null;
+        }
+      }
+
+      const localStoragePref = getLocalStorageDarkModePref();
+      const browserColorPref = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      const darkModeEnabled = localStoragePref === null ? browserColorPref : localStoragePref;
+      if (darkModeEnabled) {
+        document.body.classList.add(DARK_MODE_CLASS);
+      }
+
+      window.addEventListener("load", () => {
+        document.body.style.transition = "color 0.2s ease, background-color 0.2s ease";
+      });
+    </script>
+
     <script type="module">
       import { Runtime, Inspector } from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
       import notebook from "https://api.observablehq.com/@pjpscriv\/nz-2026-election.js?v=4";
