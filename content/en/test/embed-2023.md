@@ -8,7 +8,6 @@ unlisted: true
 
 {{< html-demo >}}
 <iframe
-    class="pjpscriv-iframe"
     src="https://pjpscriv.co.nz/obs-embed/nz-elec-2023/"
     style="width: 100%; border: 0;">
 </iframe>
@@ -20,17 +19,12 @@ Add in to the page so the `<iframe>` can resize correctly:
 
 {{< html-demo >}}
 <script>
-  (function() {
-    const iframe = document.querySelector('iframe.pjpscriv-iframe');
-    const origin = 'https://pjpscriv.co.nz';
-    window.addEventListener("message", (e) => {
-      if (e.origin === origin && e.source === iframe.contentWindow) {
-        const msg = JSON.parse(e.data);
-        if (msg.context === 'iframe.resize') {
-          iframe.height = msg.height;
-        }
-      }
-    });
-  })();
+  window.addEventListener('message', (e) => {
+    if (e.origin !== 'https://pjpscriv.co.nz') return;
+    try {
+      const msg = JSON.parse(e.data);
+      if (msg.context === 'iframe.resize') e.source.frameElement.height = msg.height;
+    } catch {}
+  });
 </script>
 {{< /html-demo >}}
