@@ -4,9 +4,9 @@ date: 2026-09-16
 unlisted: true
 ---
 
+Two snippets to embed for this page.
 
-**Hexmap Explainer**
-- Geographic Map vs Hexmap
+{{<toc >}}
 
 
 ## Geographic Map vs Hexmap

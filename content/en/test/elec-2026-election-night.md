@@ -4,10 +4,11 @@ date: 2026-09-16
 unlisted: true
 ---
 
-There are five snippets to embed for this page:
+There are four snippets to embed for this page:
 
 {{<toc >}}
 
+<!-- 
 ## Headline Seats Display
 
 {{< html-demo >}}
@@ -15,7 +16,8 @@ There are five snippets to embed for this page:
     src="https://pjpscriv.co.nz/obs-embed/nz-2026-election-seats-only/"
     style="width: 100%; border: 0;">
 </iframe>
-{{< /html-demo >}}
+{{< /html-demo >}}'
+ -->
 
 ## Overall Results
 

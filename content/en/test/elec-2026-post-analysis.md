@@ -4,10 +4,9 @@ date: 2026-09-16
 unlisted: true
 ---
 
+Three snippets for this page.
 
-**Post-election Analysis**
-- Candidate votes by electorate type
-- Party Vote (Relative Lean)
+{{<toc >}}
 
 
 ## Candidate Votes by Electorate Type
