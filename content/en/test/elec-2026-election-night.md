@@ -17,6 +17,14 @@ There are five snippets to embed for this page:
 </iframe>
 {{< /html-demo >}}
 
+## Overall Results
+
+{{< html-demo >}}
+<iframe
+    src="https://pjpscriv.co.nz/obs-embed/nz-2026-election-the-results/"
+    style="width: 100%; border: 0;">
+</iframe>
+{{< /html-demo >}}
 
 ## Candidate Votes Map
 
@@ -32,15 +40,6 @@ There are five snippets to embed for this page:
 {{< html-demo >}}
 <iframe
     src="https://pjpscriv.co.nz/obs-embed/nz-2026-election-party-votes/"
-    style="width: 100%; border: 0;">
-</iframe>
-{{< /html-demo >}}
-
-## Resulting Seat Diagram
-
-{{< html-demo >}}
-<iframe
-    src="https://pjpscriv.co.nz/obs-embed/nz-2026-election-the-results/"
     style="width: 100%; border: 0;">
 </iframe>
 {{< /html-demo >}}
