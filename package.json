@@ -2,8 +2,8 @@
   "name": "pjpscriv.co.nz",
   "description": "Peter's personal website",
   "scripts": {
-    "start": "hugo server --noHTTPCache",
-    "build": "hugo && npm run format:public",
+    "start": "node scripts/run-hugo.js server --noHTTPCache",
+    "build": "node scripts/run-hugo.js && npm run format:public",
     "format:public": "prettier --ignore-path .prettierignore --write \"public/**/*.html\"",
     "lint:css": "stylelint \"**/*.css\"",
     "lint:css:fix": "stylelint \"**/*.css\" --fix",

@@ -43,6 +43,19 @@
       {{ i18n "footer.code_on" }} <a href="{{- $viewLink -}}" target="_blank" rel="noopener noreferrer">GitHub</a>
       {{ if $editLink }} • ✏️<a href="{{- $editLink -}}">{{ i18n "footer.edit"}}</a>{{ end }}
     </p>
+    {{- with getenv "HUGO_GIT_COMMIT" }}
+      {{- $buildTime := getenv "HUGO_BUILD_TIME" -}}
+      {{- $buildTimeZone := getenv "HUGO_BUILD_TIME_ZONE" -}}
+      {{- if eq $.Language.Lang "fr" -}}
+        {{- $buildTime = getenv "HUGO_BUILD_TIME_FR" -}}
+        {{- $buildTimeZone = getenv "HUGO_BUILD_TIME_FR_ZONE" -}}
+      {{- end }}
+      <p class="footer__last-deploy">
+        {{ i18n "footer.last_deploy" }}: {{ $buildTime }}
+        <a href="{{ getenv "HUGO_TZ_LINK" }}" target="_blank" rel="noopener noreferrer">{{ $buildTimeZone }}</a> •
+        <a href="{{ $githubBase }}/commits/" target="_blank" rel="noopener noreferrer">{{ printf "%.7s" . }}</a>
+      </p>
+    {{- end }}
   </div>
   <div class="footer__sitemap">
     <div class="footer__sitemap-group">
