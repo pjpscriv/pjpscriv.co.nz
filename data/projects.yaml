@@ -80,8 +80,8 @@ projects:
         label: "website"
     skills: [ "typescript", "python", "flask", "cloud_run", "firestore" ]
     featured: true
-    img_light: "/img/projects/dotmatch-lol-light.jpg"
-    img_dark: "/img/projects/dotmatch-lol-dark.jpg"
+    img_light: "/img/projects/dotmatch-light.jpg"
+    img_dark: "/img/projects/dotmatch-dark.jpg"
 
   - id: "wet_bulb_calculator"
     period: "2023"
@@ -92,8 +92,8 @@ projects:
         label: "github"
     skills: [ "angular", "chroma_js" ]
     featured: false
-    img_light: "/img/projects/wet-bulb-light.jpg"
-    img_dark: "/img/projects/wet-bulb-dark.jpg"
+    img_light: "/img/projects/wet-bulb-calculator-light.jpg"
+    img_dark: "/img/projects/wet-bulb-calculator-dark.jpg"
 
   - id: "emoji_imager"
     period: "2023"
@@ -113,8 +113,8 @@ projects:
         label: "github"
     skills: [ "angular", "google_maps_api" ]
     featured: true
-    img_light: "/img/projects/day.jpg"
-    img_dark: "/img/projects/day.jpg"
+    img_light: "/img/projects/day-light.jpg"
+    img_dark: "/img/projects/day-dark.jpg"
 
   - id: "advent_of_code_2022"
     title: "Advent of Code 2022"

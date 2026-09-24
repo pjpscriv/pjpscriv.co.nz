@@ -1,9 +1,13 @@
 #!/usr/bin/env node
 
 const { chromium } = require('playwright');
+const sharp = require('sharp');
 const fs = require('fs');
 const path = require('path');
 const readline = require('readline');
+
+// Width (px) that the site displays project screenshots at
+const THUMBNAIL_WIDTH = 225;
 
 // Parse command line arguments and return config object
 function parseCommandLineArgs() {
@@ -23,16 +27,26 @@ function parseCommandLineArgs() {
 }
 
 
-// Generate filename based on URL
-function generateFilename(url, isDarkMode) {
+// Generate base filename (no extension) based on URL
+function generateBaseFilename(url, isDarkMode) {
   try {
     const urlObj = new URL(url);
     let name;
-    
-    if (urlObj.hostname.includes('pjpscriv.co.nz')) {
-      // For pjpscriv.co.nznz, use the first level route after '/'
-      const pathParts = urlObj.pathname.split('/').filter(part => part.length > 0);
-      name = pathParts.length > 0 ? pathParts[0] : 'home';
+
+    const ownDomains = ['pjpscriv.co.nz', 'pjpscriv.github.io'];
+    const ownDomain = ownDomains.find(domain => urlObj.hostname === domain || urlObj.hostname.endsWith(`.${domain}`));
+
+    if (ownDomain) {
+      // Projects hosted on a subdomain (e.g. dotmatch.pjpscriv.co.nz) use the subdomain
+      const subdomain = urlObj.hostname.slice(0, -ownDomain.length).replace(/\.$/, '');
+
+      if (subdomain && subdomain !== 'www') {
+        name = subdomain;
+      } else {
+        // Otherwise, use the first level route after '/'
+        const pathParts = urlObj.pathname.split('/').filter(part => part.length > 0);
+        name = pathParts.length > 0 ? pathParts[0] : 'home';
+      }
     } else {
       // For other domains, use the domain name
       name = urlObj.hostname;
@@ -45,7 +59,7 @@ function generateFilename(url, isDarkMode) {
     name = name.replace(/-+/g, '-').replace(/^-|-$/g, '');
     
     const mode = isDarkMode ? 'dark' : 'light';
-    return `${name}-${mode}.jpg`;
+    return `${name}-${mode}`;
   } catch (error) {
     console.error('Invalid URL provided:', url);
     process.exit(1);
@@ -120,27 +134,37 @@ async function takeScreenshot() {
       `
     });
     
-    // Generate filename
-    const filename = generateFilename(url, darkMode);
-    const screenshotPath = path.join(__dirname, 'static', 'img', 'projects', filename);
-    
+    // Generate filenames
+    const baseFilename = generateBaseFilename(url, darkMode);
+    const dir = path.join(__dirname, '..', 'static', 'img', 'projects');
+    const fullSizePath = path.join(dir, `${baseFilename}-full.jpg`);
+    const thumbnailPath = path.join(dir, `${baseFilename}.jpg`);
+
     // Ensure the directory exists
-    const dir = path.dirname(screenshotPath);
     if (!fs.existsSync(dir)) {
       fs.mkdirSync(dir, { recursive: true });
     }
-    
-    // Take screenshot
+
+    // Take full-size screenshot
     console.log('Taking screenshot...');
-    await page.screenshot({ 
-      path: screenshotPath, 
+    await page.screenshot({
+      path: fullSizePath,
       type: 'jpeg',
       quality: 90,
       fullPage: false  // Only capture the viewport
     });
-    
-    console.log(`✅ Screenshot saved to: ${screenshotPath}`);
-    
+
+    console.log(`✅ Full-size screenshot saved to: ${fullSizePath}`);
+
+    // Generate a shrunk thumbnail from the full-size screenshot
+    console.log(`Generating ${THUMBNAIL_WIDTH}px-wide thumbnail...`);
+    await sharp(fullSizePath)
+      .resize({ width: THUMBNAIL_WIDTH })
+      .jpeg({ quality: 90 })
+      .toFile(thumbnailPath);
+
+    console.log(`✅ Thumbnail saved to: ${thumbnailPath}`);
+
   } catch (error) {
     console.error('Error taking screenshot:', error);
   } finally {
