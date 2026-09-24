@@ -1,19 +1,19 @@
 identity:
   first_name: "Peter"
   last_name: "Scriven"
-  title: "Développeur de logiciels"
+  title: "Développeur logiciel"
   city: "Montréal, QC, Canada"
   download_pdf: "Télécharger le PDF"
 
 contacts:
   - label: "linkedin.com/in/pjpscriv"
-    url: "https://linkedin.com/in/pjpscriv"
+    url: "https://www.linkedin.com/in/pjpscriv/?locale=fr-FR"
     icon: "linkedin.svg"
   - label: "github.com/pjpscriv"
     url: "https://github.com/pjpscriv"
     icon: "github.svg"
   - label: "pjpscriv.co.nz"
-    url: "https://pjpscriv.co.nz"
+    url: "https://pjpscriv.co.nz/fr/"
     icon: "globe_fill_400.svg"
   - label: "pjpscriv@gmail.com"
     url: "mailto:pjpscriv@gmail.com"
