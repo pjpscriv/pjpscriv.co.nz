@@ -105,14 +105,14 @@
   background-size: 100% 0.9px;
 }
 
-@media screen and (width <= 768px) {
+@media screen and (max-width: 768px) {
   .projects-table th,
   .projects-table td {
     padding: 8px 4px;
   }
 }
 
-@media screen and (width <= 576px) {
+@media screen and (max-width: 576px) {
   .projects-table {
     font-size: 0.9em;
   }

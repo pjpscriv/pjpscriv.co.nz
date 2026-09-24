@@ -106,7 +106,7 @@ header .icon-link:hover svg .gradient-end {
 }
 
 /* Mobile Styles */
-@media screen and (width <= 576px) {
+@media screen and (max-width: 576px) {
   #menu-toggle {
     display: block;
   }

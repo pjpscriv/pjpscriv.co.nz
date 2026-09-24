@@ -20,7 +20,7 @@
   grid-template: "icon title period" auto / auto auto 1fr;
 }
 
-@media (width <= 450px) {
+@media (max-width: 450px) {
   .experience__head {
     grid-template: "icon period" auto "title title" auto / auto 1fr;
   }
