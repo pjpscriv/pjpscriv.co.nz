@@ -16,6 +16,10 @@ footer p {
   opacity: 0.5;
 }
 
+.footer__last-deploy {
+  opacity: 0.3;
+}
+
 .footer__links {
   display: flex;
   flex-direction: column;
