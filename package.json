@@ -8,6 +8,7 @@
     "lint:css": "stylelint \"**/*.css\"",
     "lint:css:fix": "stylelint \"**/*.css\" --fix",
     "print:cv": "node scripts/print-cv.js",
+    "fonts:fetch": "node scripts/fetch-fonts.js",
     "validate:html": "node scripts/validate-html.js",
     "screenshot": "node scripts/screenshot.js --mode light",
     "screenshot:dark": "node scripts/screenshot.js --mode dark"

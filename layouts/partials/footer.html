@@ -17,56 +17,59 @@
 {{- end -}}
 
 <footer>
-  <div class="footer__links">
-    <ul class="social-links">
-      {{- $lang := .Language.Lang -}}
-      {{- $langSocial := index .Site.Data $lang "social" -}}
-      {{- range .Site.Data.social }}
-      <li>
-        {{- $Url := .url -}}
-        {{- $Description := .title -}}
-        {{- if .id -}}
-          {{- with index $langSocial .id -}}
-            {{- with .url -}}{{- $Url = . -}}{{- end -}}
-            {{- with .description -}}{{- $Description = . -}}{{- end -}}
-          {{- end -}}
-        {{- end }}
-        <a class="icon-link" href="{{- $Url -}}" aria-label="{{- $Description -}}" target="_blank" {{ if eq .title "Mastodon" }}rel="me"{{ end }}>
-          {{ .svg | safeHTML }}
-        </a>
-      </li>
-      {{- end -}}
-    </ul>
-    <p>© <span id="copyright-year">{{ now.Year }}</span> {{ .Site.Title }} • 💻🌱</p>
-    <p>
-      {{- i18n "footer.powered_by" -}} <a href="https://gohugo.io" target="_blank">Hugo</a> • 
-      {{ i18n "footer.code_on" }} <a href="{{- $viewLink -}}" target="_blank" rel="noopener noreferrer">GitHub</a>
-      {{ if $editLink }} • ✏️<a href="{{- $editLink -}}">{{ i18n "footer.edit"}}</a>{{ end }}
-    </p>
-    {{- with getenv "HUGO_GIT_COMMIT" }}
-      {{- $buildTime := getenv "HUGO_BUILD_TIME" -}}
-      {{- $buildTimeZone := getenv "HUGO_BUILD_TIME_ZONE" -}}
-      {{- if eq $.Language.Lang "fr" -}}
-        {{- $buildTime = getenv "HUGO_BUILD_TIME_FR" -}}
-        {{- $buildTimeZone = getenv "HUGO_BUILD_TIME_FR_ZONE" -}}
-      {{- end }}
-      <p class="footer__last-deploy">
-        {{ i18n "footer.last_deploy" }}: {{ $buildTime }}
-        <a href="{{ getenv "HUGO_TZ_LINK" }}" target="_blank" rel="noopener noreferrer">{{ $buildTimeZone }}</a> •
-        <a href="{{ $githubBase }}/commits/" target="_blank" rel="noopener noreferrer">{{ printf "%.7s" . }}</a>
+  <div class="footer__top">
+    <div class="footer__links">
+      <ul class="social-links">
+        {{- $lang := .Language.Lang -}}
+        {{- $langSocial := index .Site.Data $lang "social" -}}
+        {{- range .Site.Data.social }}
+        <li>
+          {{- $Url := .url -}}
+          {{- $Description := .title -}}
+          {{- if .id -}}
+            {{- with index $langSocial .id -}}
+              {{- with .url -}}{{- $Url = . -}}{{- end -}}
+              {{- with .description -}}{{- $Description = . -}}{{- end -}}
+            {{- end -}}
+          {{- end }}
+          <a class="icon-link" href="{{- $Url -}}" aria-label="{{- $Description -}}" target="_blank" {{ if eq .title "Mastodon" }}rel="me"{{ end }}>
+            {{ .svg | safeHTML }}
+          </a>
+        </li>
+        {{- end -}}
+      </ul>
+      <p>© <span id="copyright-year">{{ now.Year }}</span> {{ .Site.Title }} • 💻🌱</p>
+      <p>
+        {{- i18n "footer.powered_by" -}} <a href="https://gohugo.io" target="_blank">Hugo</a> •
+        {{ i18n "footer.code_on" }} <a href="{{- $viewLink -}}" target="_blank" rel="noopener noreferrer">GitHub</a>
+        {{ if $editLink }} • ✏️<a href="{{- $editLink -}}">{{ i18n "footer.edit"}}</a>{{ end }}
       </p>
+    </div>
+    <div class="footer__sitemap">
+      <div class="footer__sitemap-group">
+        <p><a href="{{- `now` | relLangURL -}}">{{- i18n "nav.now" -}}</a></p>
+        <p><a href="{{- `about` | relLangURL -}}">{{- i18n "nav.about" -}}</a></p>
+        <p><a href="{{- `projects` | relLangURL -}}">{{- i18n "nav.projects" -}}</a></p>
+      </div>
+      <div class="footer__sitemap-group">
+        <p><a href="{{- `data-viz` | relLangURL -}}">{{- i18n "nav.data-viz" -}}</a></p>
+        <p><a href="{{- `admiration` | relLangURL -}}">{{- i18n "nav.admiration" -}}</a></p>
+        <p><a href="{{- `garden` | relLangURL -}}">{{- i18n "nav.garden" -}}</a></p>
+      </div>
+    </div>
+  </div>
+  {{- with getenv "HUGO_GIT_COMMIT" }}
+    {{- $buildTime := getenv "HUGO_BUILD_TIME" -}}
+    {{- $buildTimeZone := getenv "HUGO_BUILD_TIME_ZONE" -}}
+    {{- if eq $.Language.Lang "fr" -}}
+      {{- $buildTime = getenv "HUGO_BUILD_TIME_FR" -}}
+      {{- $buildTimeZone = getenv "HUGO_BUILD_TIME_FR_ZONE" -}}
     {{- end }}
-  </div>
-  <div class="footer__sitemap">
-    <div class="footer__sitemap-group">
-      <p><a href="{{- `now` | relLangURL -}}">{{- i18n "nav.now" -}}</a></p>
-      <p><a href="{{- `about` | relLangURL -}}">{{- i18n "nav.about" -}}</a></p>
-      <p><a href="{{- `projects` | relLangURL -}}">{{- i18n "nav.projects" -}}</a></p>
-    </div>
-    <div class="footer__sitemap-group">
-      <p><a href="{{- `data-viz` | relLangURL -}}">{{- i18n "nav.data-viz" -}}</a></p>
-      <p><a href="{{- `admiration` | relLangURL -}}">{{- i18n "nav.admiration" -}}</a></p>
-      <p><a href="{{- `garden` | relLangURL -}}">{{- i18n "nav.garden" -}}</a></p>
-    </div>
-  </div>
+    <p class="footer__last-deploy">
+      {{ i18n "footer.last_deploy" }}:
+      <a href="{{ $githubBase }}/commit/{{ . }}" target="_blank" rel="noopener noreferrer">{{ printf "%.7s" . }}</a> •
+      {{ $buildTime }}
+      <a href='{{ getenv "HUGO_TZ_LINK" }}' target="_blank" rel="noopener noreferrer">{{ $buildTimeZone }}</a>
+    </p>
+  {{- end }}
 </footer>

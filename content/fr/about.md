@@ -25,7 +25,7 @@ Mon expérience d'éducation et travail. Pour plus de détails, [voyez mon CV](/
 
 Ce site est construit avec [Hugo](https://gohugo.io) et hébergé sur [GitHub Pages](https://docs.github.com/fr/pages). Le code est déployé via GitHub Actions, en utilisant [cette action de build](https://github.com/marketplace/actions/hugo-setup) et [cette action de deploy](https://github.com/marketplace/actions/github-pages-action). Le code source est hébergé sur [GitHub](https://github.com/pjpscriv/pjpscriv.co.nz).
 
-J'utilise les polices [Open Sans](https://fonts.google.com/specimen/Open+Sans) pour le texte et [Raleway](https://fonts.google.com/specimen/Raleway) pour les titres.
+J'utilise les polices [Open Sans](https://fonts.google.com/specimen/Open+Sans) pour le texte et les titres, et [Raleway](https://fonts.google.com/specimen/Raleway) pour mon nom en haut de la page d'accueil.
 
 Le nom de domaine a été acheté et est géré via [Hover](https://www.hover.com).
 

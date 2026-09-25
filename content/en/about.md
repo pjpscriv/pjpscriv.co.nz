@@ -24,7 +24,7 @@ A bit of my work/education history. For more detail [see my CV](/cv).
 
 This site is built with [Hugo](https://gohugo.io) and hosted on [GitHub Pages](https://pages.github.com). The code is deployed through GitHub Actions using [this build action](https://github.com/marketplace/actions/hugo-setup), and [this deploy action](https://github.com/marketplace/actions/github-pages-action). The source code is hosted on [GitHub](https://github.com/pjpscriv/pjpscriv.co.nz).
 
-I use the typefaces [Open Sans](https://fonts.google.com/specimen/Open+Sans) for text and [Raleway](https://fonts.google.com/specimen/Raleway) for titles.
+I use the typefaces [Open Sans](https://fonts.google.com/specimen/Open+Sans) for text and headings, and [Raleway](https://fonts.google.com/specimen/Raleway) for my name at the top of the homepage.
 
 The domain name was bought and is managed through [Hover](https://www.hover.com).
 
