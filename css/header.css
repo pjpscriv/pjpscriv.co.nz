@@ -26,6 +26,7 @@ header {
 .header__links {
   display: flex;
   gap: 1em;
+  text-wrap: nowrap;
 }
 
 header .icon-link {

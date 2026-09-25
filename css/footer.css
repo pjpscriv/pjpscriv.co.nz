@@ -1,11 +1,9 @@
 /**************** Footer ****************/
 footer {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
   padding-top: 6em;
-  padding-bottom: 3em;
+  padding-bottom: 1em;
 }
 
 footer p {
@@ -16,7 +14,17 @@ footer p {
   opacity: 0.5;
 }
 
+.footer__top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .footer__last-deploy {
+  margin-top: 2em;
+  margin-bottom: 0;
+  text-align: center;
   opacity: 0.3;
 }
 
@@ -85,7 +93,7 @@ footer p {
 }
 
 @media screen and (max-width: 576px) {
-  footer {
+  .footer__top {
     flex-direction: column;
     text-align: center;
     gap: 2em;
