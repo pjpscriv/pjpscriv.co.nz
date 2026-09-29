@@ -1,7 +1,7 @@
 ---
 title: Admiration
 url: admiration
-updated: 2026-04-17
+updated: 2026-09-28
 ---
 
 ## Globally
@@ -9,13 +9,13 @@ updated: 2026-04-17
 People from around the world who's work I admire. For the most part, a mix of software development, data viz and design. 
 
 - [Sarah Drasner](https://sarah.dev)
-- [Tom Macwright](https://macwright.com)
+- [Scott Hanselman](https://hanselman.com)
 - [Maggie Appleton](https://maggieappleton.com)
-- [Dan Abramov](https://danabra.mov)
+- [Tom Macwright](https://macwright.com)
 - [Amelia Wattenberger](https://wattenberger.com)
-- [Josh Comeau](https://www.joshwcomeau.com)
+- [Dan Abramov](https://danabra.mov)
 - [Stephanie Tuerk](https://stephanietuerk.net)
-- [Evan Peck](https://evanpeck.github.io)
+- [Josh Comeau](https://www.joshwcomeau.com)
 - [Charity Majors](https://charity.wtf)
 - [Tyler Fisher](https://tylerjfisher.com)
 - [Owen Lacy](https://owenlacey.dev)
