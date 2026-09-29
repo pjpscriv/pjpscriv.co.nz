@@ -23,6 +23,9 @@ Except it's me, I'm the LLM.
   - [x] French version too 
 - [x] Add script to convert CV page to PDF
 - [x] Add PDF CVs
+- [x] Add a business card page (en + fr)
+  - [x] Create an export-to-business-card- pdf script
+  - [x] Run script
 
 
 ### Later

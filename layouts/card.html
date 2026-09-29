@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="{{ .Language.Lang }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Card • Peter Scriven</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/fonts.css">
+
+  <meta property="og:title" content="Business Card • Peter Scriven" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
+    :root {
+      --card-bg:        #fff;
+      --card-text:      #222;
+      --card-text-muted: #555;
+      --page-bg:        #fff;
+      --page-text-muted: #555;
+    }
+
+    body.dark-mode {
+      --page-bg:        #222;
+      --page-text-muted: #aaa;
+    }
+
+    @page {
+      size: 3.5in 2in;
+      margin: 0;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Josefin Sans', sans-serif;
+      background-color: var(--page-bg);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 2rem 1rem;
+      transition: background-color 0.2s ease;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* ── Card ── */
+    .card {
+      width: 3.5in;
+      height: 2in;
+      background-color: var(--card-bg);
+      color: var(--card-text);
+      box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.18);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6mm;
+      padding: 4.5mm;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+
+    .card-qr {
+      flex: 0 0 auto;
+      width: 34mm;
+      height: 34mm;
+      image-rendering: pixelated;
+    }
+
+    .card-info {
+      flex: 0 1 auto;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .card-name {
+      font-family: 'Raleway', sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 5mm;
+      line-height: 1.15;
+      margin: 0 0 1mm;
+    }
+
+    .card-title {
+      font-size: 3mm;
+      color: var(--card-text-muted);
+      margin: 0 0 3mm;
+    }
+
+    .card-contacts {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 1.3mm;
+    }
+
+    .card-contacts li {
+      display: flex;
+      align-items: center;
+      gap: 1.5mm;
+      max-width: 100%;
+    }
+
+    .card-contacts a {
+      display: flex;
+      align-items: center;
+      gap: 1.5mm;
+      max-width: 100%;
+      font-size: 2.6mm;
+      line-height: 1.2;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .card-contacts svg {
+      width: 3mm;
+      height: 3mm;
+      flex-shrink: 0;
+      fill: currentColor;
+    }
+
+    .download-link {
+      font-size: 0.85rem;
+      color: var(--page-text-muted);
+    }
+
+    .download-link a {
+      text-decoration: underline;
+    }
+
+    @media print {
+      body {
+        background-color: transparent;
+        padding: 0;
+        gap: 0;
+        min-height: auto;
+      }
+
+      .card {
+        box-shadow: none;
+      }
+
+      .download-link {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  {{ partial "dark-mode.html" . }}
+
+  {{- $lang := .Language.Lang -}}
+  {{- $cv := index .Site.Data $lang "cv" -}}
+
+  <div class="card">
+    <img class="card-qr" src="/img/qr/{{ $lang }}.png" alt="{{ printf "%s.co.nz QR code" "pjpscriv" }}">
+    <div class="card-info">
+      <h1 class="card-name">{{ $cv.identity.first_name }} {{ $cv.identity.last_name }}</h1>
+      <p class="card-title">{{ $cv.identity.title }}</p>
+      <ul class="card-contacts">
+        {{- range $cv.contacts }}
+        {{- if ne .icon "globe_fill_400.svg" }}
+        <li>
+          <a href="{{ .url | safeURL }}">
+            {{- readFile (printf "static/img/icons/%s" .icon) | safeHTML -}}
+            {{ .label }}
+          </a>
+        </li>
+        {{- end }}
+        {{- end }}
+      </ul>
+    </div>
+  </div>
+
+  <p class="download-link">
+    <a href="/{{ if ne $lang "en" }}{{ $lang }}/{{ end }}card.pdf" download="{{ printf "pjpscriv-card.%s.pdf" $lang }}">
+      {{ $cv.identity.download_pdf }}
+    </a>
+  </p>
+</body>
+</html>
