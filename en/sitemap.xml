@@ -273,6 +273,18 @@
                 href="https://pjpscriv.co.nz/admiration/"
                 />
   </url><url>
+    <loc>https://pjpscriv.co.nz/card/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pjpscriv.co.nz/fr/card/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pjpscriv.co.nz/card/"
+                />
+  </url><url>
     <loc>https://pjpscriv.co.nz/categories/</loc>
     <xhtml:link
                 rel="alternate"

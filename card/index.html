@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business Card • Peter Scriven</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+
+    <meta property="og:title" content="Business Card • Peter Scriven" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://pjpscriv.co.nz/card/" />
+    <meta property="og:site_name" content="Peter Scriven" />
+
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      :root {
+        --card-bg: #fff;
+        --card-text: #222;
+        --card-text-muted: #555;
+        --page-bg: #fff;
+        --page-text-muted: #555;
+      }
+
+      body.dark-mode {
+        --page-bg: #222;
+        --page-text-muted: #aaa;
+      }
+
+      @page {
+        size: 3.5in 2in;
+        margin: 0;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        background-color: var(--page-bg);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        padding: 2rem 1rem;
+        transition: background-color 0.2s ease;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .card {
+        width: 3.5in;
+        height: 2in;
+        background-color: var(--card-bg);
+        color: var(--card-text);
+        box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.18);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6mm;
+        padding: 4.5mm;
+        overflow: hidden;
+        flex-shrink: 0;
+      }
+
+      .card-qr {
+        flex: 0 0 auto;
+        width: 34mm;
+        height: 34mm;
+        image-rendering: pixelated;
+      }
+
+      .card-info {
+        flex: 0 1 auto;
+        min-width: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .card-name {
+        font-family: "Raleway", sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 5mm;
+        line-height: 1.15;
+        margin: 0 0 1mm;
+      }
+
+      .card-title {
+        font-size: 3mm;
+        color: var(--card-text-muted);
+        margin: 0 0 3mm;
+      }
+
+      .card-contacts {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1.3mm;
+      }
+
+      .card-contacts li {
+        display: flex;
+        align-items: center;
+        gap: 1.5mm;
+        max-width: 100%;
+      }
+
+      .card-contacts a {
+        display: flex;
+        align-items: center;
+        gap: 1.5mm;
+        max-width: 100%;
+        font-size: 2.6mm;
+        line-height: 1.2;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .card-contacts svg {
+        width: 3mm;
+        height: 3mm;
+        flex-shrink: 0;
+        fill: currentColor;
+      }
+
+      .download-link {
+        font-size: 0.85rem;
+        color: var(--page-text-muted);
+      }
+
+      .download-link a {
+        text-decoration: underline;
+      }
+
+      @media print {
+        body {
+          background-color: transparent;
+          padding: 0;
+          gap: 0;
+          min-height: auto;
+        }
+
+        .card {
+          box-shadow: none;
+        }
+
+        .download-link {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      const DARK_MODE_CLASS = "dark-mode";
+      const LOCAL_STORAGE_KEY = "dark-mode-enabled";
+      const DARK_MODE_EXPIRY_TIME = 4 * 60 * 60;
+
+      function getLocalStorageDarkModePref() {
+        const storedDataRaw = localStorage.getItem(LOCAL_STORAGE_KEY);
+        if (!storedDataRaw) {
+          return null;
+        }
+        try {
+          const data = JSON.parse(storedDataRaw);
+          if (typeof data === "object" && data !== null && "darkMode" in data && "savedAt" in data) {
+            const now = Math.floor(Date.now() / 1000);
+            if (now - data.savedAt <= DARK_MODE_EXPIRY_TIME) {
+              return data.darkMode;
+            } else {
+              localStorage.removeItem(LOCAL_STORAGE_KEY);
+              return null;
+            }
+          }
+        } catch (e) {
+          console.error("Error reading dark mode preference from localStorage:", e);
+          localStorage.removeItem(LOCAL_STORAGE_KEY);
+          return null;
+        }
+      }
+
+      const localStoragePref = getLocalStorageDarkModePref();
+      const browserColorPref = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      const darkModeEnabled = localStoragePref === null ? browserColorPref : localStoragePref;
+      if (darkModeEnabled) {
+        document.body.classList.add(DARK_MODE_CLASS);
+      }
+
+      window.addEventListener("load", () => {
+        document.body.style.transition = "color 0.2s ease, background-color 0.2s ease";
+      });
+
+      window.addEventListener("storage", (e) => {
+        if (e.key !== LOCAL_STORAGE_KEY) return;
+        const pref = getLocalStorageDarkModePref();
+        const enabled = pref === null ? window.matchMedia("(prefers-color-scheme: dark)").matches : pref;
+        document.body.classList.toggle(DARK_MODE_CLASS, enabled);
+      });
+    </script>
+    <div class="card">
+      <img class="card-qr" src="/img/qr/en.png" alt="pjpscriv.co.nz QR code" />
+      <div class="card-info">
+        <h1 class="card-name">Peter Scriven</h1>
+        <p class="card-title">Software Developer</p>
+        <ul class="card-contacts">
+          <li>
+            <a href="https://linkedin.com/in/pjpscriv">
+              <svg role="img" viewBox="0 0 24 24" width="24" height="24" fill="#000000">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M19.9441 19.9445H16.6795V14.384C16.6795 12.8595 16.1002 12.0075 14.8935 12.0075C13.5808 12.0075 12.895 12.8941 12.895 14.384V19.9445H9.74878V9.35186H12.895V10.7787C12.895 10.7787 13.841 9.02824 16.0888 9.02824C18.3356 9.02824 19.9441 10.4003 19.9441 13.2379V19.9445ZM5.99534 7.96485C4.92366 7.96485 4.05526 7.08963 4.05526 6.01021C4.05526 4.93079 4.92366 4.05556 5.99534 4.05556C7.06701 4.05556 7.9349 4.93079 7.9349 6.01021C7.9349 7.08963 7.06701 7.96485 5.99534 7.96485ZM4.37076 19.9445H7.65146V9.35186H4.37076V19.9445ZM3.44444 23H20.5556C21.9056 23 23 21.9056 23 20.5556V3.44444C23 2.09441 21.9056 1 20.5556 1H3.44444C2.09441 1 1 2.09441 1 3.44444V20.5556C1 21.9056 2.09441 23 3.44444 23Z" />
+              </svg>
+              linkedin.com/in/pjpscriv
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/pjpscriv">
+              <svg role="img" viewBox="0 0 24 24" width="24" height="24" fill="#000000">
+                <path
+                  d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+              </svg>
+              github.com/pjpscriv
+            </a>
+          </li>
+          <li>
+            <a href="mailto:pjpscriv@gmail.com">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000">
+                <path
+                  d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm330.5-288.5Q496-450 501-453l283-177q8-5 12-12.5t4-16.5q0-20-17-30t-35 1L480-520 212-688q-18-11-35-.5T160-659q0 10 4 17.5t12 11.5l283 177q5 3 10.5 4.5T480-447q5 0 10.5-1.5Z" />
+              </svg>
+              pjpscriv@gmail.com
+            </a>
+          </li>
+          <li>
+            <a href="tel:&#43;12633620408">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000">
+                <path
+                  d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12Z" />
+              </svg>
+              &#43;1 (263) 362 0408
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="download-link">
+      <a href="/card.pdf" download="pjpscriv-card.en.pdf">Download PDF</a>
+    </p>
+  </body>
+</html>
