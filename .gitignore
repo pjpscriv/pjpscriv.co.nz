@@ -4,6 +4,9 @@
 # Dunno what this is but don't need?
 .hugo_build.lock
 
+# OG test images
+/og-test/
+
 # Node modules
 /node_modules/
 

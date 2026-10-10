@@ -30,15 +30,5 @@
   {{- with .Store.Get "pageCSS" -}}
     {{ . | safeHTML }}
   {{- end }}
-  {{/* TODO: Add proper social media link tags */ -}}
-  {{/* Essential META Tags */ -}}
-  <meta property="og:title" content="{{- $title -}}">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{- .Permalink -}}">
-  {{/* <meta property="og:image" content="IMAGE_HERE"> */ -}}
-  {{/* <meta name="twitter:card" content="summary_large_image"> */ -}}
-  {{/* <meta name="twitter:image:alt" content="IMAGE_ALT_DESCRIPTION_HERE"> */ -}}
-  {{/* Non-Essential, But Recommended */ -}}
-  {{/* <meta property="og:description" content=""> */ -}}
-  <meta property="og:site_name" content="{{- .Site.Title -}}">
+  {{- partial "og-meta.html" . }}
 </head>

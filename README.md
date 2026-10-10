@@ -32,6 +32,12 @@ npm run lint:css:fix
 This also gives in-IDE linting for VS Code if you have the [Stylelint extension](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) installed.
 
 
+### OG images
+
+Each page gets a social share image. Generated at build time by [Satori](https://github.com/vercel/satori) and sharp.
+
+See [scripts/og/README.md](scripts/og/README.md) for more info.
+
 ## Deployment
 
 The website is deployed to [GitHub Pages](https://pages.github.com) via [@peaceiris/actions-hugo](https://github.com/peaceiris/actions-hugo).

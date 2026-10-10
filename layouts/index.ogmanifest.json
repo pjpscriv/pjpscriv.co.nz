@@ -1,0 +1,85 @@
+{{- /*
+  Read by scripts/og/generate-og.js (and check-og.js). One file per language:
+
+    { "site":  data shared by every card (name, domain, tagline, plus the CV and business card data),
+      "pages": every page on the site, with what the generator needs to render it }
+
+  This only supplies data. Which pages get an image (and which card template they use) is decided in
+  scripts/og/generate-og.js and scripts/og/card-type.js, using each page's `kind`, `section` and `path`.
+*/ -}}
+{{- $cv := index .Site.Data .Language.Lang "cv" -}}
+
+{{- /* Contact links for the CV card (all of them) and the business card (everything but the globe, as on layouts/card.html) */ -}}
+{{- $cvContacts := slice -}}
+{{- $cardContacts := slice -}}
+{{- range $cv.contacts -}}
+  {{- $contact := dict "label" .label "icon" .icon -}}
+  {{- $cvContacts = $cvContacts | append $contact -}}
+  {{- if ne .icon "globe_fill_400.svg" -}}
+    {{- $cardContacts = $cardContacts | append $contact -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $site := dict
+  "name" .Site.Title
+  "domain" (urls.Parse .Site.BaseURL).Host
+  "role" (i18n "intro.tagline")
+  "cv" (dict
+    "first_name" $cv.identity.first_name
+    "last_name" $cv.identity.last_name
+    "title" $cv.identity.title
+    "city" $cv.identity.city
+    "contacts" $cvContacts
+  )
+  "card" (dict
+    "name" (printf "%s %s" $cv.identity.first_name $cv.identity.last_name)
+    "title" $cv.identity.title
+    "contacts" $cardContacts
+    "qr" .Language.Lang
+  )
+-}}
+
+{{- $pages := slice -}}
+{{- range .Site.Pages -}}
+  {{- /*
+    The label above the title: the site name for pages directly under the root, otherwise the top-level
+    section the page lives in (the one just below the root), using its linkTitle if it has one (so "Data Viz
+    Gallery" can be shortened to "Data Viz"), minus any leading emoji, e.g. "🪴Garden" -> "Garden"
+  */ -}}
+  {{- $section := .FirstSection -}}
+  {{- $parent := .Site.Title -}}
+  {{- if and (not .IsHome) (not $section.IsHome) (ne $section.RelPermalink .RelPermalink) -}}
+    {{- $parent = replaceRE `^[^\p{L}\p{N}]+` "" $section.LinkTitle -}}
+  {{- end -}}
+  {{- /*
+    .Path is the page's content path, the same in every language: "/", "/cv", "/data-viz/nz-fertility"...
+    .Kind is home / page / section / taxonomy / term, and .Section is the top-level section directory.
+  */ -}}
+  {{- $entry := dict
+    "url" .RelPermalink
+    "path" .Path
+    "kind" .Kind
+    "section" .Section
+    "lang" .Language.Lang
+    "title" .Title
+    "parent" $parent
+  -}}
+  {{- if .Params.summary -}}
+    {{- $entry = merge $entry (dict "summary" .Params.summary) -}}
+  {{- end -}}
+  {{- if and .IsPage (not .Date.IsZero) -}}
+    {{- $entry = merge $entry (dict "date" (.Date | dateFormat (i18n "dateFormat"))) -}}
+  {{- end -}}
+  {{- if .Params.updated -}}
+    {{- /* "Updated: 9 Oct 2026". French puts a non-breaking space before the colon: "Mis à jour : 9 oct. 2026" */ -}}
+    {{- $colon := cond (eq .Language.Lang "fr") " :" ":" -}}
+    {{- $updated := printf "%s%s %s" (i18n "page.updated") $colon (.Params.updated | dateFormat (i18n "dateFormat")) -}}
+    {{- $entry = merge $entry (dict "updated" $updated) -}}
+  {{- end -}}
+  {{- if .Params.img -}}
+    {{- $entry = merge $entry (dict "img" .Params.img) -}}
+  {{- end -}}
+  {{- $pages = $pages | append $entry -}}
+{{- end -}}
+
+{{- dict "site" $site "pages" $pages | jsonify (dict "indent" "  ") -}}

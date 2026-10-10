@@ -36,6 +36,12 @@ defaultContentLanguage = "en"
     isPlainText = false
     rel = "alternate"
 
+  [outputFormats.ogmanifest]
+    mediaType = "application/json"
+    baseName = "og-manifest"
+    isPlainText = true
+    notAlternative = true
+
 [outputs]
-  home = ["HTML", "RSS", "feed"]
+  home = ["HTML", "RSS", "feed", "ogmanifest"]
   section = ["HTML", "RSS", "feed"]

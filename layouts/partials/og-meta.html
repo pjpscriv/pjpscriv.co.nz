@@ -1,0 +1,46 @@
+{{- /*
+  Social sharing tags (Open Graph, https://ogp.me) and the page description.
+
+  Only home, page and section kinds get them, because those are the pages scripts/og/generate-og.js makes an image
+  for (keep IMAGE_KINDS there in sync). Taxonomy listings and the 404 page get none. obs-embed pages never reach
+  this partial: they use their own layout.
+
+  The OG image sits next to the page: /post/test-one/ -> /post/test-one/og.webp. scripts/og/generate-og.js
+  writes it there, so keep the file name in sync with OG_FILENAME in that script.
+
+  Pages with a date or an `updated` value are og:type "article" and also get article:published_time /
+  article:modified_time; everything else (home, section pages, /about, cv, card...) stays "website".
+*/ -}}
+{{- if in (slice "home" "page" "section") .Kind -}}
+  {{- $title := cond .IsHome .Site.Title (printf "%s • %s" .Title .Site.Title) -}}
+  {{- $published := and .IsPage (not .Date.IsZero) -}}
+  {{- $isArticle := or $published (and .IsPage .Params.updated) -}}
+  {{- $iso := "2006-01-02T15:04:05Z07:00" -}}
+  
+  <meta property="og:title" content="{{- $title -}}">
+  <meta property="og:type" content="{{- cond $isArticle "article" "website" -}}">
+  <meta property="og:url" content="{{- .Permalink -}}">
+  <meta property="og:site_name" content="{{- .Site.Title -}}">
+
+  {{- with (or .Params.summary .Params.description) }}
+    <meta name="description" content="{{- . -}}">
+    <meta property="og:description" content="{{- . -}}">
+  {{- end }}
+  
+  <meta property="og:image" content="{{- urls.JoinPath .Permalink "og.webp" -}}">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{- .Title -}}">
+  <meta name="twitter:card" content="summary_large_image">
+  
+  {{- if $published }}
+    <meta property="article:published_time" content="{{- .Date.Format $iso -}}">
+  {{- end }}
+
+  {{- with .Params.updated }}
+    {{- if $isArticle }}
+    <meta property="article:modified_time" content="{{- (time.AsTime .).Format $iso -}}">
+    {{- end }}
+  {{- end }}
+{{- end -}}
