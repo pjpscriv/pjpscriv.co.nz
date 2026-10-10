@@ -1,0 +1,540 @@
+{
+  "pages": [
+    {
+      "date": "16 Sep 2026",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Tests",
+      "path": "/test/elec-2026-election-night",
+      "section": "test",
+      "title": "1. Election Night Results Page",
+      "url": "/test/elec-2026-election-night/"
+    },
+    {
+      "date": "16 Sep 2026",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Tests",
+      "path": "/test/elec-2026-hexmap-explainer",
+      "section": "test",
+      "title": "2. Hexmap Explainer Post",
+      "url": "/test/elec-2026-hexmap-explainer/"
+    },
+    {
+      "date": "16 Sep 2026",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Tests",
+      "path": "/test/elec-2026-post-analysis",
+      "section": "test",
+      "title": "3. Post-Election Analysis",
+      "url": "/test/elec-2026-post-analysis/"
+    },
+    {
+      "date": "16 Sep 2026",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Tests",
+      "path": "/test/iframe-2023",
+      "section": "test",
+      "title": "Iframe Test",
+      "url": "/test/iframe-2023/"
+    },
+    {
+      "date": "16 Sep 2026",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Obs-Embeds",
+      "path": "/obs-embed/nz-elec-2023",
+      "section": "obs-embed",
+      "title": "New Zealand 2023 Election Candidate Votes",
+      "url": "/obs-embed/nz-elec-2023/"
+    },
+    {
+      "date": "16 Sep 2026",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Obs-Embeds",
+      "path": "/obs-embed/nz-2026-election-candidate-votes",
+      "section": "obs-embed",
+      "title": "New Zealand 2026 Election Candidate Votes",
+      "url": "/obs-embed/nz-2026-election-candidate-votes/"
+    },
+    {
+      "date": "16 Sep 2026",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Obs-Embeds",
+      "path": "/obs-embed/nz-2026-election-candidate-votes-electorate-type",
+      "section": "obs-embed",
+      "title": "New Zealand 2026 Election Candidate Votes by Electorate Type",
+      "url": "/obs-embed/nz-2026-election-candidate-votes-electorate-type/"
+    },
+    {
+      "date": "16 Sep 2026",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Obs-Embeds",
+      "path": "/obs-embed/nz-2026-election-geo-vs-hex-map",
+      "section": "obs-embed",
+      "title": "New Zealand 2026 Election Geographic Map vs Hexmap",
+      "url": "/obs-embed/nz-2026-election-geo-vs-hex-map/"
+    },
+    {
+      "date": "16 Sep 2026",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Obs-Embeds",
+      "path": "/obs-embed/nz-2026-election-party-votes-relative-lean",
+      "section": "obs-embed",
+      "title": "New Zealand 2026 Election Party Vote (Relative Lean)",
+      "url": "/obs-embed/nz-2026-election-party-votes-relative-lean/"
+    },
+    {
+      "date": "16 Sep 2026",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Obs-Embeds",
+      "path": "/obs-embed/nz-2026-election-party-votes",
+      "section": "obs-embed",
+      "title": "New Zealand 2026 Election Party Votes",
+      "url": "/obs-embed/nz-2026-election-party-votes/"
+    },
+    {
+      "date": "16 Sep 2026",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Obs-Embeds",
+      "path": "/obs-embed/nz-2026-election-the-results",
+      "section": "obs-embed",
+      "title": "New Zealand 2026 Election Resulting Seat Diagram",
+      "url": "/obs-embed/nz-2026-election-the-results/"
+    },
+    {
+      "date": "16 Sep 2026",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Obs-Embeds",
+      "path": "/obs-embed/nz-2026-election-seats-only",
+      "section": "obs-embed",
+      "title": "New Zealand 2026 Election Seat Counts",
+      "url": "/obs-embed/nz-2026-election-seats-only/"
+    },
+    {
+      "kind": "section",
+      "lang": "en",
+      "parent": "Peter Scriven",
+      "path": "/obs-embed",
+      "section": "obs-embed",
+      "title": "Obs-Embeds",
+      "url": "/obs-embed/"
+    },
+    {
+      "date": "16 Sep 2026",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Tests",
+      "path": "/test/embed-2023",
+      "section": "test",
+      "title": "Observable Proxy Test",
+      "url": "/test/embed-2023/"
+    },
+    {
+      "kind": "home",
+      "lang": "en",
+      "parent": "Peter Scriven",
+      "path": "/",
+      "section": "",
+      "title": "Peter Scriven",
+      "url": "/"
+    },
+    {
+      "kind": "section",
+      "lang": "en",
+      "parent": "Peter Scriven",
+      "path": "/test",
+      "section": "test",
+      "title": "Tests",
+      "url": "/test/"
+    },
+    {
+      "date": "4 May 2026",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Garden",
+      "path": "/garden/french/word-class/adjectives",
+      "section": "garden",
+      "title": "Adjectives",
+      "url": "/garden/french/word-class/adjectives/"
+    },
+    {
+      "date": "4 May 2026",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Garden",
+      "path": "/garden/french/word-class/adverbs",
+      "section": "garden",
+      "title": "Adverbs",
+      "url": "/garden/french/word-class/adverbs/"
+    },
+    {
+      "kind": "section",
+      "lang": "en",
+      "parent": "Garden",
+      "path": "/garden/french",
+      "section": "garden",
+      "title": "French",
+      "updated": "Updated: 22 Apr 2026",
+      "url": "/garden/french/"
+    },
+    {
+      "kind": "section",
+      "lang": "en",
+      "parent": "Garden",
+      "path": "/garden/french/word-class",
+      "section": "garden",
+      "title": "Parts of Speech",
+      "url": "/garden/french/word-class/"
+    },
+    {
+      "kind": "section",
+      "lang": "en",
+      "parent": "Peter Scriven",
+      "path": "/garden",
+      "section": "garden",
+      "title": "🪴Garden",
+      "url": "/garden/"
+    },
+    {
+      "date": "25 Apr 2026",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Garden",
+      "path": "/garden/french/word-class/nouns",
+      "section": "garden",
+      "title": "Nouns",
+      "url": "/garden/french/word-class/nouns/"
+    },
+    {
+      "date": "22 Apr 2026",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Garden",
+      "path": "/garden/french/word-class/determinants",
+      "section": "garden",
+      "title": "Determinants",
+      "url": "/garden/french/word-class/determinants/"
+    },
+    {
+      "kind": "section",
+      "lang": "en",
+      "parent": "Peter Scriven",
+      "path": "/post",
+      "section": "post",
+      "title": "Writing",
+      "url": "/writing/"
+    },
+    {
+      "date": "5 Nov 2025",
+      "img": "nz-2026-election.jpg",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Data Viz",
+      "path": "/data-viz/nz-2026-election",
+      "section": "data-viz",
+      "title": "Aotearoa/New Zealand 2026 Electorates",
+      "url": "/data-viz/nz-2026-election/"
+    },
+    {
+      "kind": "section",
+      "lang": "en",
+      "parent": "Peter Scriven",
+      "path": "/data-viz",
+      "section": "data-viz",
+      "title": "Data Viz Gallery",
+      "url": "/data-viz/"
+    },
+    {
+      "date": "9 Sep 2025",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Writing",
+      "path": "/post/test-two",
+      "section": "post",
+      "summary": "This is the second post I've created. It contains more tests relating to code snippets and inline samples.",
+      "title": "Test Two",
+      "url": "/post/test-two/"
+    },
+    {
+      "date": "9 Sep 2025",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Writing",
+      "path": "/post/test-one",
+      "section": "post",
+      "summary": "This is the first test post I have created and this is the summary string for it.",
+      "title": "Test One",
+      "url": "/post/test-one/"
+    },
+    {
+      "date": "23 Jun 2025",
+      "img": "nz-fertility.jpg",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Data Viz",
+      "path": "/data-viz/nz-fertility",
+      "section": "data-viz",
+      "title": "New Zealand Fertility Rates",
+      "url": "/data-viz/nz-fertility/"
+    },
+    {
+      "date": "19 May 2025",
+      "img": "org-chart.jpg",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Data Viz",
+      "path": "/data-viz/org-chart",
+      "section": "data-viz",
+      "title": "Org Chart",
+      "url": "/data-viz/org-chart/"
+    },
+    {
+      "date": "25 Mar 2025",
+      "img": "welly-bus-7213.jpg",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Data Viz",
+      "path": "/data-viz/welly-bus-7213",
+      "section": "data-viz",
+      "title": "Wellington Bus Stop #7213",
+      "url": "/data-viz/welly-bus-7213/"
+    },
+    {
+      "date": "20 Mar 2025",
+      "img": "nz-2023-election.jpg",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Data Viz",
+      "path": "/data-viz/nz-2023-election",
+      "section": "data-viz",
+      "title": "2023 Aotearoa/New Zealand Electorate Hexamap",
+      "url": "/data-viz/nz-2023-election/"
+    },
+    {
+      "date": "4 Mar 2025",
+      "img": "colors-colors.jpg",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Data Viz",
+      "path": "/data-viz/colors-colors",
+      "section": "data-viz",
+      "title": "COLORSxSTUDIOS Colors",
+      "url": "/data-viz/colors-colors/"
+    },
+    {
+      "date": "1 Mar 2025",
+      "img": "google-calendar-colors.jpg",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Data Viz",
+      "path": "/data-viz/google-calendar-colors",
+      "section": "data-viz",
+      "title": "Google Calendar Colors",
+      "url": "/data-viz/google-calendar-colors/"
+    },
+    {
+      "date": "11 Jan 2025",
+      "img": "nz-average-temps.jpg",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Data Viz",
+      "path": "/data-viz/nz-average-temps",
+      "section": "data-viz",
+      "title": "NZ Average Temperatures",
+      "url": "/data-viz/nz-average-temps/"
+    },
+    {
+      "date": "22 Nov 2024",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Peter Scriven",
+      "path": "/now",
+      "section": "",
+      "title": "Now",
+      "updated": "Updated: 9 Oct 2026",
+      "url": "/now/"
+    },
+    {
+      "date": "8 Jun 2024",
+      "img": "circular-text.jpg",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Data Viz",
+      "path": "/data-viz/circular-text",
+      "section": "data-viz",
+      "title": "Curve text around circle",
+      "url": "/data-viz/circular-text/"
+    },
+    {
+      "date": "19 Sep 2023",
+      "img": "trade-me-categories.jpg",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Data Viz",
+      "path": "/data-viz/trade-me-categories",
+      "section": "data-viz",
+      "title": "The Categories of Trade Me",
+      "url": "/data-viz/trade-me-categories/"
+    },
+    {
+      "date": "17 Jun 2020",
+      "img": "aniwaniwaotearoa.jpg",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Data Viz",
+      "path": "/data-viz/aniwaniwaotearoa",
+      "section": "data-viz",
+      "title": "Āniwaniwawaotearoa",
+      "url": "/data-viz/aniwaniwaotearoa/"
+    },
+    {
+      "kind": "page",
+      "lang": "en",
+      "parent": "Peter Scriven",
+      "path": "/about",
+      "section": "",
+      "title": "About",
+      "url": "/about/"
+    },
+    {
+      "kind": "page",
+      "lang": "en",
+      "parent": "Garden",
+      "path": "/garden/admiration",
+      "section": "garden",
+      "title": "Admiration",
+      "updated": "Updated: 28 Sep 2026",
+      "url": "/admiration/"
+    },
+    {
+      "kind": "page",
+      "lang": "en",
+      "parent": "Peter Scriven",
+      "path": "/card",
+      "section": "",
+      "title": "Business Card",
+      "url": "/card/"
+    },
+    {
+      "kind": "taxonomy",
+      "lang": "en",
+      "parent": "Peter Scriven",
+      "path": "/categories",
+      "section": "categories",
+      "title": "Categories",
+      "url": "/categories/"
+    },
+    {
+      "kind": "section",
+      "lang": "en",
+      "parent": "Garden",
+      "path": "/garden/french/conjugation",
+      "section": "garden",
+      "title": "Conjugation",
+      "url": "/garden/french/conjugation/"
+    },
+    {
+      "kind": "page",
+      "lang": "en",
+      "parent": "Peter Scriven",
+      "path": "/cv",
+      "section": "",
+      "title": "CV",
+      "url": "/cv/"
+    },
+    {
+      "kind": "page",
+      "lang": "en",
+      "parent": "Peter Scriven",
+      "path": "/projects",
+      "section": "",
+      "title": "Projects",
+      "url": "/projects/"
+    },
+    {
+      "kind": "page",
+      "lang": "en",
+      "parent": "Garden",
+      "path": "/garden/french/word-class/pronouns",
+      "section": "garden",
+      "title": "Pronouns",
+      "updated": "Updated: 22 Apr 2026",
+      "url": "/garden/french/word-class/pronouns/"
+    },
+    {
+      "kind": "taxonomy",
+      "lang": "en",
+      "parent": "Peter Scriven",
+      "path": "/tags",
+      "section": "tags",
+      "title": "Tags",
+      "url": "/tags/"
+    }
+  ],
+  "site": {
+    "card": {
+      "contacts": [
+        {
+          "icon": "linkedin.svg",
+          "label": "linkedin.com/in/pjpscriv"
+        },
+        {
+          "icon": "github.svg",
+          "label": "github.com/pjpscriv"
+        },
+        {
+          "icon": "mail_fill_400.svg",
+          "label": "pjpscriv@gmail.com"
+        },
+        {
+          "icon": "phone_fill_400.svg",
+          "label": "+1 (263) 362 0408"
+        }
+      ],
+      "name": "Peter Scriven",
+      "qr": "en",
+      "title": "Software Developer"
+    },
+    "cv": {
+      "city": "Montreal, QC, Canada",
+      "contacts": [
+        {
+          "icon": "linkedin.svg",
+          "label": "linkedin.com/in/pjpscriv"
+        },
+        {
+          "icon": "github.svg",
+          "label": "github.com/pjpscriv"
+        },
+        {
+          "icon": "globe_fill_400.svg",
+          "label": "pjpscriv.co.nz"
+        },
+        {
+          "icon": "mail_fill_400.svg",
+          "label": "pjpscriv@gmail.com"
+        },
+        {
+          "icon": "phone_fill_400.svg",
+          "label": "+1 (263) 362 0408"
+        }
+      ],
+      "first_name": "Peter",
+      "last_name": "Scriven",
+      "title": "Software Developer"
+    },
+    "domain": "pjpscriv.co.nz",
+    "name": "Peter Scriven",
+    "role": "Full-Stack Software Developer"
+  }
+}

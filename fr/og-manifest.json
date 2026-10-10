@@ -1,0 +1,281 @@
+{
+  "pages": [
+    {
+      "kind": "section",
+      "lang": "fr",
+      "parent": "Jardin",
+      "path": "/garden/french/word-class",
+      "section": "garden",
+      "title": "Classes de mots",
+      "url": "/fr/garden/french/word-class/"
+    },
+    {
+      "kind": "section",
+      "lang": "fr",
+      "parent": "Jardin",
+      "path": "/garden/french",
+      "section": "garden",
+      "title": "Le Français",
+      "updated": "Mis à jour : 12 nov. 2025",
+      "url": "/fr/garden/french/"
+    },
+    {
+      "date": "11 mai 2026",
+      "kind": "page",
+      "lang": "fr",
+      "parent": "Jardin",
+      "path": "/garden/french/word-class/pronouns",
+      "section": "garden",
+      "title": "Les Pronoms",
+      "url": "/fr/garden/french/word-class/pronouns/"
+    },
+    {
+      "kind": "home",
+      "lang": "fr",
+      "parent": "Peter Scriven",
+      "path": "/",
+      "section": "",
+      "title": "Peter Scriven",
+      "url": "/fr/"
+    },
+    {
+      "kind": "section",
+      "lang": "fr",
+      "parent": "Peter Scriven",
+      "path": "/garden",
+      "section": "garden",
+      "title": "🪴Jardin",
+      "url": "/fr/garden/"
+    },
+    {
+      "date": "4 mai 2026",
+      "kind": "page",
+      "lang": "fr",
+      "parent": "Jardin",
+      "path": "/garden/french/word-class/adjectives",
+      "section": "garden",
+      "title": "Les Adjectifs",
+      "url": "/fr/garden/french/word-class/adjectives/"
+    },
+    {
+      "date": "4 mai 2026",
+      "kind": "page",
+      "lang": "fr",
+      "parent": "Jardin",
+      "path": "/garden/french/word-class/adverbs",
+      "section": "garden",
+      "title": "Les Adverbes",
+      "url": "/fr/garden/french/word-class/adverbs/"
+    },
+    {
+      "date": "25 avr. 2026",
+      "kind": "page",
+      "lang": "fr",
+      "parent": "Jardin",
+      "path": "/garden/french/word-class/nouns",
+      "section": "garden",
+      "title": "Les Noms",
+      "url": "/fr/garden/french/word-class/nouns/"
+    },
+    {
+      "date": "23 avr. 2026",
+      "kind": "page",
+      "lang": "fr",
+      "parent": "Jardin",
+      "path": "/garden/french/word-class/determinants",
+      "section": "garden",
+      "title": "Les Déterminants",
+      "url": "/fr/garden/french/word-class/determinants/"
+    },
+    {
+      "kind": "section",
+      "lang": "fr",
+      "parent": "Peter Scriven",
+      "path": "/post",
+      "section": "post",
+      "title": "Écriture",
+      "url": "/fr/writing/"
+    },
+    {
+      "date": "9 sept. 2025",
+      "kind": "page",
+      "lang": "fr",
+      "parent": "Écriture",
+      "path": "/post/test-two",
+      "section": "post",
+      "summary": "Et ici c'est le deuxieme. Ceci est le resumé.",
+      "title": "Un deuxieme test en français",
+      "url": "/fr/post/test-two/"
+    },
+    {
+      "date": "9 sept. 2025",
+      "kind": "page",
+      "lang": "fr",
+      "parent": "Écriture",
+      "path": "/post/test-one",
+      "section": "post",
+      "summary": "Voici c'est mon premier test de écritation en français.",
+      "title": "Un test en français",
+      "url": "/fr/post/test-one/"
+    },
+    {
+      "date": "22 nov. 2024",
+      "kind": "page",
+      "lang": "fr",
+      "parent": "Peter Scriven",
+      "path": "/now",
+      "section": "",
+      "title": "Maintenant",
+      "updated": "Mis à jour : 9 oct. 2026",
+      "url": "/fr/now/"
+    },
+    {
+      "kind": "page",
+      "lang": "fr",
+      "parent": "Peter Scriven",
+      "path": "/about",
+      "section": "",
+      "title": "À propos de moi",
+      "url": "/fr/about/"
+    },
+    {
+      "kind": "page",
+      "lang": "fr",
+      "parent": "Jardin",
+      "path": "/garden/admiration",
+      "section": "garden",
+      "title": "Admiration",
+      "updated": "Mis à jour : 6 nov. 2025",
+      "url": "/fr/admiration/"
+    },
+    {
+      "kind": "page",
+      "lang": "fr",
+      "parent": "Peter Scriven",
+      "path": "/card",
+      "section": "",
+      "title": "Carte de visite",
+      "url": "/fr/card/"
+    },
+    {
+      "kind": "taxonomy",
+      "lang": "fr",
+      "parent": "Peter Scriven",
+      "path": "/categories",
+      "section": "categories",
+      "title": "Categories",
+      "url": "/fr/categories/"
+    },
+    {
+      "kind": "section",
+      "lang": "fr",
+      "parent": "Jardin",
+      "path": "/garden/french/conjugation",
+      "section": "garden",
+      "title": "Conjugaison",
+      "url": "/fr/garden/french/conjugation/"
+    },
+    {
+      "kind": "page",
+      "lang": "fr",
+      "parent": "Peter Scriven",
+      "path": "/cv",
+      "section": "",
+      "title": "CV",
+      "url": "/fr/cv/"
+    },
+    {
+      "kind": "section",
+      "lang": "fr",
+      "parent": "Peter Scriven",
+      "path": "/data-viz",
+      "section": "data-viz",
+      "title": "Galerie de visualisations de données",
+      "url": "/fr/data-viz/"
+    },
+    {
+      "kind": "page",
+      "lang": "fr",
+      "parent": "Jardin",
+      "path": "/garden/french/resources",
+      "section": "garden",
+      "title": "Les sites utiles",
+      "updated": "Mis à jour : 12 nov. 2025",
+      "url": "/fr/garden/french/resources/"
+    },
+    {
+      "kind": "page",
+      "lang": "fr",
+      "parent": "Peter Scriven",
+      "path": "/projects",
+      "section": "",
+      "title": "Projets",
+      "url": "/fr/projects/"
+    },
+    {
+      "kind": "taxonomy",
+      "lang": "fr",
+      "parent": "Peter Scriven",
+      "path": "/tags",
+      "section": "tags",
+      "title": "Tags",
+      "url": "/fr/tags/"
+    }
+  ],
+  "site": {
+    "card": {
+      "contacts": [
+        {
+          "icon": "linkedin.svg",
+          "label": "linkedin.com/in/pjpscriv"
+        },
+        {
+          "icon": "github.svg",
+          "label": "github.com/pjpscriv"
+        },
+        {
+          "icon": "mail_fill_400.svg",
+          "label": "pjpscriv@gmail.com"
+        },
+        {
+          "icon": "phone_fill_400.svg",
+          "label": "+1 (263) 362 0408"
+        }
+      ],
+      "name": "Peter Scriven",
+      "qr": "fr",
+      "title": "Développeur logiciel"
+    },
+    "cv": {
+      "city": "Montréal, QC, Canada",
+      "contacts": [
+        {
+          "icon": "linkedin.svg",
+          "label": "linkedin.com/in/pjpscriv"
+        },
+        {
+          "icon": "github.svg",
+          "label": "github.com/pjpscriv"
+        },
+        {
+          "icon": "globe_fill_400.svg",
+          "label": "pjpscriv.co.nz"
+        },
+        {
+          "icon": "mail_fill_400.svg",
+          "label": "pjpscriv@gmail.com"
+        },
+        {
+          "icon": "phone_fill_400.svg",
+          "label": "+1 (263) 362 0408"
+        }
+      ],
+      "first_name": "Peter",
+      "last_name": "Scriven",
+      "title": "Développeur logiciel"
+    },
+    "domain": "pjpscriv.co.nz",
+    "name": "Peter Scriven",
+    "role": "Développeur Logiciel Full-Stack"
+  }
+}
