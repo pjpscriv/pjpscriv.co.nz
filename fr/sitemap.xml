@@ -207,18 +207,6 @@
                 href="https://pjpscriv.co.nz/fr/card/"
                 />
   </url><url>
-    <loc>https://pjpscriv.co.nz/fr/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pjpscriv.co.nz/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://pjpscriv.co.nz/fr/categories/"
-                />
-  </url><url>
     <loc>https://pjpscriv.co.nz/fr/garden/french/conjugation/</loc>
     <xhtml:link
                 rel="alternate"
@@ -267,18 +255,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://pjpscriv.co.nz/fr/projects/"
-                />
-  </url><url>
-    <loc>https://pjpscriv.co.nz/fr/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pjpscriv.co.nz/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://pjpscriv.co.nz/fr/tags/"
                 />
   </url>
 </urlset>

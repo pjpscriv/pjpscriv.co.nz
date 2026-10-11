@@ -158,15 +158,6 @@
       "url": "/fr/card/"
     },
     {
-      "kind": "taxonomy",
-      "lang": "fr",
-      "parent": "Peter Scriven",
-      "path": "/categories",
-      "section": "categories",
-      "title": "Categories",
-      "url": "/fr/categories/"
-    },
-    {
       "kind": "section",
       "lang": "fr",
       "parent": "Jardin",
@@ -211,15 +202,6 @@
       "section": "",
       "title": "Projets",
       "url": "/fr/projects/"
-    },
-    {
-      "kind": "taxonomy",
-      "lang": "fr",
-      "parent": "Peter Scriven",
-      "path": "/tags",
-      "section": "tags",
-      "title": "Tags",
-      "url": "/fr/tags/"
     }
   ],
   "site": {

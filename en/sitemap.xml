@@ -2,48 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pjpscriv.co.nz/test/elec-2026-election-night/</loc>
-    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pjpscriv.co.nz/test/elec-2026-hexmap-explainer/</loc>
-    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pjpscriv.co.nz/test/elec-2026-post-analysis/</loc>
-    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pjpscriv.co.nz/test/iframe-2023/</loc>
-    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pjpscriv.co.nz/obs-embed/nz-elec-2023/</loc>
-    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pjpscriv.co.nz/obs-embed/nz-2026-election-candidate-votes/</loc>
-    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pjpscriv.co.nz/obs-embed/nz-2026-election-candidate-votes-electorate-type/</loc>
-    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pjpscriv.co.nz/obs-embed/nz-2026-election-geo-vs-hex-map/</loc>
-    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pjpscriv.co.nz/obs-embed/nz-2026-election-party-votes-relative-lean/</loc>
-    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pjpscriv.co.nz/obs-embed/nz-2026-election-party-votes/</loc>
-    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pjpscriv.co.nz/obs-embed/nz-2026-election-the-results/</loc>
-    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pjpscriv.co.nz/obs-embed/nz-2026-election-seats-only/</loc>
-    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pjpscriv.co.nz/obs-embed/</loc>
-    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pjpscriv.co.nz/test/embed-2023/</loc>
-    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://pjpscriv.co.nz/</loc>
     <lastmod>2026-09-16T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -56,9 +14,6 @@
                 hreflang="en"
                 href="https://pjpscriv.co.nz/"
                 />
-  </url><url>
-    <loc>https://pjpscriv.co.nz/test/</loc>
-    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pjpscriv.co.nz/garden/french/word-class/adjectives/</loc>
     <lastmod>2026-05-04T00:00:00+00:00</lastmod>
@@ -285,18 +240,6 @@
                 href="https://pjpscriv.co.nz/card/"
                 />
   </url><url>
-    <loc>https://pjpscriv.co.nz/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://pjpscriv.co.nz/fr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pjpscriv.co.nz/categories/"
-                />
-  </url><url>
     <loc>https://pjpscriv.co.nz/garden/french/conjugation/</loc>
     <xhtml:link
                 rel="alternate"
@@ -343,18 +286,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://pjpscriv.co.nz/garden/french/word-class/pronouns/"
-                />
-  </url><url>
-    <loc>https://pjpscriv.co.nz/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://pjpscriv.co.nz/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pjpscriv.co.nz/tags/"
                 />
   </url>
 </urlset>

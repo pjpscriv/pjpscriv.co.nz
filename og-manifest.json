@@ -426,15 +426,6 @@
       "url": "/card/"
     },
     {
-      "kind": "taxonomy",
-      "lang": "en",
-      "parent": "Peter Scriven",
-      "path": "/categories",
-      "section": "categories",
-      "title": "Categories",
-      "url": "/categories/"
-    },
-    {
       "kind": "section",
       "lang": "en",
       "parent": "Garden",
@@ -470,15 +461,6 @@
       "title": "Pronouns",
       "updated": "Updated: 22 Apr 2026",
       "url": "/garden/french/word-class/pronouns/"
-    },
-    {
-      "kind": "taxonomy",
-      "lang": "en",
-      "parent": "Peter Scriven",
-      "path": "/tags",
-      "section": "tags",
-      "title": "Tags",
-      "url": "/tags/"
     }
   ],
   "site": {
