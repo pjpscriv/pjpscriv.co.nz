@@ -30,5 +30,8 @@
   {{- with .Store.Get "pageCSS" -}}
     {{ . | safeHTML }}
   {{- end }}
+  {{- if .Params.noindex }}
+    <meta name="robots" content="noindex">
+  {{- end }}
   {{- partial "og-meta.html" . }}
 </head>

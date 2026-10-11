@@ -15,10 +15,10 @@ generate-og.js ──► public/<page path>/og.webp     (next to each page's ind
 ```
 
 1. **Hugo** writes an `og-manifest.json` for each language. It lists every page on the site, with the text to show (title, summary, date, updated time, the label above the title), each page's content path (e.g. `/cv`, `/data-viz/nz-fertility`), and its `kind` and `section`. It also carries the site-wide data the cards share: name, domain, tagline, and the CV and business card details.
-2. **`generate-og.js`** reads the manifests, skips the pages that don't get an image (anything in `obs-embed`, and anything that isn't a home, page or section, such as Hugo's empty taxonomy listings), picks a card type for each of the rest ([card-type.js](card-type.js)), and renders one PNG per page using the templates in [templates/](templates/). `npm run build` runs it right after Hugo.
+2. **`generate-og.js`** reads the manifests, skips the pages that don't get an image (anything in `obs-embed`, and anything that isn't a home, page or section, such as a taxonomy listing, in case tags or categories are ever turned back on; they're disabled in hugo.toml), picks a card type for each of the rest ([card-type.js](card-type.js)), and renders one PNG per page using the templates in [templates/](templates/). `npm run build` runs it right after Hugo.
 3. **The `<meta>` tags** ([og-meta.html](../../layouts/partials/og-meta.html)) point at `og.webp` next to the page, e.g. `/post/test-one/` → `/post/test-one/og.webp` (home is `/og.webp`, French home `/fr/og.webp`). The tag must be an absolute URL, so it's built from the page's permalink. The file name and type live in two places, the tags and `OG_EXT` in [generate-og.js](generate-og.js), so change both together.
 
-   That partial only writes tags for home, page and section kinds, the same pages the generator makes images for, so keep `IMAGE_KINDS` in [generate-og.js](generate-og.js) in step with it. (`obs-embed` pages use their own layout, so they never reach it.) The same partial also writes the other social tags. Pages with a `date` or `updated` value are `og:type="article"` and get `article:published_time` (from `date`) and `article:modified_time` (from `updated`); everything else is `website`. A page's `summary` (or `description`) becomes both `<meta name="description">` and `og:description`.
+   That partial only writes tags for home, page and section kinds, the same pages the generator makes images for, so keep `IMAGE_KINDS` in [generate-og.js](generate-og.js) in step with it. (`obs-embed` pages use their own layout, so they never reach it.) The same partial also writes the other social tags. Pages with a `date` or `updated` value are `og:type="article"` and get `article:published_time` (from `date`) and `article:modified_time` (from `updated`); everything else is `website`. A page's `description` (or, without one, its `summary`) becomes both `<meta name="description">` and `og:description`. The image text is separate: it comes from `summary` only, so a page with just a `description` gets no text on its card.
 
 ## Commands
 
@@ -78,7 +78,7 @@ Two cards are hand-copied from site pages, because Satori can't render that HTML
 
 `npm run check:og` scans the built `public/` and checks that every page has an `og:image` tag pointing at an existing 1200×630 file. It prints coverage per card type, lists any problems, and exits non-zero if there are any, so it can gate CI.
 
-It skips pages that shouldn't have one: `obs-embed` (iframe content), 404 pages, Hugo's empty `/tags/` and `/categories/` listings, and alias redirects. Use `--verbose` to also list the pages that passed.
+It skips pages that shouldn't have one: `obs-embed` (iframe content), 404 pages, and alias redirects (plus the empty tags/categories listings, which are currently turned off in `hugo.toml`). Use `--verbose` to also list the pages that passed.
 
 ## Files
 

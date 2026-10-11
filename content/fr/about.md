@@ -1,6 +1,7 @@
 
 ---
 title: "À propos de moi"
+description: "Un peu plus sur moi :)"
 ---
 
 Je suis un développeur full stack d'Aotearoa Nouvelle-Zélande. Je me suis installé à Montréal 🍁 en novembre 2024 pour vivre à l'étranger et apprendre une nouvelle langue, après avoir passé les 5 dernières années à travailler chez [Trade Me](https://trademe.co.nz) (l'eBay de la Nouvelle-Zélande).

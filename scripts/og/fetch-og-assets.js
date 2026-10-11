@@ -21,7 +21,11 @@ const FAMILIES =
 const CSS_URL = `https://fonts.googleapis.com/css2?family=${FAMILIES}`;
 
 const FONT_DIR = path.join(__dirname, "fonts");
-const EMOJI = ["1fab4" /* 🪴, in the "🪴Garden" page title */];
+const EMOJI = [
+  "1fab4", /* 🪴, in the "🪴Garden" page title */
+  "1f4ca", /* 📊, in the data viz descriptions */
+  "1f331", /* 🌱, in the garden descriptions */
+];
 
 function get(url) {
   return new Promise((resolve, reject) => {

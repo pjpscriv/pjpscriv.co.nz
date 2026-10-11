@@ -2,6 +2,7 @@
 title: 🪴Garden
 url: garden
 layout: single
+description: "My digital garden 🌱 Living, evolving notes."
 ---
 
 My digital garden / personal wiki / second brain / rough notes collection. For writing that doesn't fit the form of a [blog post](/writing) but I think is still worth sharing. Content here is more "tended to" than "posted and completed".

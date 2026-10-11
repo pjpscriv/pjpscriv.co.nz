@@ -2,6 +2,7 @@
 title: Admiration
 url: admiration
 updated: 2026-09-28
+description: "People whose work I follow and admire."
 ---
 
 ## Globally

@@ -15,11 +15,14 @@
     "fonts:fetch": "node scripts/fetch-fonts.js",
     "fonts:fetch-og": "node scripts/og/fetch-og-assets.js",
     "validate:html": "node scripts/validate-html.js",
+    "validate:seo": "node scripts/validate-seo.js",
     "screenshot": "node scripts/screenshot.js --mode light",
     "screenshot:dark": "node scripts/screenshot.js --mode dark"
   },
   "devDependencies": {
+    "chrome-launcher": "^1.2.2",
     "html-validator": "^6.0.1",
+    "lighthouse": "^12.8.2",
     "playwright": "^1.47.0",
     "prettier": "^3.9.6",
     "satori": "^0.47.1",

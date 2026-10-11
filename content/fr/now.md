@@ -2,6 +2,7 @@
 title: Maintenant
 date: 2024-11-22
 updated: 2026-10-09
+description: "Ce que je fais en ce moment."
 ---
 
 Mon page de [/now](https://nownownow.com/about).

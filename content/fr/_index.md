@@ -1,6 +1,7 @@
 ---
 title: "Peter Scriven"
 layout: "index"
+description: "Peter Scriven, développeur logiciel full-stack à Montréal. Visualisation de données, données ouvertes et internet ouvert. À la recherche d'un nouvel emploi."
 ---
 
 {{<intro>}}

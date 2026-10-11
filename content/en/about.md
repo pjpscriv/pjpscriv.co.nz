@@ -1,5 +1,6 @@
 ---
 title: About
+description: "A bit more about me :)"
 ---
 
 I'm a Full-Stack Software Developer from Aotearoa New Zealand. I moved to Montreal, Canada 🍁 in November 2024 to live overseas and learn a new language, having spent the past 5 years working for [Trade Me](https://trademe.co.nz) (the eBay of New Zealand).

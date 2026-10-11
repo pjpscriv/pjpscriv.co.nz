@@ -22,7 +22,7 @@
   <meta property="og:url" content="{{- .Permalink -}}">
   <meta property="og:site_name" content="{{- .Site.Title -}}">
 
-  {{- with (or .Params.summary .Params.description) }}
+  {{- with (or .Params.description .Params.summary) }}
     <meta name="description" content="{{- . -}}">
     <meta property="og:description" content="{{- . -}}">
   {{- end }}

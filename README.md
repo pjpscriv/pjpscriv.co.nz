@@ -32,6 +32,13 @@ npm run lint:css:fix
 This also gives in-IDE linting for VS Code if you have the [Stylelint extension](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) installed.
 
 
+### Validation
+
+Both of these check the built site, so run `npm run build` first.
+
+- `npm run validate:html` checks the HTML is valid, using the [Nu Html Checker](https://validator.github.io/validator/) in Docker.
+- `npm run validate:seo` runs [Lighthouse](https://github.com/GoogleChrome/lighthouse)'s SEO audits over every page (it serves `public/` locally and uses the Chrome installed on your machine, or `CHROME_PATH`). Failures are grouped by audit, with the pages each one affects. It audits several pages at once (`--concurrency <n>` to change how many) and takes about 3–5 minutes for the whole site. Pass part of a page path to check fewer pages (`npm run validate:seo -- garden`, without a leading `/`, which Git Bash rewrites), or `--url https://pjpscriv.co.nz` to audit the live site instead of the local build. Lighthouse only checks what's there, so it won't flag a page that has no `rel=canonical` or `hreflang` at all.
+
 ### OG images
 
 Each page gets a social share image. Generated at build time by [Satori](https://github.com/vercel/satori) and sharp.

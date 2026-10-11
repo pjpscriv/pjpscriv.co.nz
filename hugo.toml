@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'Peter Scriven'
 
 defaultContentLanguage = "en"
+
+# tags + categories aren't used
+disableKinds = ["taxonomy", "term"]
+
 [languages]
   [languages.en]
     languageName = "English"

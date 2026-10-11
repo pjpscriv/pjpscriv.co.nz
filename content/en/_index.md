@@ -1,6 +1,7 @@
 ---
 title: "Peter Scriven"
 layout: "index"
+description: "Peter Scriven is a full-stack software developer based in Montreal, Canada. Interested in data viz, open data and the open web, and looking for a new role"
 ---
 
 {{<intro>}}
