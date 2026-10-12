@@ -1,6 +1,6 @@
 <head>
-  {{- $title := print (cond .IsHome "" (printf "%s • " .Title)) .Site.Title }}
   <meta charset="UTF-8">
+  {{- $title := print (cond .IsHome "" (printf "%s • " .Title)) .Site.Title }}
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{- $title -}}</title>
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -20,18 +20,22 @@
     page render so shortcodes (e.g. toc.html) can save data into .Store.
   */ -}}
   {{- $content := .Content -}}
+
   {{- /* Apply the CSS created in toc.html */ -}}
   {{- with .Store.Get "tocCSS" -}}
   <style>
     {{ . | safeCSS }}
   </style>
   {{- end }}
+
   {{- /* Apply the CSS created in page-css.html (already wrapped in <style> tags) */ -}}
   {{- with .Store.Get "pageCSS" -}}
     {{ . | safeHTML }}
   {{- end }}
+
   {{- if .Params.noindex }}
     <meta name="robots" content="noindex">
   {{- end }}
+  
   {{- partial "og-meta.html" . }}
 </head>

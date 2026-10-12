@@ -1,5 +1,5 @@
 {{- /*
-  Social sharing tags (Open Graph, https://ogp.me) and the page description.
+  Social sharing tags (Open Graph, https://ogp.me), the page description and the canonical URL.
 
   Only home, page and section kinds get them, because those are the pages scripts/og/generate-og.js makes an image
   for (keep IMAGE_KINDS there in sync). Taxonomy listings and the 404 page get none. obs-embed pages never reach
@@ -18,7 +18,8 @@
   {{- $iso := "2006-01-02T15:04:05Z07:00" -}}
   
   <meta property="og:title" content="{{- $title -}}">
-  <meta property="og:type" content="{{- cond $isArticle "article" "website" -}}">
+  <meta property="og:type" content="{{- cond $isArticle 'article' 'website' -}}">
+  <link rel="canonical" href="{{- .Permalink -}}">
   <meta property="og:url" content="{{- .Permalink -}}">
   <meta property="og:site_name" content="{{- .Site.Title -}}">
 
@@ -27,7 +28,7 @@
     <meta property="og:description" content="{{- . -}}">
   {{- end }}
   
-  <meta property="og:image" content="{{- urls.JoinPath .Permalink "og.webp" -}}">
+  <meta property="og:image" content="{{- urls.JoinPath .Permalink 'og.webp' -}}">
   <meta property="og:image:type" content="image/webp">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
