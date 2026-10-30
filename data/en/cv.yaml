@@ -39,6 +39,16 @@ profile:
   - "Motivated by creating positive impact in people's lives — particularly drawn to civic and public-sector technology"
 
 experience:
+  - title: "Something New..."
+    org: "TBC"
+    period: "Nov 2026 – Present"
+    location: "Montreal, QC, Canada"
+    bullets:
+      - "Starting something new very soon... 👀"
+      - "Possibly in a new domain..."
+      - "Definitely with new people to learn from, new problems to solve, and new things to build..."
+      - "Watch this space for more details!"
+
   - title: "Software Developer"
     org: "Trade Me"
     period: "Nov 2019 – Jan 2025"
@@ -76,7 +86,7 @@ skills:
   - category: "Technical"
     items:
       - label: "Languages & Frameworks"
-        detail: "Angular, TypeScript, C#, .NET, HTML, CSS/Sass, Python, Node.js, SQL, PowerShell, Bash, Java"
+        detail: "Angular, TypeScript, C#, .NET, HTML, CSS/Sass, Python, Node.js, SQL, PowerShell, Bash"
       - label: "Infrastructure & Databases"
         detail: "MSSQL, Postgres, Docker, Google Cloud, AWS, Terraform, ElasticSearch, BigQuery"
       - label: "Developer Tools"
@@ -107,7 +117,7 @@ education:
     school: "Centre Saint-Louis"
     period: "Apr 2025 – Jun 2026"
     location: "Montreal, QC, Canada"
-    content: "Completed Quebec's francisation program for adults. Started at level 3 (A2) and finished at level 8 (B2). An invaluable way to integrate into Quebecois society."
+    content: "Completed Quebec's francisation program for adults. Started at level 3 (A2) and finished at level 8 (B2)."
 
   - title: "BSc Computer Science"
     school: "Victoria University of Wellington"
@@ -124,8 +134,8 @@ education:
 interests:
   - label: "Skiing"
     detail: "Rediscovering my love for skiing after some time off. Favourite hill: Mount Bromont"
-  - label: "Travel"
-    detail: "Did my first ever overseas trip to Europe for 2 months in 2023. Highlights: Albania, Spain"
+  # - label: "Travel"
+  #   detail: "Did my first ever overseas trip to Europe for 2 months in 2023. Highlights: Albania, Spain"
   - label: "Podcasts"
     detail: "Current favourites: Aujourd'hui l'histoire, The Nations of Canada and If Books Could Kill"
   - label: "Books"

@@ -39,6 +39,15 @@ profile:
   - "Motivé par la création d'un impact positif dans la vie des gens - particulièrement attiré par la technologie civique et du secteur public"
 
 experience:
+  - title: "Quelque chose de nouveau..."
+    org: "À confirmer"
+    period: "nov. 2026 – aujourd'hui"
+    location: "Montréal, QC, Canada"
+    bullets:
+      - "Je commence quelque chose de nouveau très bientôt... 👀"
+      - "Peut-être dans un nouveau domaine..."
+      - "Restez à l'affût pour plus de détails !"
+
   - title: "Développeur de logiciels"
     org: "Trade Me"
     period: "nov. 2019 – janv. 2025"
@@ -60,7 +69,7 @@ experience:
     location: "Wellington, Nouvelle-Zélande"
     bullets:
       - "Travail de saisie de données à temps partiel ayant évolué vers l'analyse de données"
-      - "Travail avec une application tierce de signalement collaboratif des abus de stationnement pour personnes à mobilité réduite"
+      - "Travail avec une application de signalement collaboratif des abus de stationnement pour personnes à mobilité réduite"
       - "Création d'une application Node.js récupérant des milliers de signalements depuis une API tierce pour générer des rapports mensuels destinés aux gestionnaires régionaux"
 
   - title: "Stagiaire développeur"
@@ -107,7 +116,7 @@ education:
     school: "Centre Saint-Louis"
     period: "avr. 2025 – juin 2026"
     location: "Montréal, QC, Canada"
-    content: "Programme de francisation du Québec pour adultes complété. Débuté au niveau 3 (A2), terminé au niveau 8 (B2). Une façon inestimable de s'intégrer à la société québécoise."
+    content: "Programme de francisation du Québec pour adultes complété. Débuté au niveau 3 (A2), terminé au niveau 8 (B2)."
 
   - title: "B.Sc. Informatique"
     school: "Université Victoria de Wellington"
@@ -124,8 +133,8 @@ education:
 interests:
   - label: "Ski"
     detail: "Je redécouvre ma passion pour le ski après une pause. Ma montagne préférée : le Mont Bromont"
-  - label: "Voyages"
-    detail: "Premier voyage à l'étranger en Europe pendant 2 mois en 2023. Coups de cœur : l'Albanie, l'Espagne"
+  # - label: "Voyages"
+  #   detail: "Premier voyage à l'étranger en Europe pendant 2 mois en 2023. Coups de cœur : l'Albanie, l'Espagne"
   - label: "Balados"
     detail: "Favoris actuels : Aujourd'hui l'histoire, The Nations of Canada et If Books Could Kill"
   - label: "Livres"
