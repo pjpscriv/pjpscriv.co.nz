@@ -5,8 +5,7 @@ cells: "
     countProgress,
     voteStats,
     seatStats,
-    results,
-    lastRefresh
+    results
     "
 date: 2026-09-16
 unlisted: true
