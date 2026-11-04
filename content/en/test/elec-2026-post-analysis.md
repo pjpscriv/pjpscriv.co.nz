@@ -4,7 +4,7 @@ date: 2026-09-16
 unlisted: true
 ---
 
-Three snippets for this page.
+Five snippets for this page.
 
 {{<toc >}}
 
@@ -20,11 +20,29 @@ Urban vs Medium-City vs Rural Vs Māori
 </iframe>
 {{< /html-demo >}}
 
+## Candidate Votes Tables
+
+{{< html-demo >}}
+<iframe
+    src="https://pjpscriv.co.nz/obs-embed/nz-2026-election-candidate-votes-tables/"
+    style="width: 100%; border: 0;">
+</iframe>
+{{< /html-demo >}}
+
 ## Party Vote (Relative Lean)
 
 {{< html-demo >}}
 <iframe
     src="https://pjpscriv.co.nz/obs-embed/nz-2026-election-party-votes-relative-lean/"
+    style="width: 100%; border: 0;">
+</iframe>
+{{< /html-demo >}}
+
+## Party Vote Table
+
+{{< html-demo >}}
+<iframe
+    src="https://pjpscriv.co.nz/obs-embed/nz-2026-election-party-vote-table/"
     style="width: 100%; border: 0;">
 </iframe>
 {{< /html-demo >}}
