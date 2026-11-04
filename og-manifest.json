@@ -1,6 +1,44 @@
 {
   "pages": [
     {
+      "date": "4 Nov 2026",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Obs-Embeds",
+      "path": "/obs-embed/nz-2026-election-candidate-votes-tables",
+      "section": "obs-embed",
+      "title": "New Zealand 2026 Election Candidate Votes Tables",
+      "url": "/obs-embed/nz-2026-election-candidate-votes-tables/"
+    },
+    {
+      "date": "4 Nov 2026",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Obs-Embeds",
+      "path": "/obs-embed/nz-2026-election-party-vote-table",
+      "section": "obs-embed",
+      "title": "New Zealand 2026 Election Party Vote Table",
+      "url": "/obs-embed/nz-2026-election-party-vote-table/"
+    },
+    {
+      "kind": "section",
+      "lang": "en",
+      "parent": "Peter Scriven",
+      "path": "/obs-embed",
+      "section": "obs-embed",
+      "title": "Obs-Embeds",
+      "url": "/obs-embed/"
+    },
+    {
+      "kind": "home",
+      "lang": "en",
+      "parent": "Peter Scriven",
+      "path": "/",
+      "section": "",
+      "title": "Peter Scriven",
+      "url": "/"
+    },
+    {
       "date": "16 Sep 2026",
       "kind": "page",
       "lang": "en",
@@ -121,15 +159,6 @@
       "url": "/obs-embed/nz-2026-election-seats-only/"
     },
     {
-      "kind": "section",
-      "lang": "en",
-      "parent": "Peter Scriven",
-      "path": "/obs-embed",
-      "section": "obs-embed",
-      "title": "Obs-Embeds",
-      "url": "/obs-embed/"
-    },
-    {
       "date": "16 Sep 2026",
       "kind": "page",
       "lang": "en",
@@ -138,15 +167,6 @@
       "section": "test",
       "title": "Observable Proxy Test",
       "url": "/test/embed-2023/"
-    },
-    {
-      "kind": "home",
-      "lang": "en",
-      "parent": "Peter Scriven",
-      "path": "/",
-      "section": "",
-      "title": "Peter Scriven",
-      "url": "/"
     },
     {
       "kind": "section",
