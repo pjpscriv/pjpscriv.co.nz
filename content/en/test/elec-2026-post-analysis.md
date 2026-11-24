@@ -1,5 +1,5 @@
 ---
-title: 3. Post-Election Analysis
+title: 2. Post-Election Analysis
 date: 2026-09-16
 unlisted: true
 ---

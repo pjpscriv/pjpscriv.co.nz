@@ -4,7 +4,7 @@ date: 2026-09-16
 unlisted: true
 ---
 
-There are four snippets to embed for this page:
+There are five snippets to embed for this page:
 
 {{<toc >}}
 
@@ -42,6 +42,17 @@ There are four snippets to embed for this page:
 {{< html-demo >}}
 <iframe
     src="https://pjpscriv.co.nz/obs-embed/nz-2026-election-party-votes/"
+    style="width: 100%; border: 0;">
+</iframe>
+{{< /html-demo >}}
+
+## Hexmap Demonstration
+
+> *Land doesn't vote, people do.* 
+
+{{< html-demo >}}
+<iframe
+    src="https://pjpscriv.co.nz/obs-embed/nz-2026-election-geo-vs-hex-map/"
     style="width: 100%; border: 0;">
 </iframe>
 {{< /html-demo >}}
