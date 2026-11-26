@@ -39,15 +39,15 @@ profile:
   - "Motivated by creating positive impact in people's lives — particularly drawn to civic and public-sector technology"
 
 experience:
-  - title: "Something New..."
-    org: "TBC"
+  - title: "Full Stack Developer"
+    org: "NorthStar Earth & Space"
     period: "Nov 2026 – Present"
     location: "Montreal, QC, Canada"
     bullets:
-      - "Starting something new very soon... 👀"
-      - "Possibly in a new domain..."
-      - "Definitely with new people to learn from, new problems to solve, and new things to build..."
-      - "Watch this space for more details!"
+      - "Building full-stack tools that help clients keep track of their satellites in space"
+      - "Learning a whole new domain and its terminology: RSOs, ELSETs, conjunctions and more"
+      - "Improving development processes: adopting AI-assisted workflows, strengthening CI/CD and documentation"
+      - "Working bilingually in English and French"
 
   - title: "Software Developer"
     org: "Trade Me"

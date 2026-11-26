@@ -5,7 +5,7 @@ description: "A bit more about me :)"
 
 I'm a Full-Stack Software Developer from Aotearoa New Zealand. I moved to Montreal, Canada 🍁 in November 2024 to live overseas and learn a new language, having spent the past 5 years working for [Trade Me](https://trademe.co.nz) (the eBay of New Zealand).
 
-I completed Francisation, Quebec's French program for immigrants, in June 2026, finishing level 8, the final level. I'm actively looking for a new role in the Québécois / Canadian job market.
+I completed Francisation, Quebec's French program for immigrants, in June 2026, finishing level 8, the final level. In November 2026 I joined [NorthStar Earth & Space](https://northstar-data.com/) as a Full Stack Developer, building tools that help people keep track of their satellites in space 🛰️ - and getting to use my French every day with a francophone team.
 
 I'm friendly, hardworking, and interested in building software that has a positive social impact.
 

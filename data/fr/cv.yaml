@@ -39,14 +39,15 @@ profile:
   - "Motivé par la création d'un impact positif dans la vie des gens - particulièrement attiré par la technologie civique et du secteur public"
 
 experience:
-  - title: "Quelque chose de nouveau..."
-    org: "À confirmer"
+  - title: "Développeur full stack"
+    org: "NorthStar Earth & Space"
     period: "nov. 2026 – aujourd'hui"
     location: "Montréal, QC, Canada"
     bullets:
-      - "Je commence quelque chose de nouveau très bientôt... 👀"
-      - "Peut-être dans un nouveau domaine..."
-      - "Restez à l'affût pour plus de détails !"
+      - "Développement d'outils full stack permettant aux clients de suivre leurs satellites dans l'espace"
+      - "Apprentissage d'un tout nouveau domaine et de sa terminologie : RSO, ELSET, conjonctions et plus encore"
+      - "Amélioration des processus de développement : IA, CI/CD et documentation"
+      - "Travail bilingue en anglais et en français"
 
   - title: "Développeur de logiciels"
     org: "Trade Me"

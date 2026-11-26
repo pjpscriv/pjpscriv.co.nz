@@ -1,17 +1,19 @@
 ---
 title: Maintenant
 date: 2024-11-22
-updated: 2026-10-09
+updated: 2026-11-26
 description: "Ce que je fais en ce moment."
 ---
 
-Mon page de [/now](https://nownownow.com/about).
+Ma page de [/now](https://nownownow.com/about).
 
-J'ai terminé le programme de Francisation du Québec en juin 2026, complétant le niveau 8, mon niveau final! 🎉
+J'ai trouvé un emploi ! 🎉 En novembre 2026, j'ai commencé comme développeur full stack chez [NorthStar Earth & Space](https://northstar-data.com/), une entreprise spatiale montréalaise, où on construit des outils pour aider le monde à suivre ses satellites dans l'espace 🛰️ C'est un domaine assez différent de ce que je faisais avant, alors j'ai beaucoup à apprendre !
+
+Petit bonus : l'entreprise est bilingue, donc je peux garder mon français à jour (et, j'espère, rendre fiers mes profs de francisation).
 
 Maintenant je suis en train de :
-- Me préparer pour l'automne 🍂
-- M'impliquer dans Montréal CivicTech et Atproto MTL
-- Faire quelques petits projets avec mes amis
-- Faire du bénévolat pour des groupes en Nouvelle-Zélande
-- Postuler pour des travaux !
+
+- M'installer dans mon nouveau poste et apprendre tout sur les orbites et les satellites 🛰️
+- Me préparer pour la saison de ski au Canada ❄️
+- Participer aux groupes Montréal CivicTech et Atproto MTL
+- Travailler sur des projets pour quelques groupes communautaires en Nouvelle-Zélande

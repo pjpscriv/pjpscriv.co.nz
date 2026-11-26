@@ -1,6 +1,7 @@
-- title: "Quelque chose de nouveau..."
-  org: "À confirmer"
-  content: "Je commence quelque chose de nouveau très bientôt... 👀"
+- title: "Développeur full stack"
+  org: "NorthStar Earth & Space"
+  content: "NorthStar est une entreprise spatiale montréalaise spécialisée en connaissance de la situation spatiale. Je développe des outils qui aident le monde à suivre ses satellites dans l'espace, en travaillant au quotidien en français avec une équipe francophone. 🛰️"
+  link: "https://northstar-data.com/"
   period: "2026 - aujourd'hui"
   period_long: "nov.&nbsp;2026 - aujourd'hui"
   skills: []

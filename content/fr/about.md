@@ -6,7 +6,7 @@ description: "Un peu plus sur moi :)"
 
 Je suis un développeur full stack d'Aotearoa Nouvelle-Zélande. Je me suis installé à Montréal 🍁 en novembre 2024 pour vivre à l'étranger et apprendre une nouvelle langue, après avoir passé les 5 dernières années à travailler chez [Trade Me](https://trademe.co.nz) (l'eBay de la Nouvelle-Zélande).
 
-J'ai terminé la Francisation, le programme de francisation du Québec pour les immigrants, en juin 2026, complétant le niveau 8, le niveau final. Je suis activement à la recherche d'un nouveau poste sur le marché du travail québécois et canadien.
+J'ai terminé la Francisation, le programme de francisation du Québec pour les immigrants, en juin 2026, complétant le niveau 8, le niveau final. En novembre 2026, j'ai rejoint [NorthStar Earth & Space](https://northstar-data.com/) en tant que développeur full stack. On construit des outils pour aider le monde à suivre ses satellites dans l'espace 🛰️, et je peux utiliser mon français au quotidien avec une équipe francophone.
 
 Je suis sociable, travailleur et passionné par le développement de logiciels ayant un impact social positif.
 

@@ -1,6 +1,7 @@
-- title: "Something New..."
-  org: "TBC"
-  content: "Starting something new very soon... 👀"
+- title: "Full Stack Developer"
+  org: "NorthStar Earth & Space"
+  content: "NorthStar is a Montreal-based space company providing space situational awareness. I build tools that help people keep track of their satellites in space, working day-to-day in French with a francophone team. 🛰️"
+  link: "https://northstar-data.com/"
   period: "2026 - Present"
   period_long: "Nov&nbsp;2026 - Present"
   skills: []
