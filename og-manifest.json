@@ -1,6 +1,83 @@
 {
   "pages": [
     {
+      "date": "26 Nov 2026",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Tests",
+      "path": "/test/elec-2026-post-analysis-follow-up",
+      "section": "test",
+      "title": "4. Post-Election Analysis Follow Up",
+      "url": "/test/elec-2026-post-analysis-follow-up/"
+    },
+    {
+      "date": "26 Nov 2026",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Obs-Embeds",
+      "path": "/obs-embed/nz-2026-election-candidate-votes-electorate-type-follow-up",
+      "section": "obs-embed",
+      "title": "New Zealand 2026 Election Candidate Votes by Electorate Type",
+      "url": "/obs-embed/nz-2026-election-candidate-votes-electorate-type-follow-up/"
+    },
+    {
+      "date": "26 Nov 2026",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Obs-Embeds",
+      "path": "/obs-embed/nz-2026-election-candidate-votes-tables-follow-up",
+      "section": "obs-embed",
+      "title": "New Zealand 2026 Election Candidate Votes Tables",
+      "url": "/obs-embed/nz-2026-election-candidate-votes-tables-follow-up/"
+    },
+    {
+      "date": "26 Nov 2026",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Obs-Embeds",
+      "path": "/obs-embed/nz-2026-election-party-votes-relative-lean-follow-up",
+      "section": "obs-embed",
+      "title": "New Zealand 2026 Election Party Vote (Relative Lean)",
+      "url": "/obs-embed/nz-2026-election-party-votes-relative-lean-follow-up/"
+    },
+    {
+      "date": "26 Nov 2026",
+      "kind": "page",
+      "lang": "en",
+      "parent": "Obs-Embeds",
+      "path": "/obs-embed/nz-2026-election-party-vote-table-follow-up",
+      "section": "obs-embed",
+      "title": "New Zealand 2026 Election Party Vote Table",
+      "url": "/obs-embed/nz-2026-election-party-vote-table-follow-up/"
+    },
+    {
+      "kind": "section",
+      "lang": "en",
+      "parent": "Peter Scriven",
+      "path": "/obs-embed",
+      "section": "obs-embed",
+      "title": "Obs-Embeds",
+      "url": "/obs-embed/"
+    },
+    {
+      "kind": "home",
+      "lang": "en",
+      "parent": "Peter Scriven",
+      "path": "/",
+      "section": "",
+      "title": "Peter Scriven",
+      "url": "/"
+    },
+    {
+      "kind": "section",
+      "lang": "en",
+      "parent": "Peter Scriven",
+      "path": "/test",
+      "section": "test",
+      "title": "Tests",
+      "url": "/test/"
+    },
+    {
       "date": "24 Nov 2026",
       "kind": "page",
       "lang": "en",
@@ -39,33 +116,6 @@
       "section": "obs-embed",
       "title": "New Zealand 2026 Election Resulting Seat Diagram",
       "url": "/obs-embed/nz-2026-election-the-results-follow-up/"
-    },
-    {
-      "kind": "section",
-      "lang": "en",
-      "parent": "Peter Scriven",
-      "path": "/obs-embed",
-      "section": "obs-embed",
-      "title": "Obs-Embeds",
-      "url": "/obs-embed/"
-    },
-    {
-      "kind": "home",
-      "lang": "en",
-      "parent": "Peter Scriven",
-      "path": "/",
-      "section": "",
-      "title": "Peter Scriven",
-      "url": "/"
-    },
-    {
-      "kind": "section",
-      "lang": "en",
-      "parent": "Peter Scriven",
-      "path": "/test",
-      "section": "test",
-      "title": "Tests",
-      "url": "/test/"
     },
     {
       "date": "4 Nov 2026",
